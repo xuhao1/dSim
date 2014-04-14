@@ -1,0 +1,387 @@
+Ttest
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o /Users/xuhao/Develop/Application/test/test/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o /Users/xuhao/Develop/Application/test/test/MyOpenGl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o /Users/xuhao/Develop/Application/test/test/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test normal x86_64
+cCopyStringsFile /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings
+cCpResource test/en.lproj/Credits.rtf Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf
+cCompileXIB /Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib
+cCompileAssetCatalog /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources /Users/xuhao/Develop/Application/test/test/Images.xcassets
+cProcessInfoPlistFile /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Info.plist /Users/xuhao/Develop/Application/test/test/test-Info.plist
+cTouch /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005243E79F00000000000000AA
+t1380181919
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c0000000052784352000000000000044C
+t1383613266
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005278435200000000000001DB
+t1383613266
+s475
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000052784354000000000000253C
+t1383613268
+s9532
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005278435A000000000000BB7C
+t1383613274
+s47996
+
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch
+t1397312898
+s13704916
+
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o
+t1397312898
+s36540
+
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o
+t1397312898
+s26284
+
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o
+t1397312898
+s2824
+
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/test.LinkFileList
+c0000000053494D820000000000000164
+t1397312898
+s356
+
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_dependencies.txt
+t1397312899
+s233
+
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_generated_info.plist
+t1397312899
+s181
+
+N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app
+t1397312898
+s102
+
+N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Info.plist
+t1397312899
+s1393
+
+N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test
+t1397312898
+s22760
+
+N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/PkgInfo
+t1397312899
+s8
+
+N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/Base.lproj/MainMenu.nib
+t1397312899
+s40194
+
+N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf
+t1397312898
+s436
+
+N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/InfoPlist.strings
+t1397312898
+s92
+
+N/Users/xuhao/Develop/Application/test/test/AppDelegate.m
+c0000000053494B1A000000000000026D
+t1397312282
+s621
+
+N/Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib
+c000000005349492B000000000000C379
+t1397311787
+s50041
+
+N/Users/xuhao/Develop/Application/test/test/Images.xcassets
+c00000000534766990000000000000066
+t1397188249
+s102
+
+N/Users/xuhao/Develop/Application/test/test/MyOpenGl.m
+c0000000053494D7A000000000000133B
+t1397312890
+s4923
+
+N/Users/xuhao/Develop/Application/test/test/en.lproj/Credits.rtf
+c000000005347669900000000000001B4
+t1397188249
+s436
+
+N/Users/xuhao/Develop/Application/test/test/en.lproj/InfoPlist.strings
+c0000000053476699000000000000002D
+t1397188249
+s45
+
+N/Users/xuhao/Develop/Application/test/test/main.m
+c000000005347669900000000000000E4
+t1397188249
+s228
+
+N/Users/xuhao/Develop/Application/test/test/test-Info.plist
+c00000000534766990000000000000442
+t1397188249
+s1090
+
+N/Users/xuhao/Develop/Application/test/test/test-Prefix.pch
+c000000005347669900000000000000AC
+t1397188249
+s172
+
+CBuild AST from /Users/xuhao/Develop/Application/test/test/AppDelegate.m
+r0
+
+CBuild AST from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m
+r0
+
+CBuild AST from /Users/xuhao/Develop/Application/test/test/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies8cf4160285f9b841^5da61e0285f9b841^---0#1#1#--18"Check dependencies36"FDBAEB12-E4A1-44EB-9666-71F961E90AE8-
+
+CCompileAssetCatalog /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources /Users/xuhao/Develop/Application/test/test/Images.xcassets
+s419005698.711379
+e419005699.834663
+r1
+xCompileAssetCatalog
+x/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources
+x/Users/xuhao/Develop/Application/test/test/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/Assets.car
+o/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CompileAssetCatalog Build/Products/Debug/test.app/Contents/Resources test/Images.xcassets89"CompileAssetCatalog Build/Products/Debug/test.app/Contents/Resources test/Images.xcassets5628b60285f9b841^65a9d50385f9b841^-262"/* com.apple.actool.compilation-results *//Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/Assets.car/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@66"file:///Users/xuhao/Develop/Application/test/test/Images.xcassets/0000000000000000^789"CompileAssetCatalog Build/Products/Debug/test.app/Contents/Resources test/Images.xcassets    cd /Users/xuhao/Develop/Application/test    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_generated_info.plist --app-icon AppIcon --platform macosx --minimum-deployment-target 10.9 --target-device mac --compile /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources /Users/xuhao/Develop/Application/test/test/Images.xcassets36"2F731BFE-080B-428A-9BCF-C70E7D7F1B07-
+b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+
+CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o /Users/xuhao/Develop/Application/test/test/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419005698.626867
+e419005698.658525
+r1
+xCompileC
+xBuild/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o
+x/Users/xuhao/Develop/Application/test/test/AppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xuhao/Develop/Application/test/test/AppDelegate.m
+d/Users/xuhao/Develop/Application/test/test/AppDelegate.h
+d/Users/xuhao/Develop/Application/test/test/MyOpenGl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/xuhao/Develop/Application/test/test/AppDelegate.m181"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o test/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler768ba00285f9b841^2596a80285f9b841^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/xuhao/Develop/Application/test/test/AppDelegate.m0000000000000000^2996"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o test/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/xuhao/Develop/Application/test/test/AppDelegate.m -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o36"7964016A-DF6C-4348-A0D4-7899E78EC7DF-
+b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+
+CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o /Users/xuhao/Develop/Application/test/test/MyOpenGl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419005698.627041
+e419005698.680908
+r1
+xCompileC
+xBuild/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o
+x/Users/xuhao/Develop/Application/test/test/MyOpenGl.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xuhao/Develop/Application/test/test/MyOpenGl.m
+d/Users/xuhao/Develop/Application/test/test/MyOpenGl.h
+o/Users/xuhao/Develop/Application/test/test/MyOpenGl.m:125:5: warning: 'gluPerspective' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakePerspective" [-Wdeprecated-declarations]
+o    gluPerspective(100,1.333,0.01,1000);
+o    ^
+oIn file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m:11:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h:278:13: note: 'gluPerspective' declared here
+oextern void gluPerspective (GLdouble fovy, GLdouble aspect, GLdouble zNear, GLdouble zFar) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakePerspective");
+o            ^
+o/Users/xuhao/Develop/Application/test/test/MyOpenGl.m:126:5: warning: 'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt" [-Wdeprecated-declarations]
+o    gluLookAt(0, 1, 0, -5, -5,-5, 0, 1, 0);
+o    ^
+oIn file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m:11:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h:265:13: note: 'gluLookAt' declared here
+oextern void gluLookAt (GLdouble eyeX, GLdouble eyeY, GLdouble eyeZ, GLdouble centerX, GLdouble centerY, GLdouble centerZ, GLdouble upX, GLdouble upY, GLdouble upZ) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakeLookAt");
+o            ^
+o/Users/xuhao/Develop/Application/test/test/MyOpenGl.m:131:5: warning: 'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt" [-Wdeprecated-declarations]
+o    gluLookAt(cam.eyeX, cam.eyeY, cam.eyeZ, cam.centerX, cam.centerY,cam.centerZ, cam.upX, cam.upY, cam.upZ);
+o    ^
+oIn file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m:11:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h:265:13: note: 'gluLookAt' declared here
+oextern void gluLookAt (GLdouble eyeX, GLdouble eyeY, GLdouble eyeZ, GLdouble centerX, GLdouble centerY, GLdouble centerZ, GLdouble upX, GLdouble upY, GLdouble upZ) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakeLookAt");
+o            ^
+o3 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/xuhao/Develop/Application/test/test/MyOpenGl.m175"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o test/MyOpenGl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7497a00285f9b841^1e50ae0285f9b841^-2285"/Users/xuhao/Develop/Application/test/test/MyOpenGl.m:125:5: warning: 'gluPerspective' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakePerspective" [-Wdeprecated-declarations]    gluPerspective(100,1.333,0.01,1000);    ^In file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m:11:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h:278:13: note: 'gluPerspective' declared hereextern void gluPerspective (GLdouble fovy, GLdouble aspect, GLdouble zNear, GLdouble zFar) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakePerspective");            ^/Users/xuhao/Develop/Application/test/test/MyOpenGl.m:126:5: warning: 'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt" [-Wdeprecated-declarations]    gluLookAt(0, 1, 0, -5, -5,-5, 0, 1, 0);    ^In file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m:11:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h:265:13: note: 'gluLookAt' declared hereextern void gluLookAt (GLdouble eyeX, GLdouble eyeY, GLdouble eyeZ, GLdouble centerX, GLdouble centerY, GLdouble centerZ, GLdouble upX, GLdouble upY, GLdouble upZ) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakeLookAt");            ^/Users/xuhao/Develop/Application/test/test/MyOpenGl.m:131:5: warning: 'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt" [-Wdeprecated-declarations]    gluLookAt(cam.eyeX, cam.eyeY, cam.eyeZ, cam.centerX, cam.centerY,cam.centerZ, cam.upX, cam.upY, cam.upZ);    ^In file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m:11:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h:265:13: note: 'gluLookAt' declared hereextern void gluLookAt (GLdouble eyeX, GLdouble eyeY, GLdouble eyeZ, GLdouble centerX, GLdouble centerY, GLdouble centerZ, GLdouble upX, GLdouble upY, GLdouble upZ) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakeLookAt");            ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@95"'gluPerspective' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakePerspective"-419005698#18446744073709551615#0#1(2@30"'gluPerspective' declared here-419005698#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@162"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h0000000000000000^277#12#277#12#15841#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@60"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.m0000000000000000^124#4#124#4#4478#0#12"Deprecations--2@85"'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt"-419005698#18446744073709551615#0#1(2@25"'gluLookAt' declared here-419005698#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@162"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h0000000000000000^264#12#264#12#14161#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@60"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.m0000000000000000^125#4#125#4#4519#0#12"Deprecations--2@85"'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt"-419005698#18446744073709551615#0#1(2@25"'gluLookAt' declared here-419005698#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@162"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h0000000000000000^264#12#264#12#14161#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@60"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.m0000000000000000^130#4#130#4#4584#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@60"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.m0000000000000000^2978"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o test/MyOpenGl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.dia -c /Users/xuhao/Develop/Application/test/test/MyOpenGl.m -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o36"EAED7267-7595-4BA3-98BE-30CBB0977303-
+b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+
+CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o /Users/xuhao/Develop/Application/test/test/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419005698.627215
+e419005698.641979
+r1
+xCompileC
+xBuild/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o
+x/Users/xuhao/Develop/Application/test/test/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xuhao/Develop/Application/test/test/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/xuhao/Develop/Application/test/test/main.m167"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o test/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler629fa00285f9b841^3e5aa40285f9b841^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/xuhao/Develop/Application/test/test/main.m0000000000000000^2954"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o test/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.dia -c /Users/xuhao/Develop/Application/test/test/main.m -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o36"3572E286-CBF2-442C-83BF-E104BC09F9BC-
+b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+
+CCompileXIB /Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib
+s419005698.711073
+e419005699.217066
+r1
+xCompileXIB
+x/Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib
+o2014-04-12 22:28:19.130 ibtoold[9440:507] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
+o2014-04-12 22:28:19.130 ibtoold[9440:507] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
+o/* com.apple.ibtool.document.warnings */
+o/Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]
+o/Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib:Wpl-mX-zFM: warning: NSOpenGLViews in One Shot memory enabled window [9]
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compiling /Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib39"CompileXIB test/Base.lproj/MainMenu.xib1211b60285f9b841^1c294f0385f9b841^-717"2014-04-12 22:28:19.130 ibtoold[9440:507] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***2014-04-12 22:28:19.130 ibtoold[9440:507] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***/* com.apple.ibtool.document.warnings *//Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)/Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib:Wpl-mX-zFM: warning: NSOpenGLViews in One Shot memory enabled window2(21%IDEActivityLogMessage2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)58"Content rectangle not entirely on screen with the menu bar419005699#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@73"file:///Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib0000000000000000^370#18446744073709551615#370#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--2@47"NSOpenGLViews in One Shot memory enabled window-419005699#18446744073709551615#0#-1#-3@73"file:///Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#1#-19%DVTDocumentLocation4@73"file:///Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib0000000000000000^524"CompileXIB test/Base.lproj/MainMenu.xib    cd /Users/xuhao/Develop/Application/test    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.9 --output-format human-readable-text --compile /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/Base.lproj/MainMenu.nib /Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib36"BD07659C-E305-4EF1-9416-6277B5641525-
+b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+
+CCopyStringsFile /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings
+s419005698.710888
+e419005698.712549
+r1
+xCopyStringsFile
+x/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/InfoPlist.strings
+xtest/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy test/en.lproj/InfoPlist.strings123"CopyStringsFile Build/Products/Debug/test.app/Contents/Resources/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings8909b60285f9b841^fd6ab60285f9b841^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/xuhao/Develop/Application/test/test/en.lproj/InfoPlist.strings0000000000000000^390"CopyStringsFile Build/Products/Debug/test.app/Contents/Resources/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings    cd /Users/xuhao/Develop/Application/test    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj -- test/en.lproj/InfoPlist.strings36"D964FEA3-BD40-46BA-8883-9EF066059D3D-
+b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+
+CCpResource test/en.lproj/Credits.rtf Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf
+s419005698.710975
+e419005698.712092
+r1
+xCpResource
+xtest/en.lproj/Credits.rtf
+xBuild/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf106"CpResource test/en.lproj/Credits.rtf Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf130db60285f9b841^1f4cb60285f9b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf00345802ddffdf42^424"CpResource test/en.lproj/Credits.rtf Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/xuhao/Develop/Application/test    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/xuhao/Develop/Application/test/test/en.lproj/Credits.rtf /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj36"06D8BFF4-75B2-4F9B-B366-2F1DA2AFA439-
+b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+
+CLd /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test normal x86_64
+s419005698.681492
+e419005698.710320
+r1
+xLd
+x/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test
+xnormal
+xx86_64
+d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/test.LinkFileList
+d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o
+d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o
+d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test66"Ld Build/Products/Debug/test.app/Contents/MacOS/test normal x86_64e57fae0285f9b841^41d8b50285f9b841^---0#0#1#--981"Ld Build/Products/Debug/test.app/Contents/MacOS/test normal x86_64    cd /Users/xuhao/Develop/Application/test    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/xuhao/Develop/Application/test/Build/Products/Debug -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -filelist /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/test.LinkFileList -mmacosx-version-min=10.9 -fobjc-arc -fobjc-link-runtime -framework OpenGL -framework Cocoa -Xlinker -dependency_info -Xlinker /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/test_dependency_info.dat -o /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test36"21E41EF2-42FD-410F-8CD6-ED3840D59ECD-
+b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+
+CProcessInfoPlistFile /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Info.plist /Users/xuhao/Develop/Application/test/test/test-Info.plist
+s419005699.835147
+e419005699.836310
+r1
+xProcessInfoPlistFile
+x/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Info.plist
+x/Users/xuhao/Develop/Application/test/test/test-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Process /Users/xuhao/Develop/Application/test/test/test-Info.plist91"ProcessInfoPlistFile Build/Products/Debug/test.app/Contents/Info.plist test/test-Info.plist16dad50385f9b841^ce18d60385f9b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/xuhao/Develop/Application/test/test/test-Info.plist0000000000000000^594"ProcessInfoPlistFile Build/Products/Debug/test.app/Contents/Info.plist test/test-Info.plist    cd /Users/xuhao/Develop/Application/test    builtin-infoPlistUtility /Users/xuhao/Develop/Application/test/test/test-Info.plist -genpkginfo /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/PkgInfo -expandbuildsettings -platform macosx -additionalcontentfile /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_generated_info.plist -o /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Info.plist36"759C9905-CAE2-44F0-9DB6-4EDD5917E50D-
+b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+
+CProcessPCH /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s419005698.116407
+e419005698.626313
+r1
+xProcessPCH
+x/Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch
+xtest/test-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xuhao/Develop/Application/test/test/test-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile test/test-Prefix.pch201"ProcessPCH Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilera0dd1d0285f9b841^2558a00285f9b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/xuhao/Develop/Application/test/test/test-Prefix.pch0000000000000000^2926"ProcessPCH Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.dia -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.d -c /Users/xuhao/Develop/Application/test/test/test-Prefix.pch -o /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch36"A0CF9CC1-BF07-46BE-912D-067524D7D64E-
+b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+
+CProcessPCH /Users/xuhao/Library/Developer/Xcode/DerivedData/test-ghlsfoghwaissucvxdyatwpnvsmr/Index/PrecompiledHeaders/test-Prefix-cvzcbixcyposflacdibitmnlalul_ast/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app
+s419005699.836841
+e419005699.839901
+r1
+xTouch
+x/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Touch /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app35"Touch Build/Products/Debug/test.app4144d60385f9b841^4205d70385f9b841^---0#0#1#--171"Touch Build/Products/Debug/test.app    cd /Users/xuhao/Develop/Application/test    /usr/bin/touch -c /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app36"D4B69881-1BEC-4FE5-8BE5-6036906361C8-
+b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+

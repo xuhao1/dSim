@@ -1,0 +1,13 @@
+cbb4d5d1436ef5db9d1f67745693ed91 b95e280ed5a458391ec21219aa67690a ffffffffffffffffffffffffffffffff 102 /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app
+8d67c1039b4bf7c7e5b9c91e55e60312 f23e7585027de8e242519425df7de113 ffffffffffffffffffffffffffffffff 8 /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/PkgInfo
+8d67c1039b4bf7c7e5b9c91e55e60312 f23e7585027de8e242519425df7de113 ffffffffffffffffffffffffffffffff 1393 /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Info.plist
+000000005349492b000000000000c379 737c8274ce4e7edf9af3824e4be671d1 ffffffffffffffffffffffffffffffff 40194 /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/Base.lproj/MainMenu.nib
+000000005347669900000000000001b4 79a215c58417cce5aa6a84bf3dbe2a21 ffffffffffffffffffffffffffffffff 436 /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf
+0000000053476699000000000000002d 121e8b44a1f8599ba11f4d89510e0d3d ffffffffffffffffffffffffffffffff 92 /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/InfoPlist.strings
+47a69c96ef1d361cfb5f276ede52e77f 94d255b2149b614df7c60b62af979ec3 ffffffffffffffffffffffffffffffff 22760 /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test
+00000000534766990000000000000066 8d67c103c80c915ee5b9c91e55e60374 ffffffffffffffffffffffffffffffff 181 /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_generated_info.plist
+00000000534766990000000000000066 8d67c103c80c915ee5b9c91e55e60374 ffffffffffffffffffffffffffffffff 233 /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_dependencies.txt
+25ae74015122b313f03ca146aa996c42 cead7ac26f6c5976949ce2fe0bb1dbc6 ffffffffffffffffffffffffffffffff 2824 /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o
+25ae7401512c98f0f03ca146aa997f9d 364a2914e403bd474e05aca58f2a0d46 ffffffffffffffffffffffffffffffff 26284 /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o
+25ae7401512c9e90f03ca146aa996ecb 9aefbb41345acd4dd1fac873f050d365 ffffffffffffffffffffffffffffffff 36540 /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o
+00000000013f25cb0000000000000177 25ae7401035af041f03ca146aa996dd1 ffffffffffffffffffffffffffffffff 13704916 /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch
