@@ -14,7 +14,8 @@
 #include <OpenGL/gl.h>
 #include "vector3f.h"
 #include <vector>
-#include "model.h"
+#include "phys_model.h"
+#include "PhysEngine.h"
 
 class triangle
 {
@@ -41,15 +42,18 @@ public:
 };
 std::istream& operator>>(std::istream& is,triangle&objects);
 std::istream& operator>>(std::istream& is,vector3f&objects);
+
 class stlmodel:public xmodel
 {
 public:
     std::vector<triangle> list;
     stlmodel();
-    stlmodel(char*filename,physx::PxRigidDynamic* actor);
+    stlmodel(char*filename,physx::PxPhysics *pp,physx::PxScene *ms);
+    stlmodel(char*filename,PhysEngine *pe);
     GLuint model();
     void resize(double r);
     void draw();
+    void init_stl(char*filename);
   
 };
 

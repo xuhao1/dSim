@@ -47,6 +47,15 @@ public:
         glLoadIdentity();
         gluLookAt(eye.x, eye.y, eye.z, center.x, center.y,center.z, pose.x, pose.y, pose.z);
     }
+    void moveEve(float x,float y,float z)
+    {
+        eye.x += x;
+        eye.y += y;
+        eye.z += z;
+        
+        movefirstVision(0,0);
+        
+    }
     void movefirstVision(float x,float y)
     {
         theta+=y;

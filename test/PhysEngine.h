@@ -12,6 +12,7 @@
 #include <iostream>
 #define NDEBUG
 #include "PxPhysicsAPI.h"
+#include "phys_model.h"
 
 using namespace physx;
 
@@ -37,38 +38,18 @@ public:
         //setupActor();
         //sim(1);
         PxMaterial* aMaterial;
-        aMaterial = mPhysics->createMaterial(0.5f, 0.5f, 1.0f);    //static friction, dynamic friction, restitution
+        aMaterial = mPhysics->createMaterial(0.5f, 0.5f, 0.5f);    //static friction, dynamic friction, restitution
         PxRigidStatic*plane;
         plane =  PxCreatePlane(*mPhysics, PxPlane(PxVec3(0,0,1), 0), *aMaterial);
         mScene->addActor(*plane);
     }
     PxSceneDesc *sceneDesc;
-    /*
-    int setupActor()
-    {
-        
-        aSphereActor =  PxCreateDynamic(*mPhysics, PxTransform( PxVec3(1, 0 ,5) ) , PxSphereGeometry(1),*aMaterial, 1);
-        plane =  PxCreatePlane(*mPhysics, PxPlane(PxVec3(0,0,1), 0), *aMaterial);
-        mScene->addActor(*aSphereActor);
-        mScene->addActor(*plane);
-        return  0;
-    }
-    */
-    PxRigidDynamic* addDemo()
-    {
-
-        PxMaterial* aMaterial;
-        aMaterial = mPhysics->createMaterial(0.5f, 0.5f, 1.0f);    //static friction, dynamic friction, restitution
-        if(!aMaterial)
-            printf("createMaterial failed!");
-        PxRigidDynamic* aSphereActor ;
-        aSphereActor =  PxCreateDynamic(*mPhysics, PxTransform( PxVec3(0, 0 ,10) ) , PxBoxGeometry(1,1,1),*aMaterial, 1);
-        aSphereActor->setLinearVelocity(PxVec3((random()-0.5)*10,(random()-0.5)*10,0));
-        mScene->addActor(*aSphereActor);
-
-        return aSphereActor;
-    }
     
+    xmodel* addDemo()
+    {
+        xmodel * x0 = new xmodel(this->mPhysics,this->mScene);
+        return x0;
+    }
     int sim(double time)
     {
         for (int j=0; j<time*10000; j++)

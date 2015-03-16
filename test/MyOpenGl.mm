@@ -83,7 +83,7 @@
     [self drawObjects];
     glFlush();
 }
--(void)eyeOri:(char)c
+-(void)eyeOri:(unichar)c
 {
     printf("here\n");
     switch (c) {
@@ -98,6 +98,26 @@
             break;
         case 'd':
             cam0->movefirstVision(0.02,0);
+            break;
+        case NSLeftArrowFunctionKey:
+            cam0->moveEve(0, -1, 0);
+            break;
+        case NSRightArrowFunctionKey:
+            cam0->moveEve(0, 1, 0);
+            break;
+        case NSUpArrowFunctionKey:
+            cam0->moveEve(1, 0, 0);
+            break;
+        case NSDownArrowFunctionKey:
+            cam0->moveEve(-1, 0, 0);
+            break;
+            
+        case NSHomeFunctionKey:
+            cam0->moveEve(0, 0, 0.5);
+            break;
+            
+        case NSEndFunctionKey:
+            cam0->moveEve(0, 0, -0.5);
             break;
         default:
             break;

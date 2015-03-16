@@ -13,6 +13,7 @@
 #include "PhysEngine.h"
 #import "MyOpenGl.h"
 #include "stlmodel.h"
+#include "phys_model.h"
 
 class gameCore
 {
@@ -25,9 +26,10 @@ public:
     }
     void addDemo()
     {
-        physx::PxRigidDynamic* rig=physcore.addDemo();
         char *path="/Users/xuhao/model.stl";
-        stlmodel* demo=new stlmodel(path,rig);
+        
+        stlmodel* demo=new stlmodel(path,&physcore);
+        
         [gra addObj:demo];
         
     }

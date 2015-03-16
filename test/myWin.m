@@ -38,6 +38,12 @@
         case 's':
         case 'a':
         case 'd':
+        case NSUpArrowFunctionKey:
+        case NSDownArrowFunctionKey:
+        case NSLeftArrowFunctionKey:
+        case NSRightArrowFunctionKey:
+        case NSHomeFunctionKey:
+        case NSEndFunctionKey:
             [_opengl eyeOri:c];
             break;
         case '1':

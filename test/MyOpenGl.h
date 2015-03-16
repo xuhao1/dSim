@@ -14,6 +14,6 @@
 - (void)drawRect:(NSRect) dirtyRect;
 - (void)drawObjects;
 - (void)eyeMove:(NSPoint) u;
-- (void)eyeOri:(char) c;
+- (void)eyeOri:(unichar) c;
 -(void)addObj:(stlmodel*)model;
 @end

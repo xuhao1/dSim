@@ -20,11 +20,9 @@ long getCurrentTime()
     gettimeofday(&tv,NULL);  
     return tv.tv_sec * 1000000 + tv.tv_usec;  
 }
-
-stlmodel::stlmodel(char*filepath,physx::PxRigidDynamic* actor):
-    list(0),xmodel(actor)
+void stlmodel::init_stl(char* filename)
 {
-    std::ifstream file=std::ifstream(filepath);
+    std::ifstream file=std::ifstream(filename);
     string str;
     while (!file.eof())
     {
@@ -37,7 +35,20 @@ stlmodel::stlmodel(char*filepath,physx::PxRigidDynamic* actor):
         }
     }
     
-    resize(0.01);
+    resize(0.01);   
+}
+
+
+stlmodel::stlmodel(char*filename,physx::PxPhysics *pp,physx::PxScene* ms):
+ list(0),xmodel(pp,ms)
+{
+    init_stl(filename);
+}
+
+stlmodel::stlmodel(char*filename,PhysEngine *pe):
+    list(0),xmodel(pe->mPhysics,pe->mScene)
+{
+    init_stl(filename);
 }
 void stlmodel::resize(double r)
 {
@@ -58,19 +69,18 @@ GLuint stlmodel::model()
     {
         for(triangle e:list)
         {
-            glColor3f(e.po1.x/1+0.2,e.po1.z/3+0.2,e.po1.y*2+0.2);
+            glColor3f(e.po1.x/1+0.2,e.po1.z/3+0.2,0);
             e.gldraw();
         }
     }
     glEnd();
     glEndList();
-    long ed=getCurrentTime();
+    //long ed=getCurrentTime();
     return ptr;
 }
 void stlmodel::draw()
 {
     updatepos();
-    //printf("li:%f %f %f\n",pos.x,pos.y,pos.z );
     glTranslatef(pos.x,pos.y,pos.z);              // 左移 1.5 单位，并移入屏幕 6.0
     glRotatef(angle,ax,ay,az);
     glCallList(model());
