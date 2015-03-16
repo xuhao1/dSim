@@ -7,12 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#include "stlmodel.h"
+#include "PhysEngine.h"
+#include "cam.h"
 @interface MyOpenGl : NSOpenGLView
 - (void)drawRect:(NSRect) dirtyRect;
-- (void) moveCamera:(double) l;
-- (void)mkBox;
-- (void)drawAnObject;
+- (void)drawObjects;
 - (void)eyeMove:(NSPoint) u;
+- (void)eyeOri:(char) c;
 -(void)addObj:(stlmodel*)model;
 @end

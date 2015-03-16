@@ -16,13 +16,11 @@
     first=[NSEvent mouseLocation];
     self.acceptsMouseMovedEvents=true;
 }
+
 -(void)mouseDown:(NSEvent *)theEvent
 {
-    NSPoint po;
-    po.x=0;
-    po.y=0;
-    [_opengl eyeMove:po];
 }
+/*
 -(void)mouseMoved:(NSEvent *)theEvent
 {
     NSPoint mousepos=[NSEvent mouseLocation];
@@ -31,6 +29,7 @@
     loc.y=loc.y-first.y;
     [_opengl eyeMove:loc];
 }
+ */
 -(void)keyDown:(NSEvent *)theEvent
 {
     unichar c = [[theEvent charactersIgnoringModifiers] characterAtIndex:0];
@@ -39,10 +38,9 @@
         case 's':
         case 'a':
         case 'd':
-          //  [_opengl objmove:c];
+            [_opengl eyeOri:c];
             break;
         case '1':
-            [_opengl addObj];
         default:
             break;
     }

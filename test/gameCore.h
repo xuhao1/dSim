@@ -12,6 +12,7 @@
 #include <iostream>
 #include "PhysEngine.h"
 #import "MyOpenGl.h"
+#include "stlmodel.h"
 
 class gameCore
 {
@@ -22,5 +23,19 @@ public:
         gra(_opengl),physcore()
     {
     }
+    void addDemo()
+    {
+        physx::PxRigidDynamic* rig=physcore.addDemo();
+        char *path="/Users/xuhao/model.stl";
+        stlmodel* demo=new stlmodel(path,rig);
+        [gra addObj:demo];
+        
+    }
+    void Loop()
+    {
+        physcore.sim(0.033f);
+        [gra setNeedsDisplay:true];
+    }
 };
+
 #endif /* defined(__test__gameCore__) */

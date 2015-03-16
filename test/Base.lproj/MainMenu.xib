@@ -678,19 +678,19 @@
                         </connections>
                     </button>
                     <openGLView appearanceType="lightContent" fixedFrame="YES" depthSize="32bit" rendererType="accelerated" useAuxiliaryDepthBufferStencil="NO" allowOffline="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wpl-mX-zFM" customClass="MyOpenGl">
-                        <rect key="frame" x="77" y="21" width="800" height="600"/>
+                        <rect key="frame" x="11" y="27" width="800" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     </openGLView>
                     <slider appearanceType="lightContent" horizontalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k1x-39-Ry1">
                         <rect key="frame" x="1014" y="65" width="20" height="575"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="right" sliderType="linear" id="1BQ-NL-Bgg"/>
+                        <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="left" sliderType="linear" id="1BQ-NL-Bgg"/>
                         <connections>
                             <action selector="slide:" target="494" id="5yl-0C-hyJ"/>
                         </connections>
                     </slider>
                     <button appearanceType="lightContent" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAi-Pg-mun">
-                        <rect key="frame" x="916" y="61" width="71" height="32"/>
+                        <rect key="frame" x="943" y="84" width="71" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="reset" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="GFP-0w-BY7">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -699,6 +699,14 @@
                         <connections>
                             <action selector="reset:" target="494" id="Omk-wM-8sJ"/>
                         </connections>
+                    </button>
+                    <button appearanceType="lightContent" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yx7-Ri-heo">
+                        <rect key="frame" x="877" y="180" width="82" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="cwi-Rr-1sY">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
                     </button>
                 </subviews>
             </view>

@@ -2,17 +2,17 @@ Ttest
 v6
 r1
 cCheck dependencies
-cProcessPCH /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o /Users/xuhao/Develop/Application/test/test/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o /Users/xuhao/Develop/Application/test/test/MyOpenGl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o /Users/xuhao/Develop/Application/test/test/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/gameCore.o /Users/xuhao/Develop/Application/test/test/gameCore.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o /Users/xuhao/Develop/Application/test/test/AppDelegate.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/model.o /Users/xuhao/Develop/Application/test/test/model.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/PhysEngine.o /Users/xuhao/Develop/Application/test/test/PhysEngine.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/stlmodel.o /Users/xuhao/Develop/Application/test/test/stlmodel.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o /Users/xuhao/Develop/Application/test/test/MyOpenGl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o /Users/xuhao/Develop/Application/test/test/main.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/myWin.o /Users/xuhao/Develop/Application/test/test/myWin.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/vector3f.o /Users/xuhao/Develop/Application/test/test/vector3f.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test normal x86_64
-cCopyStringsFile /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings
-cCpResource test/en.lproj/Credits.rtf Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf
-cCompileXIB /Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib
-cCompileAssetCatalog /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources /Users/xuhao/Develop/Application/test/test/Images.xcassets
-cProcessInfoPlistFile /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Info.plist /Users/xuhao/Develop/Application/test/test/test-Info.plist
-cTouch /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
 c000000005243E79F00000000000000AA
@@ -39,258 +39,1274 @@ c000000005278435A000000000000BB7C
 t1383613274
 s47996
 
-N/Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch
-t1397312898
-s13704916
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch.pch
+t1397500542
+s16759680
 
 N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o
-t1397312898
-s36540
+t1397500542
+s186508
 
 N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o
-t1397312898
-s26284
+t1397500542
+s104324
+
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/PhysEngine.o
+t1397500542
+s140840
+
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/gameCore.o
+t1397500542
+s1960
 
 N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o
-t1397312898
+t1397500542
 s2824
 
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/model.o
+t1397500542
+s1956
+
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/myWin.o
+t1397500542
+s27760
+
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/stlmodel.o
+t1397500542
+s213960
+
 N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/test.LinkFileList
-c0000000053494D820000000000000164
-t1397312898
-s356
+c00000000534C2A7D000000000000042A
+t1397500541
+s1066
 
-N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_dependencies.txt
-t1397312899
-s233
-
-N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_generated_info.plist
-t1397312899
-s181
-
-N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app
-t1397312898
-s102
-
-N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Info.plist
-t1397312899
-s1393
+N/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/vector3f.o
+t1397500542
+s8184
 
 N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test
-t1397312898
-s22760
+t2
+s0
 
-N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/PkgInfo
-t1397312899
-s8
+N/Users/xuhao/Develop/Application/test/test/AppDelegate.mm
+c00000000534C22FA0000000000000455
+t1397498618
+s1109
 
-N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/Base.lproj/MainMenu.nib
-t1397312899
-s40194
+N/Users/xuhao/Develop/Application/test/test/MyOpenGl.mm
+c00000000534C2A1E000000000000128A
+t1397500446
+s4746
 
-N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf
-t1397312898
-s436
+N/Users/xuhao/Develop/Application/test/test/PhysEngine.cpp
+c00000000534C1DA000000000000005CE
+t1397497248
+s1486
 
-N/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/InfoPlist.strings
-t1397312898
-s92
-
-N/Users/xuhao/Develop/Application/test/test/AppDelegate.m
-c0000000053494B1A000000000000026D
-t1397312282
-s621
-
-N/Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib
-c000000005349492B000000000000C379
-t1397311787
-s50041
-
-N/Users/xuhao/Develop/Application/test/test/Images.xcassets
-c00000000534766990000000000000066
-t1397188249
-s102
-
-N/Users/xuhao/Develop/Application/test/test/MyOpenGl.m
-c0000000053494D7A000000000000133B
-t1397312890
-s4923
-
-N/Users/xuhao/Develop/Application/test/test/en.lproj/Credits.rtf
-c000000005347669900000000000001B4
-t1397188249
-s436
-
-N/Users/xuhao/Develop/Application/test/test/en.lproj/InfoPlist.strings
-c0000000053476699000000000000002D
-t1397188249
-s45
+N/Users/xuhao/Develop/Application/test/test/gameCore.mm
+c00000000534C209E0000000000000091
+t1397498014
+s145
 
 N/Users/xuhao/Develop/Application/test/test/main.m
 c000000005347669900000000000000E4
 t1397188249
 s228
 
-N/Users/xuhao/Develop/Application/test/test/test-Info.plist
-c00000000534766990000000000000442
-t1397188249
-s1090
+N/Users/xuhao/Develop/Application/test/test/model.cpp
+c00000000534C249E000000000000008B
+t1397499038
+s139
+
+N/Users/xuhao/Develop/Application/test/test/myWin.m
+c00000000534C2998000000000000038F
+t1397500312
+s911
+
+N/Users/xuhao/Develop/Application/test/test/stlmodel.mm
+c00000000534C2A5300000000000006D8
+t1397500499
+s1752
 
 N/Users/xuhao/Develop/Application/test/test/test-Prefix.pch
 c000000005347669900000000000000AC
 t1397188249
 s172
 
-CBuild AST from /Users/xuhao/Develop/Application/test/test/AppDelegate.m
+N/Users/xuhao/Develop/Application/test/test/vector3f.cpp
+c0000000053498D790000000000000428
+t1397329273
+s1064
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libLowLevel.a
+c000000005232A04400000000001D2108
+t1379049540
+s1909000
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libLowLevelCHECKED.a
+c000000005232A04400000000001D50D0
+t1379049540
+s1921232
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libLowLevelCloth.a
+c000000005232A044000000000004F640
+t1379049540
+s325184
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libLowLevelClothCHECKED.a
+c000000005232A044000000000004F448
+t1379049540
+s324680
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libLowLevelClothPROFILE.a
+c000000005232A044000000000004FDE8
+t1379049540
+s327144
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libLowLevelPROFILE.a
+c000000005232A04400000000001D2108
+t1379049540
+s1909000
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3.a
+c000000005232A0440000000000188A70
+t1379049540
+s1608304
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CHECKED.a
+c000000005232A04400000000001D4258
+t1379049540
+s1917528
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CharacterKinematic.a
+c0000000053451E980000000000034A28
+t1397038744
+s215592
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CharacterKinematicCHECKED.a
+c0000000053451E5000000000002145A0
+t1397038672
+s2180512
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CharacterKinematicPROFILE.a
+c0000000053451E780000000000034A28
+t1397038712
+s215592
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3Common.a
+c000000005232A044000000000021E010
+t1379049540
+s2220048
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CommonCHECKED.a
+c000000005232A0440000000000222340
+t1379049540
+s2237248
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CommonPROFILE.a
+c000000005232A044000000000021E010
+t1379049540
+s2220048
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3Cooking.a
+c000000005232A044000000000003E848
+t1379049540
+s256072
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CookingCHECKED.a
+c000000005232A044000000000003E988
+t1379049540
+s256392
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CookingPROFILE.a
+c000000005232A044000000000003E848
+t1379049540
+s256072
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3Extensions.a
+c0000000053451E9800000000002BB298
+t1397038744
+s2863768
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3ExtensionsCHECKED.a
+c0000000053451E5000000000016E92D8
+t1397038672
+s24023768
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3ExtensionsPROFILE.a
+c0000000053451E7800000000002CEE18
+t1397038712
+s2944536
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3PROFILE.a
+c000000005232A04400000000001A4780
+t1379049540
+s1722240
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3Vehicle.a
+c0000000053451EA1000000000011B018
+t1397038753
+s1159192
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3VehicleCHECKED.a
+c0000000053451E5D00000000009467F8
+t1397038685
+s9725944
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3VehiclePROFILE.a
+c0000000053451E81000000000011B018
+t1397038721
+s1159192
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysXProfileSDK.a
+c000000005232A044000000000001DCB0
+t1379049540
+s122032
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysXProfileSDKCHECKED.a
+c000000005232A04400000000000205A0
+t1379049540
+s132512
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysXProfileSDKPROFILE.a
+c000000005232A044000000000001DCB0
+t1379049540
+s122032
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysXVisualDebuggerSDK.a
+c000000005232A0440000000000050390
+t1379049540
+s328592
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysXVisualDebuggerSDKCHECKED.a
+c000000005232A0440000000000050448
+t1379049540
+s328776
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysXVisualDebuggerSDKPROFILE.a
+c000000005232A0440000000000050390
+t1379049540
+s328592
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPvdRuntime.a
+c000000005232A04400000000000003A0
+t1379049540
+s928
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPvdRuntimeCHECKED.a
+c000000005232A044000000000005F7A0
+t1379049540
+s391072
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPvdRuntimePROFILE.a
+c000000005232A044000000000005FEB8
+t1379049540
+s392888
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPxTask.a
+c000000005232A04400000000000059F8
+t1379049540
+s23032
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPxTaskCHECKED.a
+c000000005232A0440000000000005950
+t1379049540
+s22864
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPxTaskPROFILE.a
+c000000005232A04400000000000059F8
+t1379049540
+s23032
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libSceneQuery.a
+c000000005232A04400000000000204E8
+t1379049540
+s132328
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libSceneQueryCHECKED.a
+c000000005232A04400000000000208C0
+t1379049540
+s133312
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libSceneQueryPROFILE.a
+c000000005232A04400000000000204E8
+t1379049540
+s132328
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libSimulationController.a
+c000000005232A0440000000000105408
+t1379049540
+s1070088
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libSimulationControllerCHECKED.a
+c000000005232A04400000000000F5BB0
+t1379049540
+s1006512
+
+N/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libSimulationControllerPROFILE.a
+c000000005232A0440000000000105408
+t1379049540
+s1070088
+
+CBuild AST from /Users/xuhao/Develop/Application/test/test/AppDelegate.mm
 r0
 
-CBuild AST from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m
+CBuild AST from /Users/xuhao/Develop/Application/test/test/MyOpenGl.mm
+r0
+
+CBuild AST from /Users/xuhao/Develop/Application/test/test/PhysEngine.cpp
+r0
+
+CBuild AST from /Users/xuhao/Develop/Application/test/test/gameCore.mm
 r0
 
 CBuild AST from /Users/xuhao/Develop/Application/test/test/main.m
 r0
 
+CBuild AST from /Users/xuhao/Develop/Application/test/test/model.cpp
+r0
+
+CBuild AST from /Users/xuhao/Develop/Application/test/test/myWin.m
+r0
+
+CBuild AST from /Users/xuhao/Develop/Application/test/test/stlmodel.mm
+r0
+
+CBuild AST from /Users/xuhao/Develop/Application/test/test/vector3f.cpp
+r0
+
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies8cf4160285f9b841^5da61e0285f9b841^---0#1#1#--18"Check dependencies36"FDBAEB12-E4A1-44EB-9666-71F961E90AE8-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesed4663fd61fcb841^fcfd6efd61fcb841^---0#1#1#--18"Check dependencies36"ECD8488A-BA26-456F-8376-09009742AD65-
 
 CCompileAssetCatalog /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources /Users/xuhao/Develop/Application/test/test/Images.xcassets
-s419005698.711379
-e419005699.834663
-r1
-xCompileAssetCatalog
-x/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources
-x/Users/xuhao/Develop/Application/test/test/Images.xcassets
-o/* com.apple.actool.compilation-results */
-o/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/Assets.car
-o/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_generated_info.plist
-o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"CompileAssetCatalog Build/Products/Debug/test.app/Contents/Resources test/Images.xcassets89"CompileAssetCatalog Build/Products/Debug/test.app/Contents/Resources test/Images.xcassets5628b60285f9b841^65a9d50385f9b841^-262"/* com.apple.actool.compilation-results *//Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/Assets.car/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@66"file:///Users/xuhao/Develop/Application/test/test/Images.xcassets/0000000000000000^789"CompileAssetCatalog Build/Products/Debug/test.app/Contents/Resources test/Images.xcassets    cd /Users/xuhao/Develop/Application/test    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_generated_info.plist --app-icon AppIcon --platform macosx --minimum-deployment-target 10.9 --target-device mac --compile /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources /Users/xuhao/Develop/Application/test/test/Images.xcassets36"2F731BFE-080B-428A-9BCF-C70E7D7F1B07-
-b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+r0
 
-CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o /Users/xuhao/Develop/Application/test/test/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s419005698.626867
-e419005698.658525
+CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o /Users/xuhao/Develop/Application/test/test/AppDelegate.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s419193342.027406
+e419193342.738744
 r1
 xCompileC
 xBuild/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o
-x/Users/xuhao/Develop/Application/test/test/AppDelegate.m
+x/Users/xuhao/Develop/Application/test/test/AppDelegate.mm
 xnormal
 xx86_64
-xobjective-c
+xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xuhao/Develop/Application/test/test/AppDelegate.m
+d/Users/xuhao/Develop/Application/test/test/AppDelegate.mm
 d/Users/xuhao/Develop/Application/test/test/AppDelegate.h
 d/Users/xuhao/Develop/Application/test/test/MyOpenGl.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/xuhao/Develop/Application/test/test/AppDelegate.m181"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o test/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler768ba00285f9b841^2596a80285f9b841^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/xuhao/Develop/Application/test/test/AppDelegate.m0000000000000000^2996"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o test/AppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/xuhao/Develop/Application/test/test/AppDelegate.m -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o36"7964016A-DF6C-4348-A0D4-7899E78EC7DF-
-b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+d/Users/xuhao/Develop/Application/test/test/model.h
+d/Users/xuhao/Develop/Application/test/test/vector3f.h
+d/Users/xuhao/Develop/Application/test/test/myWin.h
+d/Users/xuhao/Develop/Application/test/test/gameCore.h
+d/Users/xuhao/Develop/Application/test/test/PhysEngine.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxPhysicsAPI.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/Px.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxVersionNumber.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxSimpleTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxPreprocessor.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxAllocatorCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxAssert.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxBitAndData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxBounds3.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxTransform.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxQuat.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxVec3.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxMath.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxIntrinsics.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/unix/PxUnixIntrinsics.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxPlane.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxMat33.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxBroadcastingAllocator.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxErrorCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxErrors.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxFlags.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxFoundation.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxMat44.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxVec4.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxStrideIterator.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxString.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/unix/PxUnixString.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxUnionCast.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxVec2.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxCoreUtilityTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxIO.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxPhysXCommonConfig.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxMathUtils.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxRenderBuffer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxBase.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxSerialFramework.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxTypeInfo.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxCollection.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxTolerancesScale.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxStringTable.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxSerializer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxMetaData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxMetaDataFlags.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileBase.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileCompileTimeEventFilter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventId.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileContextProvider.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventBufferClient.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventNames.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventBufferClientManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventFilter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventHandler.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEvents.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventMutex.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventSender.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventSystem.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileMemoryEventTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileScopedEvent.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileZone.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileZoneManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdBits.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdObjectModelBaseTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdObjectModelBaseTypeDefs.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdConnection.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdConnectionFlags.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdConnectionManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdNetworkStreams.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdErrorCodes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdDataStream.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdObjectModelMetaData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdDataStreamHelpers.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdImmediateRenderer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdSimpleErrorStream.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pvd/PxVisualDebugger.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxCpuDispatcher.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxCudaContextManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxCudaMemoryManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxGpuCopyDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxGpuCopyDescQueue.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxGpuDispatcher.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxTask.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxTaskManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxGpuTask.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxSpuDispatcher.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxSpuTask.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxBoxGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxCapsuleGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxConvexMesh.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxConvexMeshGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxMeshScale.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxGeometryHelpers.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxSphereGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxPlaneGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxTriangleMeshGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightFieldGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxGeometryQuery.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxQueryReport.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxPhysXConfig.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightField.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightFieldFlag.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightFieldDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightFieldSample.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxMeshQuery.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxSimpleTriangleMesh.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxTriangle.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxTriangleMesh.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxActor.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxClient.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxAggregate.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxArticulation.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxArticulationJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxArticulationLink.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxRigidBody.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxRigidActor.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxShape.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxForceMode.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxBatchQuery.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxBatchQueryDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxFiltering.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxQueryFiltering.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxConstraint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxConstraintDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxContact.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxContactModifyCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxDeletionListener.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxLockedData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxMaterial.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxPhysics.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxClothTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxClothFabric.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxRigidDynamic.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxRigidStatic.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxScene.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxVisualizationParameter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSceneDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxBroadPhase.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSimulationStatistics.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleSystem.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleBase.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleBaseFlag.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleCreationData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleReadData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleFlag.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleFluid.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleFluidReadData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSceneLock.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSimulationEventCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxMemory.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSpatialIndex.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxVolumeCache.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxBoxController.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxCharacter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxController.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxExtended.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxControllerObstacles.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxCapsuleController.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxControllerBehavior.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxControllerManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxCloth.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxClothCollisionData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxClothParticleData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/Pxc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/PxConvexMeshDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/PxCooking.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/PxTriangleMeshDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/PxGaussMapLimit.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultStreams.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDistanceJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxExtensionsAPI.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultAllocator.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxConstraintExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxFixedJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxPrismaticJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxJointLimit.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxRevoluteJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxSphericalJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxD6Joint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultSimulationFilterShader.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultErrorCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxRigidBodyExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxShapeExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxParticleExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxTriangleMeshExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxSerialization.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxVisualDebuggerExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxStringTableExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultCpuDispatcher.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxSmoothNormals.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxSimpleFactory.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxClothFabricCooker.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxClothMeshDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxBroadPhaseExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxBinaryConverter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxRepXSerializer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxRepXSimpleType.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxJointRepXSerializer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleComponents.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleSDK.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleDrive.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleWheels.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleShaders.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleDrive4W.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleDriveTank.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleTireFriction.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUpdate.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUtilControl.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleDriveNW.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUtilSetup.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUtilTelemetry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleNoDrive.h
+d/Users/xuhao/Develop/Application/test/test/stlmodel.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/xuhao/Develop/Application/test/test/AppDelegate.mm184"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o test/AppDelegate.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler221807fe61fcb841^f71fbdfe61fcb841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/xuhao/Develop/Application/test/test/AppDelegate.mm0000000000000000^3294"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o test/AppDelegate.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/xuhao/Develop/Application/test/test/AppDelegate.mm -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o36"332743CD-8D60-4656-8C7D-A3AE5E873CCF-
+bFCBD43B3-363A-4AEB-9982-099B856F83BA
 
-CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o /Users/xuhao/Develop/Application/test/test/MyOpenGl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s419005698.627041
-e419005698.680908
+CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o /Users/xuhao/Develop/Application/test/test/MyOpenGl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s419193342.028623
+e419193342.596548
 r1
 xCompileC
 xBuild/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o
-x/Users/xuhao/Develop/Application/test/test/MyOpenGl.m
+x/Users/xuhao/Develop/Application/test/test/MyOpenGl.mm
 xnormal
 xx86_64
-xobjective-c
+xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/xuhao/Develop/Application/test/test/MyOpenGl.m
+d/Users/xuhao/Develop/Application/test/test/MyOpenGl.mm
 d/Users/xuhao/Develop/Application/test/test/MyOpenGl.h
-o/Users/xuhao/Develop/Application/test/test/MyOpenGl.m:125:5: warning: 'gluPerspective' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakePerspective" [-Wdeprecated-declarations]
-o    gluPerspective(100,1.333,0.01,1000);
+d/Users/xuhao/Develop/Application/test/test/model.h
+d/Users/xuhao/Develop/Application/test/test/vector3f.h
+d/Users/xuhao/Develop/Application/test/test/stlmodel.h
+o/Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:62:5: warning: 'gluPerspective' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakePerspective" [-Wdeprecated-declarations]
+o    gluPerspective(40,1.33333,0.01,1000);
 o    ^
-oIn file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m:11:
-o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h:278:13: note: 'gluPerspective' declared here
+oIn file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:9:
+oIn file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.h:10:
+oIn file included from /Users/xuhao/Develop/Application/test/test/model.h:13:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:278:13: note: 'gluPerspective' declared here
 oextern void gluPerspective (GLdouble fovy, GLdouble aspect, GLdouble zNear, GLdouble zFar) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakePerspective");
 o            ^
-o/Users/xuhao/Develop/Application/test/test/MyOpenGl.m:126:5: warning: 'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt" [-Wdeprecated-declarations]
-o    gluLookAt(0, 1, 0, -5, -5,-5, 0, 1, 0);
+o/Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:64:5: warning: 'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt" [-Wdeprecated-declarations]
+o    gluLookAt(2, 2, 2, 0, 0,0, 0, 0, 1);
 o    ^
-oIn file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m:11:
-o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h:265:13: note: 'gluLookAt' declared here
+oIn file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:9:
+oIn file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.h:10:
+oIn file included from /Users/xuhao/Develop/Application/test/test/model.h:13:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:265:13: note: 'gluLookAt' declared here
 oextern void gluLookAt (GLdouble eyeX, GLdouble eyeY, GLdouble eyeZ, GLdouble centerX, GLdouble centerY, GLdouble centerZ, GLdouble upX, GLdouble upY, GLdouble upZ) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakeLookAt");
 o            ^
-o/Users/xuhao/Develop/Application/test/test/MyOpenGl.m:131:5: warning: 'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt" [-Wdeprecated-declarations]
-o    gluLookAt(cam.eyeX, cam.eyeY, cam.eyeZ, cam.centerX, cam.centerY,cam.centerZ, cam.upX, cam.upY, cam.upZ);
-o    ^
-oIn file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m:11:
-o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h:265:13: note: 'gluLookAt' declared here
+o/Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:69:34: warning: format specifies type 'int' but the argument has type 'size_type' (aka 'unsigned long') [-Wformat]
+o    NSLog(@"Add Successful:%i\n",objs.size());
+o                           ~~    ^~~~~~~~~~~
+o                           %lu
+o/Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:77:9: warning: 'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt" [-Wdeprecated-declarations]
+o        gluLookAt(cam.eyeX, cam.eyeY, cam.eyeZ, cam.centerX, cam.centerY,cam.centerZ, cam.upX, cam.upY, cam.upZ);
+o        ^
+oIn file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:9:
+oIn file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.h:10:
+oIn file included from /Users/xuhao/Develop/Application/test/test/model.h:13:
+o/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:265:13: note: 'gluLookAt' declared here
 oextern void gluLookAt (GLdouble eyeX, GLdouble eyeY, GLdouble eyeZ, GLdouble centerX, GLdouble centerY, GLdouble centerZ, GLdouble upX, GLdouble upY, GLdouble upZ) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakeLookAt");
 o            ^
-o3 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/xuhao/Develop/Application/test/test/MyOpenGl.m175"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o test/MyOpenGl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7497a00285f9b841^1e50ae0285f9b841^-2285"/Users/xuhao/Develop/Application/test/test/MyOpenGl.m:125:5: warning: 'gluPerspective' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakePerspective" [-Wdeprecated-declarations]    gluPerspective(100,1.333,0.01,1000);    ^In file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m:11:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h:278:13: note: 'gluPerspective' declared hereextern void gluPerspective (GLdouble fovy, GLdouble aspect, GLdouble zNear, GLdouble zFar) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakePerspective");            ^/Users/xuhao/Develop/Application/test/test/MyOpenGl.m:126:5: warning: 'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt" [-Wdeprecated-declarations]    gluLookAt(0, 1, 0, -5, -5,-5, 0, 1, 0);    ^In file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m:11:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h:265:13: note: 'gluLookAt' declared hereextern void gluLookAt (GLdouble eyeX, GLdouble eyeY, GLdouble eyeZ, GLdouble centerX, GLdouble centerY, GLdouble centerZ, GLdouble upX, GLdouble upY, GLdouble upZ) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakeLookAt");            ^/Users/xuhao/Develop/Application/test/test/MyOpenGl.m:131:5: warning: 'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt" [-Wdeprecated-declarations]    gluLookAt(cam.eyeX, cam.eyeY, cam.eyeZ, cam.centerX, cam.centerY,cam.centerZ, cam.upX, cam.upY, cam.upZ);    ^In file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.m:11:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h:265:13: note: 'gluLookAt' declared hereextern void gluLookAt (GLdouble eyeX, GLdouble eyeY, GLdouble eyeZ, GLdouble centerX, GLdouble centerY, GLdouble centerZ, GLdouble upX, GLdouble upY, GLdouble upZ) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakeLookAt");            ^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@95"'gluPerspective' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakePerspective"-419005698#18446744073709551615#0#1(2@30"'gluPerspective' declared here-419005698#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@162"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h0000000000000000^277#12#277#12#15841#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@60"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.m0000000000000000^124#4#124#4#4478#0#12"Deprecations--2@85"'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt"-419005698#18446744073709551615#0#1(2@25"'gluLookAt' declared here-419005698#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@162"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h0000000000000000^264#12#264#12#14161#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@60"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.m0000000000000000^125#4#125#4#4519#0#12"Deprecations--2@85"'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt"-419005698#18446744073709551615#0#1(2@25"'gluLookAt' declared here-419005698#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@162"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OPenGL.framework/Headers/glu.h0000000000000000^264#12#264#12#14161#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@60"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.m0000000000000000^130#4#130#4#4584#0#12"Deprecations--0#0#1#-19%DVTDocumentLocation4@60"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.m0000000000000000^2978"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o test/MyOpenGl.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.dia -c /Users/xuhao/Develop/Application/test/test/MyOpenGl.m -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o36"EAED7267-7595-4BA3-98BE-30CBB0977303-
-b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+o/Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:66:27: warning: conflicting parameter types in implementation of 'addObj:': 'xmodel *' vs 'stlmodel *' [-Wmismatched-parameter-types]
+o-(void) addObj:(stlmodel*)model
+o                ~~~~~~~~~ ^
+oIn file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:9:
+o/Users/xuhao/Develop/Application/test/test/MyOpenGl.h:15:24: note: previous definition is here
+o-(void)addObj:(xmodel*)model;
+o               ~~~~~~~ ^
+o5 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/xuhao/Develop/Application/test/test/MyOpenGl.mm178"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o test/MyOpenGl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerc97107fe61fcb841^b7b698fe61fcb841^-3534"/Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:62:5: warning: 'gluPerspective' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakePerspective" [-Wdeprecated-declarations]    gluPerspective(40,1.33333,0.01,1000);    ^In file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:9:In file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.h:10:In file included from /Users/xuhao/Develop/Application/test/test/model.h:13:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:278:13: note: 'gluPerspective' declared hereextern void gluPerspective (GLdouble fovy, GLdouble aspect, GLdouble zNear, GLdouble zFar) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakePerspective");            ^/Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:64:5: warning: 'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt" [-Wdeprecated-declarations]    gluLookAt(2, 2, 2, 0, 0,0, 0, 0, 1);    ^In file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:9:In file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.h:10:In file included from /Users/xuhao/Develop/Application/test/test/model.h:13:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:265:13: note: 'gluLookAt' declared hereextern void gluLookAt (GLdouble eyeX, GLdouble eyeY, GLdouble eyeZ, GLdouble centerX, GLdouble centerY, GLdouble centerZ, GLdouble upX, GLdouble upY, GLdouble upZ) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakeLookAt");            ^/Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:69:34: warning: format specifies type 'int' but the argument has type 'size_type' (aka 'unsigned long') [-Wformat]    NSLog(@"Add Successful:%i\n",objs.size());                           ~~    ^~~~~~~~~~~                           %lu/Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:77:9: warning: 'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt" [-Wdeprecated-declarations]        gluLookAt(cam.eyeX, cam.eyeY, cam.eyeZ, cam.centerX, cam.centerY,cam.centerZ, cam.upX, cam.upY, cam.upZ);        ^In file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:9:In file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.h:10:In file included from /Users/xuhao/Develop/Application/test/test/model.h:13:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h:265:13: note: 'gluLookAt' declared hereextern void gluLookAt (GLdouble eyeX, GLdouble eyeY, GLdouble eyeZ, GLdouble centerX, GLdouble centerY, GLdouble centerZ, GLdouble upX, GLdouble upY, GLdouble upZ) OPENGL_DEPRECATED_MSG(10_0, 10_9, "Use GLKMatrix4MakeLookAt");            ^/Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:66:27: warning: conflicting parameter types in implementation of 'addObj:': 'xmodel *' vs 'stlmodel *' [-Wmismatched-parameter-types]-(void) addObj:(stlmodel*)model                ~~~~~~~~~ ^In file included from /Users/xuhao/Develop/Application/test/test/MyOpenGl.mm:9:/Users/xuhao/Develop/Application/test/test/MyOpenGl.h:15:24: note: previous definition is here-(void)addObj:(xmodel*)model;               ~~~~~~~ ^5 warnings generated.5(36%IDEClangDiagnosticActivityLogMessage2@95"'gluPerspective' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakePerspective"-419193342#18446744073709551615#0#1(2@30"'gluPerspective' declared here-419193342#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@162"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h0000000000000000^277#12#277#12#15841#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.mm0000000000000000^61#4#61#4#1098#0#12"Deprecations--2@85"'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt"-419193342#18446744073709551615#0#1(2@25"'gluLookAt' declared here-419193342#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@162"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h0000000000000000^264#12#264#12#14161#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.mm0000000000000000^63#4#63#4#1173#0#12"Deprecations--2@87"Format specifies type 'int' but the argument has type 'size_type' (aka 'unsigned long')-419193342#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.mm0000000000000000^68#33#68#33#1306#0#19"Format String Issue3(3@61"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.mm0000000000000000^68#33#68#44#1306#10#3@61"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.mm0000000000000000^68#27#68#29#1300#2#3@61"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.mm0000000000000000^68#27#68#29#1300#2#-2@85"'gluLookAt' is deprecated: first deprecated in OS X 10.9 - "Use GLKMatrix4MakeLookAt"-419193342#18446744073709551615#0#1(2@25"'gluLookAt' declared here-419193342#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@162"file:///Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Headers/glu.h0000000000000000^264#12#264#12#14161#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.mm0000000000000000^76#8#76#8#1405#0#12"Deprecations--2@86"Conflicting parameter types in implementation of 'addObj:': 'xmodel *' vs 'stlmodel *'-419193342#18446744073709551615#0#1(2@27"Previous definition is here-419193342#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@60"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.h0000000000000000^14#23#14#23#309#0#21"Apple LLVM 5.0 Notice1(3@60"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.h0000000000000000^14#15#14#22#301#6#-1#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.mm0000000000000000^65#26#65#26#1238#0#14"Semantic Issue1(3@61"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.mm0000000000000000^65#16#65#25#1228#8#-0#0#1#-19%DVTDocumentLocation4@61"file:///Users/xuhao/Develop/Application/test/test/MyOpenGl.mm0000000000000000^3276"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o test/MyOpenGl.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.dia -c /Users/xuhao/Develop/Application/test/test/MyOpenGl.mm -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o36"92519E4F-2C22-4B43-9CC2-0CFC50576AE5-
+bFCBD43B3-363A-4AEB-9982-099B856F83BA
 
-CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o /Users/xuhao/Develop/Application/test/test/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s419005698.627215
-e419005698.641979
+CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/PhysEngine.o /Users/xuhao/Develop/Application/test/test/PhysEngine.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s419193342.027906
+e419193342.689397
+r1
+xCompileC
+xBuild/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/PhysEngine.o
+x/Users/xuhao/Develop/Application/test/test/PhysEngine.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xuhao/Develop/Application/test/test/PhysEngine.cpp
+d/Users/xuhao/Develop/Application/test/test/PhysEngine.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxPhysicsAPI.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/Px.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxVersionNumber.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxSimpleTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxPreprocessor.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxAllocatorCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxAssert.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxBitAndData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxBounds3.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxTransform.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxQuat.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxVec3.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxMath.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxIntrinsics.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/unix/PxUnixIntrinsics.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxPlane.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxMat33.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxBroadcastingAllocator.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxErrorCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxErrors.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxFlags.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxFoundation.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxMat44.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxVec4.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxStrideIterator.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxString.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/unix/PxUnixString.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxUnionCast.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxVec2.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxCoreUtilityTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxIO.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxPhysXCommonConfig.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxMathUtils.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxRenderBuffer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxBase.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxSerialFramework.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxTypeInfo.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxCollection.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxTolerancesScale.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxStringTable.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxSerializer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxMetaData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxMetaDataFlags.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileBase.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileCompileTimeEventFilter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventId.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileContextProvider.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventBufferClient.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventNames.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventBufferClientManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventFilter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventHandler.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEvents.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventMutex.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventSender.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventSystem.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileMemoryEventTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileScopedEvent.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileZone.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileZoneManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdBits.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdObjectModelBaseTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdObjectModelBaseTypeDefs.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdConnection.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdConnectionFlags.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdConnectionManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdNetworkStreams.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdErrorCodes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdDataStream.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdObjectModelMetaData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdDataStreamHelpers.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdImmediateRenderer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdSimpleErrorStream.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pvd/PxVisualDebugger.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxCpuDispatcher.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxCudaContextManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxCudaMemoryManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxGpuCopyDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxGpuCopyDescQueue.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxGpuDispatcher.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxTask.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxTaskManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxGpuTask.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxSpuDispatcher.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxSpuTask.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxBoxGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxCapsuleGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxConvexMesh.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxConvexMeshGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxMeshScale.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxGeometryHelpers.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxSphereGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxPlaneGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxTriangleMeshGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightFieldGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxGeometryQuery.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxQueryReport.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxPhysXConfig.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightField.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightFieldFlag.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightFieldDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightFieldSample.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxMeshQuery.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxSimpleTriangleMesh.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxTriangle.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxTriangleMesh.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxActor.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxClient.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxAggregate.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxArticulation.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxArticulationJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxArticulationLink.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxRigidBody.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxRigidActor.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxShape.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxForceMode.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxBatchQuery.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxBatchQueryDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxFiltering.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxQueryFiltering.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxConstraint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxConstraintDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxContact.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxContactModifyCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxDeletionListener.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxLockedData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxMaterial.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxPhysics.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxClothTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxClothFabric.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxRigidDynamic.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxRigidStatic.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxScene.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxVisualizationParameter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSceneDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxBroadPhase.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSimulationStatistics.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleSystem.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleBase.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleBaseFlag.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleCreationData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleReadData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleFlag.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleFluid.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleFluidReadData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSceneLock.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSimulationEventCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxMemory.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSpatialIndex.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxVolumeCache.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxBoxController.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxCharacter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxController.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxExtended.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxControllerObstacles.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxCapsuleController.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxControllerBehavior.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxControllerManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxCloth.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxClothCollisionData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxClothParticleData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/Pxc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/PxConvexMeshDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/PxCooking.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/PxTriangleMeshDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/PxGaussMapLimit.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultStreams.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDistanceJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxExtensionsAPI.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultAllocator.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxConstraintExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxFixedJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxPrismaticJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxJointLimit.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxRevoluteJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxSphericalJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxD6Joint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultSimulationFilterShader.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultErrorCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxRigidBodyExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxShapeExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxParticleExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxTriangleMeshExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxSerialization.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxVisualDebuggerExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxStringTableExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultCpuDispatcher.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxSmoothNormals.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxSimpleFactory.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxClothFabricCooker.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxClothMeshDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxBroadPhaseExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxBinaryConverter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxRepXSerializer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxRepXSimpleType.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxJointRepXSerializer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleComponents.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleSDK.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleDrive.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleWheels.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleShaders.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleDrive4W.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleDriveTank.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleTireFriction.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUpdate.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUtilControl.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleDriveNW.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUtilSetup.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUtilTelemetry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleNoDrive.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/xuhao/Develop/Application/test/test/PhysEngine.cpp183"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/PhysEngine.o test/PhysEngine.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compilerc84307fe61fcb841^79afb2fe61fcb841^---0#0#1#-19%DVTDocumentLocation2@64"file:///Users/xuhao/Develop/Application/test/test/PhysEngine.cpp0000000000000000^3290"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/PhysEngine.o test/PhysEngine.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/PhysEngine.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/PhysEngine.dia -c /Users/xuhao/Develop/Application/test/test/PhysEngine.cpp -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/PhysEngine.o36"8A7007A7-2ED1-4531-B43F-7C6D8575DF0D-
+bFCBD43B3-363A-4AEB-9982-099B856F83BA
+
+CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/gameCore.o /Users/xuhao/Develop/Application/test/test/gameCore.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s419193342.027192
+e419193342.647811
+r1
+xCompileC
+xBuild/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/gameCore.o
+x/Users/xuhao/Develop/Application/test/test/gameCore.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xuhao/Develop/Application/test/test/gameCore.mm
+d/Users/xuhao/Develop/Application/test/test/gameCore.h
+d/Users/xuhao/Develop/Application/test/test/PhysEngine.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxPhysicsAPI.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/Px.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxVersionNumber.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxSimpleTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxPreprocessor.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxAllocatorCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxAssert.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxBitAndData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxBounds3.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxTransform.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxQuat.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxVec3.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxMath.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxIntrinsics.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/unix/PxUnixIntrinsics.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxPlane.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxMat33.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxBroadcastingAllocator.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxErrorCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxErrors.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxFlags.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxFoundation.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxMat44.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxVec4.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxStrideIterator.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxString.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/unix/PxUnixString.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxUnionCast.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxVec2.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxCoreUtilityTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxIO.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxPhysXCommonConfig.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxMathUtils.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxRenderBuffer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxBase.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxSerialFramework.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxTypeInfo.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxCollection.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxTolerancesScale.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxStringTable.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxSerializer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxMetaData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/common/PxMetaDataFlags.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileBase.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileCompileTimeEventFilter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventId.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileContextProvider.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventBufferClient.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventNames.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventBufferClientManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventFilter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventHandler.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEvents.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventMutex.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventSender.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileEventSystem.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileMemoryEventTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileScopedEvent.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileZone.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxprofilesdk/PxProfileZoneManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdBits.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdObjectModelBaseTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdObjectModelBaseTypeDefs.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdConnection.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdConnectionFlags.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdConnectionManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdNetworkStreams.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdErrorCodes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdDataStream.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdObjectModelMetaData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdDataStreamHelpers.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdImmediateRenderer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/physxvisualdebuggersdk/PvdSimpleErrorStream.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pvd/PxVisualDebugger.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxCpuDispatcher.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxCudaContextManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxCudaMemoryManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxGpuCopyDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxGpuCopyDescQueue.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxGpuDispatcher.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxTask.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxTaskManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxGpuTask.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxSpuDispatcher.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/pxtask/PxSpuTask.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxBoxGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxCapsuleGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxConvexMesh.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxConvexMeshGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxMeshScale.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxGeometryHelpers.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxSphereGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxPlaneGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxTriangleMeshGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightFieldGeometry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxGeometryQuery.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxQueryReport.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxPhysXConfig.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightField.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightFieldFlag.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightFieldDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxHeightFieldSample.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxMeshQuery.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxSimpleTriangleMesh.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxTriangle.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/geometry/PxTriangleMesh.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxActor.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxClient.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxAggregate.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxArticulation.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxArticulationJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxArticulationLink.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxRigidBody.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxRigidActor.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxShape.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxForceMode.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxBatchQuery.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxBatchQueryDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxFiltering.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxQueryFiltering.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxConstraint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxConstraintDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxContact.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxContactModifyCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxDeletionListener.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxLockedData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxMaterial.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxPhysics.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxClothTypes.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxClothFabric.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxRigidDynamic.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxRigidStatic.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxScene.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxVisualizationParameter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSceneDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxBroadPhase.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSimulationStatistics.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleSystem.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleBase.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleBaseFlag.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleCreationData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleReadData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleFlag.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleFluid.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/particles/PxParticleFluidReadData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSceneLock.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSimulationEventCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxMemory.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxSpatialIndex.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxVolumeCache.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxBoxController.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxCharacter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxController.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxExtended.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxControllerObstacles.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxCapsuleController.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxControllerBehavior.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/characterkinematic/PxControllerManager.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxCloth.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxClothCollisionData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cloth/PxClothParticleData.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/Pxc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/PxConvexMeshDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/PxCooking.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/PxTriangleMeshDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/cooking/PxGaussMapLimit.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultStreams.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDistanceJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxExtensionsAPI.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultAllocator.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxConstraintExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxFixedJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxPrismaticJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxJointLimit.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxRevoluteJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxSphericalJoint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxD6Joint.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultSimulationFilterShader.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultErrorCallback.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxRigidBodyExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxShapeExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxParticleExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxTriangleMeshExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxSerialization.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxVisualDebuggerExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxStringTableExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxDefaultCpuDispatcher.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxSmoothNormals.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxSimpleFactory.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxClothFabricCooker.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxClothMeshDesc.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxBroadPhaseExt.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxBinaryConverter.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxRepXSerializer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxRepXSimpleType.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/extensions/PxJointRepXSerializer.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleComponents.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleSDK.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleDrive.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleWheels.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleShaders.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleDrive4W.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleDriveTank.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleTireFriction.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUpdate.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUtilControl.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleDriveNW.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUtilSetup.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUtilTelemetry.h
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleNoDrive.h
+d/Users/xuhao/Develop/Application/test/test/MyOpenGl.h
+d/Users/xuhao/Develop/Application/test/test/model.h
+d/Users/xuhao/Develop/Application/test/test/vector3f.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/xuhao/Develop/Application/test/test/gameCore.mm178"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/gameCore.o test/gameCore.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler8d0b07fe61fcb841^23d7a5fe61fcb841^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/xuhao/Develop/Application/test/test/gameCore.mm0000000000000000^3276"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/gameCore.o test/gameCore.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/gameCore.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/gameCore.dia -c /Users/xuhao/Develop/Application/test/test/gameCore.mm -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/gameCore.o36"BDA4BFE2-B2D0-4B51-B95D-6A730C29E0A3-
+bFCBD43B3-363A-4AEB-9982-099B856F83BA
+
+CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o /Users/xuhao/Develop/Application/test/test/main.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s419193342.028927
+e419193342.054309
 r1
 xCompileC
 xBuild/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o
 x/Users/xuhao/Develop/Application/test/test/main.m
 xnormal
 xx86_64
-xobjective-c
+xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/xuhao/Develop/Application/test/test/main.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/xuhao/Develop/Application/test/test/main.m167"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o test/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler629fa00285f9b841^3e5aa40285f9b841^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/xuhao/Develop/Application/test/test/main.m0000000000000000^2954"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o test/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.dia -c /Users/xuhao/Develop/Application/test/test/main.m -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o36"3572E286-CBF2-442C-83BF-E104BC09F9BC-
-b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/xuhao/Develop/Application/test/test/main.m169"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o test/main.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler649007fe61fcb841^eae70dfe61fcb841^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/xuhao/Develop/Application/test/test/main.m0000000000000000^3250"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o test/main.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.dia -c /Users/xuhao/Develop/Application/test/test/main.m -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o36"83B0E187-5537-4A18-B345-B0AC749EA201-
+bFCBD43B3-363A-4AEB-9982-099B856F83BA
+
+CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/model.o /Users/xuhao/Develop/Application/test/test/model.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s419193342.027609
+e419193342.453816
+r1
+xCompileC
+xBuild/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/model.o
+x/Users/xuhao/Develop/Application/test/test/model.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xuhao/Develop/Application/test/test/model.cpp
+d/Users/xuhao/Develop/Application/test/test/model.h
+d/Users/xuhao/Develop/Application/test/test/vector3f.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/xuhao/Develop/Application/test/test/model.cpp173"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/model.o test/model.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compilera53007fe61fcb841^232e74fe61fcb841^---0#0#1#-19%DVTDocumentLocation2@59"file:///Users/xuhao/Develop/Application/test/test/model.cpp0000000000000000^3260"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/model.o test/model.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/model.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/model.dia -c /Users/xuhao/Develop/Application/test/test/model.cpp -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/model.o36"3DD93D85-49D3-4914-AEBC-D90DBB752338-
+bFCBD43B3-363A-4AEB-9982-099B856F83BA
+
+CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/myWin.o /Users/xuhao/Develop/Application/test/test/myWin.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s419193342.029796
+e419193342.483390
+r1
+xCompileC
+xBuild/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/myWin.o
+x/Users/xuhao/Develop/Application/test/test/myWin.m
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xuhao/Develop/Application/test/test/myWin.m
+d/Users/xuhao/Develop/Application/test/test/myWin.h
+d/Users/xuhao/Develop/Application/test/test/MyOpenGl.h
+d/Users/xuhao/Develop/Application/test/test/model.h
+d/Users/xuhao/Develop/Application/test/test/vector3f.h
+o/Users/xuhao/Develop/Application/test/test/myWin.m:28:13: warning: unused variable 'mousepos' [-Wunused-variable]
+o    NSPoint mousepos=[NSEvent mouseLocation];
+o            ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/xuhao/Develop/Application/test/test/myWin.m171"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/myWin.o test/myWin.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler0dc307fe61fcb841^b6bf7bfe61fcb841^-195"/Users/xuhao/Develop/Application/test/test/myWin.m:28:13: warning: unused variable 'mousepos' [-Wunused-variable]    NSPoint mousepos=[NSEvent mouseLocation];            ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@26"Unused variable 'mousepos'-419193342#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@57"file:///Users/xuhao/Develop/Application/test/test/myWin.m0000000000000000^27#12#27#12#433#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@57"file:///Users/xuhao/Develop/Application/test/test/myWin.m0000000000000000^3256"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/myWin.o test/myWin.m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/myWin.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/myWin.dia -c /Users/xuhao/Develop/Application/test/test/myWin.m -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/myWin.o36"0C5FDA2F-D397-47F4-BD8A-1C337B1D9C56-
+bFCBD43B3-363A-4AEB-9982-099B856F83BA
+
+CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/stlmodel.o /Users/xuhao/Develop/Application/test/test/stlmodel.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s419193342.028163
+e419193342.605110
+r1
+xCompileC
+xBuild/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/stlmodel.o
+x/Users/xuhao/Develop/Application/test/test/stlmodel.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xuhao/Develop/Application/test/test/stlmodel.mm
+d/Users/xuhao/Develop/Application/test/test/stlmodel.h
+d/Users/xuhao/Develop/Application/test/test/vector3f.h
+d/Users/xuhao/Develop/Application/test/test/model.h
+o/Users/xuhao/Develop/Application/test/test/stlmodel.mm:51:10: warning: unused variable 'st' [-Wunused-variable]
+o    long st=getCurrentTime();
+o         ^
+o/Users/xuhao/Develop/Application/test/test/stlmodel.mm:64:10: warning: unused variable 'ed' [-Wunused-variable]
+o    long ed=getCurrentTime();
+o         ^
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/xuhao/Develop/Application/test/test/stlmodel.mm178"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/stlmodel.o test/stlmodel.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler815b07fe61fcb841^f7e79afe61fcb841^-328"/Users/xuhao/Develop/Application/test/test/stlmodel.mm:51:10: warning: unused variable 'st' [-Wunused-variable]    long st=getCurrentTime();         ^/Users/xuhao/Develop/Application/test/test/stlmodel.mm:64:10: warning: unused variable 'ed' [-Wunused-variable]    long ed=getCurrentTime();         ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@20"Unused variable 'st'-419193342#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@61"file:///Users/xuhao/Develop/Application/test/test/stlmodel.mm0000000000000000^50#9#50#9#847#0#19"Unused Entity Issue--2@20"Unused variable 'ed'-419193342#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@61"file:///Users/xuhao/Develop/Application/test/test/stlmodel.mm0000000000000000^63#9#63#9#1139#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@61"file:///Users/xuhao/Develop/Application/test/test/stlmodel.mm0000000000000000^3276"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/stlmodel.o test/stlmodel.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/stlmodel.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/stlmodel.dia -c /Users/xuhao/Develop/Application/test/test/stlmodel.mm -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/stlmodel.o36"152F0F14-5FBC-4D97-85BB-4474467EA396-
+bFCBD43B3-363A-4AEB-9982-099B856F83BA
+
+CCompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/vector3f.o /Users/xuhao/Develop/Application/test/test/vector3f.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s419193342.054585
+e419193342.473573
+r1
+xCompileC
+xBuild/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/vector3f.o
+x/Users/xuhao/Develop/Application/test/test/vector3f.cpp
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/xuhao/Develop/Application/test/test/vector3f.cpp
+d/Users/xuhao/Develop/Application/test/test/vector3f.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/xuhao/Develop/Application/test/test/vector3f.cpp179"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/vector3f.o test/vector3f.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler98150efe61fcb841^2f3279fe61fcb841^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/xuhao/Develop/Application/test/test/vector3f.cpp0000000000000000^3278"CompileC Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/vector3f.o test/vector3f.cpp normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -include /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/vector3f.d --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/vector3f.dia -c /Users/xuhao/Develop/Application/test/test/vector3f.cpp -o /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/vector3f.o36"A03693F0-CF0D-4BAD-8591-B488867ECC23-
+bFCBD43B3-363A-4AEB-9982-099B856F83BA
 
 CCompileXIB /Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib
-s419005698.711073
-e419005699.217066
-r1
-xCompileXIB
-x/Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib
-o2014-04-12 22:28:19.130 ibtoold[9440:507] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
-o2014-04-12 22:28:19.130 ibtoold[9440:507] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***
-o/* com.apple.ibtool.document.warnings */
-o/Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]
-o/Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib:Wpl-mX-zFM: warning: NSOpenGLViews in One Shot memory enabled window [9]
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compiling /Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib39"CompileXIB test/Base.lproj/MainMenu.xib1211b60285f9b841^1c294f0385f9b841^-717"2014-04-12 22:28:19.130 ibtoold[9440:507] *** WARNING: Method setAttributes: in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***2014-04-12 22:28:19.130 ibtoold[9440:507] *** WARNING: Method attributes in class NSOpenGLPixelFormat is obsolete and will be removed in a future release. ***/* com.apple.ibtool.document.warnings *//Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib:371: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)/Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib:Wpl-mX-zFM: warning: NSOpenGLViews in One Shot memory enabled window2(21%IDEActivityLogMessage2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)58"Content rectangle not entirely on screen with the menu bar419005699#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@73"file:///Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib0000000000000000^370#18446744073709551615#370#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--2@47"NSOpenGLViews in One Shot memory enabled window-419005699#18446744073709551615#0#-1#-3@73"file:///Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#1#-19%DVTDocumentLocation4@73"file:///Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib0000000000000000^524"CompileXIB test/Base.lproj/MainMenu.xib    cd /Users/xuhao/Develop/Application/test    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 10.9 --output-format human-readable-text --compile /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/Base.lproj/MainMenu.nib /Users/xuhao/Develop/Application/test/test/Base.lproj/MainMenu.xib36"BD07659C-E305-4EF1-9416-6277B5641525-
-b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+r0
 
 CCopyStringsFile /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings
-s419005698.710888
-e419005698.712549
-r1
-xCopyStringsFile
-x/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/InfoPlist.strings
-xtest/en.lproj/InfoPlist.strings
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy test/en.lproj/InfoPlist.strings123"CopyStringsFile Build/Products/Debug/test.app/Contents/Resources/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings8909b60285f9b841^fd6ab60285f9b841^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/xuhao/Develop/Application/test/test/en.lproj/InfoPlist.strings0000000000000000^390"CopyStringsFile Build/Products/Debug/test.app/Contents/Resources/en.lproj/InfoPlist.strings test/en.lproj/InfoPlist.strings    cd /Users/xuhao/Develop/Application/test    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj -- test/en.lproj/InfoPlist.strings36"D964FEA3-BD40-46BA-8883-9EF066059D3D-
-b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+r0
 
 CCpResource test/en.lproj/Credits.rtf Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf
-s419005698.710975
-e419005698.712092
-r1
-xCpResource
-xtest/en.lproj/Credits.rtf
-xBuild/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf106"CpResource test/en.lproj/Credits.rtf Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf130db60285f9b841^1f4cb60285f9b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf00345802ddffdf42^424"CpResource test/en.lproj/Credits.rtf Build/Products/Debug/test.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/xuhao/Develop/Application/test    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/xuhao/Develop/Application/test/test/en.lproj/Credits.rtf /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Resources/en.lproj36"06D8BFF4-75B2-4F9B-B366-2F1DA2AFA439-
-b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+r0
 
 CLd /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test normal x86_64
-s419005698.681492
-e419005698.710320
-r1
+s419193342.740491
+e419193342.804759
+r0
 xLd
 x/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test
 xnormal
 xx86_64
 d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/test.LinkFileList
+d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/gameCore.o
 d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/AppDelegate.o
+d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/model.o
+d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/PhysEngine.o
+d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/stlmodel.o
 d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/MyOpenGl.o
 d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/main.o
+d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/myWin.o
+d/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/vector3f.o
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libLowLevel.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libLowLevelCHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libLowLevelCloth.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libLowLevelClothCHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libLowLevelClothPROFILE.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libLowLevelPROFILE.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CharacterKinematic.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CharacterKinematicCHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CharacterKinematicPROFILE.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3Common.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CommonCHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CommonPROFILE.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3Cooking.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CookingCHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3CookingPROFILE.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3Extensions.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3ExtensionsCHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3ExtensionsPROFILE.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3PROFILE.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3Vehicle.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3VehicleCHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysX3VehiclePROFILE.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysXProfileSDK.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysXProfileSDKCHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysXProfileSDKPROFILE.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysXVisualDebuggerSDK.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysXVisualDebuggerSDKCHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPhysXVisualDebuggerSDKPROFILE.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPvdRuntime.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPvdRuntimeCHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPvdRuntimePROFILE.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPxTask.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPxTaskCHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libPxTaskPROFILE.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libSceneQuery.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libSceneQueryCHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libSceneQueryPROFILE.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libSimulationController.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libSimulationControllerCHECKED.a
+d/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64/libSimulationControllerPROFILE.a
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
@@ -325,6 +1341,7 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
@@ -345,43 +1362,38 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
 d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test66"Ld Build/Products/Debug/test.app/Contents/MacOS/test normal x86_64e57fae0285f9b841^41d8b50285f9b841^---0#0#1#--981"Ld Build/Products/Debug/test.app/Contents/MacOS/test normal x86_64    cd /Users/xuhao/Develop/Application/test    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/xuhao/Develop/Application/test/Build/Products/Debug -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -filelist /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/test.LinkFileList -mmacosx-version-min=10.9 -fobjc-arc -fobjc-link-runtime -framework OpenGL -framework Cocoa -Xlinker -dependency_info -Xlinker /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/test_dependency_info.dat -o /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test36"21E41EF2-42FD-410F-8CD6-ED3840D59ECD-
-b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+oUndefined symbols for architecture x86_64:
+o  "typeinfo for xmodel", referenced from:
+o      typeinfo for stlmodel in stlmodel.o
+o  "vtable for xmodel", referenced from:
+o      xmodel::xmodel() in stlmodel.o
+o  NOTE: a missing vtable usually means the first non-inline virtual member function has no definition.
+old: symbol(s) not found for architecture x86_64
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test66"Ld Build/Products/Debug/test.app/Contents/MacOS/test normal x86_64a19fbdfe61fcb841^0ec0cefe61fcb841^-435"Undefined symbols for architecture x86_64:  "typeinfo for xmodel", referenced from:      typeinfo for stlmodel in stlmodel.o  "vtable for xmodel", referenced from:      xmodel::xmodel() in stlmodel.o  NOTE: a missing vtable usually means the first non-inline virtual member function has no definition.ld: symbol(s) not found for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)7(21%IDEActivityLogMessage2@39""typeinfo for xmodel", referenced from:-419193342#43#42#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@35"Typeinfo for stlmodel in stlmodel.o-419193342#85#42#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@37""vtable for xmodel", referenced from:-419193342#127#40#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@30"Xmodel::xmodel() in stlmodel.o-419193342#167#37#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@94"A missing vtable usually means the first non-inline virtual member function has no definition.-419193342#204#103#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@43"Symbol(s) not found for architecture x86_64-419193342#307#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-419193342#355#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#1#--1941"Ld Build/Products/Debug/test.app/Contents/MacOS/test normal x86_64    cd /Users/xuhao/Develop/Application/test    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/xuhao/Develop/Application/test/Build/Products/Debug -L/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Lib/osx64 -F/Users/xuhao/Develop/Application/test/Build/Products/Debug -filelist /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/test.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -fobjc-arc -fobjc-link-runtime -lLowLevel -lLowLevelCHECKED -lLowLevelCloth -lLowLevelClothCHECKED -lLowLevelClothPROFILE -lLowLevelPROFILE -lPhysX3 -lPhysX3CharacterKinematic -lPhysX3CharacterKinematicCHECKED -lPhysX3CharacterKinematicPROFILE -lPhysX3CHECKED -lPhysX3Common -lPhysX3CommonCHECKED -lPhysX3CommonPROFILE -lPhysX3Cooking -lPhysX3CookingCHECKED -lPhysX3CookingPROFILE -lPhysX3Extensions -lPhysX3ExtensionsCHECKED -lPhysX3ExtensionsPROFILE -lPhysX3PROFILE -lPhysX3Vehicle -lPhysX3VehicleCHECKED -lPhysX3VehiclePROFILE -lPhysXProfileSDK -lPhysXProfileSDKCHECKED -lPhysXProfileSDKPROFILE -lPhysXVisualDebuggerSDK -lPhysXVisualDebuggerSDKCHECKED -lPhysXVisualDebuggerSDKPROFILE -lPvdRuntime -lPvdRuntimeCHECKED -lPvdRuntimePROFILE -lPxTask -lPxTaskCHECKED -lPxTaskPROFILE -lSceneQuery -lSceneQueryCHECKED -lSceneQueryPROFILE -lSimulationController -lSimulationControllerCHECKED -lSimulationControllerPROFILE -framework OpenGL -framework Cocoa -Xlinker -dependency_info -Xlinker /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/Objects-normal/x86_64/test_dependency_info.dat -o /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/MacOS/test36"6C4B636F-1EE2-4F3B-823B-27BE12D107F6-
+bFCBD43B3-363A-4AEB-9982-099B856F83BA
 
 CProcessInfoPlistFile /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Info.plist /Users/xuhao/Develop/Application/test/test/test-Info.plist
-s419005699.835147
-e419005699.836310
-r1
-xProcessInfoPlistFile
-x/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Info.plist
-x/Users/xuhao/Develop/Application/test/test/test-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Process /Users/xuhao/Develop/Application/test/test/test-Info.plist91"ProcessInfoPlistFile Build/Products/Debug/test.app/Contents/Info.plist test/test-Info.plist16dad50385f9b841^ce18d60385f9b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/xuhao/Develop/Application/test/test/test-Info.plist0000000000000000^594"ProcessInfoPlistFile Build/Products/Debug/test.app/Contents/Info.plist test/test-Info.plist    cd /Users/xuhao/Develop/Application/test    builtin-infoPlistUtility /Users/xuhao/Develop/Application/test/test/test-Info.plist -genpkginfo /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/PkgInfo -expandbuildsettings -platform macosx -additionalcontentfile /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/assetcatalog_generated_info.plist -o /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app/Contents/Info.plist36"759C9905-CAE2-44F0-9DB6-4EDD5917E50D-
-b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+r0
 
-CProcessPCH /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s419005698.116407
-e419005698.626313
+CProcessPCH++ /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s419193341.434336
+e419193342.026477
 r1
-xProcessPCH
-x/Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch
+xProcessPCH++
+x/Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch.pch
 xtest/test-Prefix.pch
 xnormal
 xx86_64
-xobjective-c
+xobjective-c++
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/xuhao/Develop/Application/test/test/test-Prefix.pch
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile test/test-Prefix.pch201"ProcessPCH Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilera0dd1d0285f9b841^2558a00285f9b841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/xuhao/Develop/Application/test/test/test-Prefix.pch0000000000000000^2926"ProcessPCH Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.dia -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.d -c /Users/xuhao/Develop/Application/test/test/test-Prefix.pch -o /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-ciuvimopkctjjbgpvxyothrwykqc/test-Prefix.pch.pch36"A0CF9CC1-BF07-46BE-912D-067524D7D64E-
-b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile test/test-Prefix.pch205"ProcessPCH++ Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler24426ffd61fcb841^f7c806fe61fcb841^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/xuhao/Develop/Application/test/test/test-Prefix.pch0000000000000000^3224"ProcessPCH++ Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/xuhao/Develop/Application/test    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-generated-files.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-own-target-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-all-target-headers.hmap -iquote /Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/test-project-headers.hmap -I/Users/xuhao/Develop/Application/test/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources/x86_64 -I/Users/xuhao/Develop/Application/test/Build/Intermediates/test.build/Debug/test.build/DerivedSources -F/Users/xuhao/Develop/Application/test/Build/Products/Debug --serialize-diagnostics /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch.dia -MMD -MT dependencies -MF /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch.d -c /Users/xuhao/Develop/Application/test/test/test-Prefix.pch -o /Users/xuhao/Develop/Application/test/Build/Intermediates/PrecompiledHeaders/test-Prefix-atukuyptiesstwbzdoxdcezlrdij/test-Prefix.pch.pch36"A1F34C80-CB25-449A-9F18-4DD01014D0F6-
+bFCBD43B3-363A-4AEB-9982-099B856F83BA
 
-CProcessPCH /Users/xuhao/Library/Developer/Xcode/DerivedData/test-ghlsfoghwaissucvxdyatwpnvsmr/Index/PrecompiledHeaders/test-Prefix-cvzcbixcyposflacdibitmnlalul_ast/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+CProcessPCH++ /Users/xuhao/Library/Developer/Xcode/DerivedData/test-ghlsfoghwaissucvxdyatwpnvsmr/Index/PrecompiledHeaders/test-Prefix-dfncsjejnxtqglecsayjefstaocs_ast/test-Prefix.pch.pch test/test-Prefix.pch normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
 CTouch /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app
-s419005699.836841
-e419005699.839901
-r1
-xTouch
-x/Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Touch /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app35"Touch Build/Products/Debug/test.app4144d60385f9b841^4205d70385f9b841^---0#0#1#--171"Touch Build/Products/Debug/test.app    cd /Users/xuhao/Develop/Application/test    /usr/bin/touch -c /Users/xuhao/Develop/Application/test/Build/Products/Debug/test.app36"D4B69881-1BEC-4FE5-8BE5-6036906361C8-
-b13CA247D-9330-4C7D-9EBE-F0128A6B77F6
+r0
 

@@ -14,6 +14,8 @@
 #include <OpenGL/gl.h>
 #include "vector3f.h"
 #include <vector>
+#include "model.h"
+
 class triangle
 {
 public:
@@ -39,22 +41,16 @@ public:
 };
 std::istream& operator>>(std::istream& is,triangle&objects);
 std::istream& operator>>(std::istream& is,vector3f&objects);
-class stlmodel
+class stlmodel:public xmodel
 {
 public:
-    bool maked;
-    GLuint ptr;
     std::vector<triangle> list;
-    stlmodel(char*filename);
+    stlmodel();
+    stlmodel(char*filename,physx::PxRigidDynamic* actor);
     GLuint model();
     void resize(double r);
     void draw();
-    void setPos(float x,float y)
-    {
-        pos.x=x;
-        pos.y=y;
-    }
-    vector3f pos;
+  
 };
 
 #endif /* defined(__test__processstd__) */

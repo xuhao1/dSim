@@ -10,6 +10,7 @@
 #include <fstream>
 #include <string>
 #include <sys/time.h>    
+#include <iostream>
 
 using namespace std;
 
@@ -20,8 +21,8 @@ long getCurrentTime()
     return tv.tv_sec * 1000000 + tv.tv_usec;  
 }
 
-stlmodel::stlmodel(char*filepath):
-    maked(0),list(0),pos(0,0,-5)
+stlmodel::stlmodel(char*filepath,physx::PxRigidDynamic* actor):
+    list(0),xmodel(actor)
 {
     std::ifstream file=std::ifstream(filepath);
     string str;
@@ -35,6 +36,8 @@ stlmodel::stlmodel(char*filepath):
             list.push_back(temp); 
         }
     }
+    
+    resize(0.01);
 }
 void stlmodel::resize(double r)
 {
@@ -66,8 +69,12 @@ GLuint stlmodel::model()
 }
 void stlmodel::draw()
 {
+    updatepos();
+    //printf("li:%f %f %f\n",pos.x,pos.y,pos.z );
     glTranslatef(pos.x,pos.y,pos.z);              // 左移 1.5 单位，并移入屏幕 6.0
+    glRotatef(angle,ax,ay,az);
     glCallList(model());
+    glRotatef(-angle,ax,ay,az);
     glTranslatef(-pos.x,-pos.y,-pos.z);             // 左移 1.5 单位，并移入屏幕 6.0
 }
 std::istream& operator>>(std::istream& is,vector3f&objects)

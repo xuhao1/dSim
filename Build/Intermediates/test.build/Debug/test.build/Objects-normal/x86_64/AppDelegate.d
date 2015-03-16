@@ -1,9 +1,9 @@
 dependencies: /Users/xuhao/Develop/Application/test/test/AppDelegate.mm \
   /Users/xuhao/Develop/Application/test/test/AppDelegate.h \
   /Users/xuhao/Develop/Application/test/test/MyOpenGl.h \
-  /Users/xuhao/Develop/Application/test/test/myWin.h \
-  /Users/xuhao/Develop/Application/test/test/gameCore.h \
-  /Users/xuhao/Develop/Application/test/test/PhysEngine.h \
+  /Users/xuhao/Develop/Application/test/test/stlmodel.h \
+  /Users/xuhao/Develop/Application/test/test/vector3f.h \
+  /Users/xuhao/Develop/Application/test/test/model.h \
   /Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/PxPhysicsAPI.h \
   /Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/Px.h \
   /Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/foundation/PxVersionNumber.h \
@@ -216,5 +216,7 @@ dependencies: /Users/xuhao/Develop/Application/test/test/AppDelegate.mm \
   /Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUtilSetup.h \
   /Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleUtilTelemetry.h \
   /Users/xuhao/Source/PhysX-3.3.0_OSX_SDK_Core/Include/vehicle/PxVehicleNoDrive.h \
-  /Users/xuhao/Develop/Application/test/test/stlmodel.h \
-  /Users/xuhao/Develop/Application/test/test/vector3f.h
+  /Users/xuhao/Develop/Application/test/test/PhysEngine.h \
+  /Users/xuhao/Develop/Application/test/test/cam.h \
+  /Users/xuhao/Develop/Application/test/test/myWin.h \
+  /Users/xuhao/Develop/Application/test/test/gameCore.h
