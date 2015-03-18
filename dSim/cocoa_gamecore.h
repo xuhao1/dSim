@@ -28,8 +28,6 @@ public:
         gra(_opengl),PhysEngine()
     {
         
-    PxMaterial* aMaterial;
-    aMaterial = mPhysics->createMaterial(0.5f, 0.5f, 0.5f);    //static friction, dynamic friction, restitution
     }
     
     ///>add demo to game
@@ -41,14 +39,15 @@ public:
 };
 
 extern double throttle;
-class stl_copter:public base_copter,public stlmodel
+class stl_copter:public base_copter
 {
 public:
+    stlmodel * stl;
     stl_copter(std::string path,PhysEngine *pe):
-        stlmodel(path),base_copter(pe)
+        base_copter(pe)
     {
-        ((stlmodel * ) this)->actor =  ((base_copter * ) this)->actor;
         init_default_quad();
+        stl = new stlmodel(path,this);
     }
     void run()
     {

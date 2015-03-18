@@ -30,7 +30,7 @@ int PhysEngine::init()
     
     sceneDesc=new PxSceneDesc(mPhysics->getTolerancesScale());
     
-    //sceneDesc->gravity = PxVec3(0.0f, 0, -9.78f);
+    sceneDesc->gravity = PxVec3(0.0f, 0, -9.78f);
     
     //customizeSceneDesc(sceneDesc);
     if(!sceneDesc->cpuDispatcher)
@@ -48,8 +48,8 @@ int PhysEngine::init()
     {
         sceneDesc->filterShader    = gDefaultFilterShader;
     }
+    sceneDesc->flags |= PxSceneFlag::eENABLE_CCD;
     mScene = mPhysics->createScene(*sceneDesc);
-    mScene->setGravity(PxVec3(0,0,-9.8));
     if (!mScene)
     {
         printf("createScene failed!");
@@ -61,11 +61,9 @@ int PhysEngine::init()
 PhysEngine::PhysEngine()
 {
     init();
-    //setupActor();
-    //sim(1);
     PxMaterial* aMaterial;
     aMaterial = mPhysics->createMaterial(0.5f, 0.5f, 0.5f);    //static friction, dynamic friction, restitution
-    PxRigidStatic*plane;
+    PxRigidStatic * plane;
     plane =  PxCreatePlane(*mPhysics, PxPlane(PxVec3(0,0,1), 0), *aMaterial);
     mScene->addActor(*plane);
 }
@@ -77,8 +75,8 @@ xmodel* PhysEngine::addDemo()
         return x0;
     }
 */
-int PhysEngine::sim(double time)
 
+int PhysEngine::sim(double time)
 {
     for (int j=0; j<time*10000; j++)
     {

@@ -46,11 +46,6 @@ void base_copter::set_throttle(double v)
 void base_copter::calc()
 {
     
-    physx::PxRigidDynamic* actor;///< actor in PhysX
-    
-    actor = ((base_copter *)this )->actor;
-    
-    static int  i =0 ;
     force = 0;
     torque = 0;
     for (auto m:motors)
@@ -58,12 +53,10 @@ void base_copter::calc()
         force += m.force();
         torque += m.torque();
     }
-    
-    actor ->clearForce();
     actor->addForce(PxVec3(force.x,force.y,force.z));
     actor->addTorque(PxVec3(torque.x,torque.y,torque.z));
     
-    
+    //printf("vz:%lf\n",actor->getLinearVelocity().z);
 }
 
 void base_copter::run()

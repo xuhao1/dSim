@@ -63,22 +63,12 @@ void stlmodel::init_stl(std::string filename)
 }
 
 
-stlmodel::stlmodel(std::string filename,physx::PxPhysics *pp,physx::PxScene* ms):
- list(0),xmodel(pp,ms)
-{
-    init_stl(filename);
-}
-stlmodel::stlmodel(std::string filename):
-    xmodel()
+stlmodel::stlmodel(std::string filename,xmodel * x):
+ list(0),body(x)
 {
     init_stl(filename);
 }
 
-stlmodel::stlmodel(std::string filename,PhysEngine *pe):
-    list(0),xmodel(pe->mPhysics,pe->mScene)
-{
-    init_stl(filename);
-}
 
 void stlmodel::resize(double r)
 {
@@ -113,12 +103,24 @@ GLuint stlmodel::model()
 
 void stlmodel::draw()
 {
-    updatepos();
+    update_pos();
     glTranslatef(pos.x,pos.y,pos.z);              // 左移 1.5 单位，并移入屏幕 6.0
     glRotatef(angle,ax,ay,az);
     glCallList(model());
     glRotatef(-angle,ax,ay,az);
     glTranslatef(-pos.x,-pos.y,-pos.z);             // 左移 1.5 单位，并移入屏幕 6.0
+}
+
+void stlmodel::update_pos()
+{
+    if (body!=nullptr) {
+        body->updatepos();
+        pos = body->pos;
+        angle = body->angle;
+        ax = body->ax;
+        ay = body->ay;
+        az = body->az;
+    }
 }
 
 std::istream& operator>>(std::istream& is,vector3f&objects)

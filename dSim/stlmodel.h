@@ -25,23 +25,37 @@ std::istream& operator>>(std::istream& is,triangle&objects);
 
 std::istream& operator>>(std::istream& is,vector3f&objects);
 
-class stlmodel:public xmodel
+class stlmodel
 {
 public:
+    xmodel * body;
     bool maked;
     GLint ptr;
     std::vector<triangle*> list;
     
-    stlmodel();
-    stlmodel(std::string filename,physx::PxPhysics *pp,physx::PxScene *ms);
-    stlmodel(std::string filename,PhysEngine *pe);
-    stlmodel(std::string filename);
+    ///> position
+    vector3f pos;
+    
+    ///>  angle of quat
+    double angle,
+    ///>  ax
+    ax,
+    ///>  ay
+    ay,
+    ///>  az
+    az;
+    
+    
+    stlmodel(std::string filename,xmodel *x);
     
     GLuint model();
     
     void resize(double r);
     void draw();
     void init_stl(std::string filename);
+    
+    ///\brief 更新位置坐标
+    void update_pos();
    
     virtual void run();
 };

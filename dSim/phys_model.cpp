@@ -23,15 +23,15 @@ xmodel::xmodel(PxPhysics * mPhysics,PxScene* mScene):
 {
     PxMaterial* aMaterial;
     
-    aMaterial = mPhysics->createMaterial(0.5f, 0.5f, 0.3f);    //static friction, dynamic friction, restitution
+    aMaterial = mPhysics->createMaterial(0.5f, 0.5f, 0.4);    //static friction, dynamic friction, restitution
     if(!aMaterial)
         printf("createMaterial failed!");
     
     
-    PxTransform pt(PxVec3(0,0,8),PxQuat(1, 0, 0, 3.1415926/2));
-    actor =  PxCreateDynamic(*mPhysics, pt, PxBoxGeometry(10,2,10),*aMaterial, 1);
+    PxTransform pt(PxVec3(0,0,10),PxQuat(1, 0, 0, 3.1415926535/4));
+    actor =  PxCreateDynamic(*mPhysics, pt, PxBoxGeometry(10,2,10),*aMaterial, 0.01);
     
-    //actor->setLinearVelocity(PxVec3((random()-0.5)*10,(random()-0.5)*10,0));
+    actor->setLinearVelocity(PxVec3(0,0,0));
     mScene->addActor(*actor);
     
     physx::PxVec3 p=actor->getGlobalPose().p;
@@ -69,7 +69,6 @@ void xmodel::updatepos()
         az=q.z/scale;
     }
     
-    printf("vz:%lf\n",actor->getLinearVelocity().z);
     
 }
 

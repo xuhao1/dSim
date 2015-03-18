@@ -28,8 +28,9 @@ protected:
     // \brief use actor that already have to initalize
     xmodel(physx::PxRigidDynamic* _actor);
     
-    vector3f pos; ///>Position
 public:
+    /// Position
+    vector3f pos;
     
     physx::PxRigidDynamic* actor;///< actor in PhysX
     

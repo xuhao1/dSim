@@ -43,6 +43,7 @@ public:
     base_copter(PhysEngine* pe):
         motors(4),xmodel(pe->mPhysics,pe->mScene)
     {
+        actor->setRigidBodyFlag(PxRigidBodyFlag::eENABLE_CCD, true);
         init_default_quad();
     }
     

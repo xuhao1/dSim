@@ -15,9 +15,9 @@ void cocoa_gameCore::addDemo()
     std::string path="/Users/xuhao/model.stl";
     
     stl_copter* demo=new stl_copter(path,this);
-    //demo->set_throttle(1);
-    phys_list.push_back((xmodel *)(base_copter *)demo);
-    [gra addObj:demo];
+    
+    phys_list.push_back((xmodel *)demo);
+    [gra addObj:demo->stl];
     
 }
 void cocoa_gameCore::Loop()
