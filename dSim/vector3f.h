@@ -28,6 +28,7 @@ public:
 	{
 	}
 	vector3f&operator=(const vector3f&);
+	vector3f&operator=(const double);
 	vector3f&operator+=(const vector3f&);
 	double abs()
 	{

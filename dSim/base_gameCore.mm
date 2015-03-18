@@ -6,4 +6,7 @@
 //  Copyright (c) 2014年 xuhao. All rights reserved.
 //
 
-#include "gameCore.h"
+#include "base_gameCore.h"
+#include <string>
+
+

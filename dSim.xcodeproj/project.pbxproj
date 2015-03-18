@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		699317BF1AB6E92E00CEAE24 /* dSimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 699317BE1AB6E92E00CEAE24 /* dSimTests.m */; };
+		699822181AB92AE6006F3619 /* base_copter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 699822161AB92AE6006F3619 /* base_copter.cpp */; };
+		6998221B1AB92B9B006F3619 /* motor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 699822191AB92B9B006F3619 /* motor.cpp */; };
+		6998221E1AB9350E006F3619 /* cocoa_gamecore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6998221C1AB9350E006F3619 /* cocoa_gamecore.mm */; };
 		69E86D521AB6E95B0022C123 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D321AB6E95B0022C123 /* AppDelegate.mm */; };
 		69E86D561AB6E95B0022C123 /* cam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D361AB6E95B0022C123 /* cam.cpp */; };
-		69E86D581AB6E95B0022C123 /* gameCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D3A1AB6E95B0022C123 /* gameCore.mm */; };
+		69E86D581AB6E95B0022C123 /* base_gameCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D3A1AB6E95B0022C123 /* base_gameCore.mm */; };
 		69E86D591AB6E95B0022C123 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E86D3B1AB6E95B0022C123 /* Images.xcassets */; };
 		69E86D5E1AB6E95B0022C123 /* phys_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D441AB6E95B0022C123 /* phys_model.cpp */; };
 		69E86D5F1AB6E95B0022C123 /* PhysEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D461AB6E95B0022C123 /* PhysEngine.cpp */; };
@@ -98,11 +101,17 @@
 		699317B81AB6E92E00CEAE24 /* dSimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dSimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		699317BD1AB6E92E00CEAE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		699317BE1AB6E92E00CEAE24 /* dSimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dSimTests.m; sourceTree = "<group>"; };
+		699822161AB92AE6006F3619 /* base_copter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = base_copter.cpp; sourceTree = "<group>"; };
+		699822171AB92AE6006F3619 /* base_copter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base_copter.h; sourceTree = "<group>"; };
+		699822191AB92B9B006F3619 /* motor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = motor.cpp; sourceTree = "<group>"; };
+		6998221A1AB92B9B006F3619 /* motor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motor.h; sourceTree = "<group>"; };
+		6998221C1AB9350E006F3619 /* cocoa_gamecore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cocoa_gamecore.mm; sourceTree = "<group>"; };
+		6998221D1AB9350E006F3619 /* cocoa_gamecore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocoa_gamecore.h; sourceTree = "<group>"; };
 		69E86D321AB6E95B0022C123 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		69E86D361AB6E95B0022C123 /* cam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cam.cpp; sourceTree = "<group>"; };
 		69E86D371AB6E95B0022C123 /* cam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cam.h; sourceTree = "<group>"; };
-		69E86D391AB6E95B0022C123 /* gameCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameCore.h; sourceTree = "<group>"; };
-		69E86D3A1AB6E95B0022C123 /* gameCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = gameCore.mm; sourceTree = "<group>"; };
+		69E86D391AB6E95B0022C123 /* base_gameCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base_gameCore.h; sourceTree = "<group>"; };
+		69E86D3A1AB6E95B0022C123 /* base_gameCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = base_gameCore.mm; sourceTree = "<group>"; };
 		69E86D3B1AB6E95B0022C123 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		69E86D3E1AB6E95B0022C123 /* MyOpenGl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGl.h; sourceTree = "<group>"; };
 		69E86D3F1AB6E95B0022C123 /* MyOpenGl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyOpenGl.mm; sourceTree = "<group>"; };
@@ -277,6 +286,7 @@
 		699317A71AB6E92E00CEAE24 /* dSim */ = {
 			isa = PBXGroup;
 			children = (
+				699822151AB92ABE006F3619 /* Copters */,
 				69E86D6A1AB6E9C80022C123 /* MathLib */,
 				69E86D691AB6E9AE0022C123 /* Core */,
 				69E86D681AB6E9970022C123 /* PhysEngine */,
@@ -316,6 +326,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		699822151AB92ABE006F3619 /* Copters */ = {
+			isa = PBXGroup;
+			children = (
+				699822161AB92AE6006F3619 /* base_copter.cpp */,
+				699822171AB92AE6006F3619 /* base_copter.h */,
+				699822191AB92B9B006F3619 /* motor.cpp */,
+				6998221A1AB92B9B006F3619 /* motor.h */,
+			);
+			name = Copters;
+			sourceTree = "<group>";
+		};
 		69E86D661AB6E9600022C123 /* OpenGL */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +353,8 @@
 		69E86D671AB6E97D0022C123 /* Cocoa */ = {
 			isa = PBXGroup;
 			children = (
+				6998221C1AB9350E006F3619 /* cocoa_gamecore.mm */,
+				6998221D1AB9350E006F3619 /* cocoa_gamecore.h */,
 				69E86DF31AB6EFEF0022C123 /* MainMenu.xib */,
 				69E86D321AB6E95B0022C123 /* AppDelegate.mm */,
 				699317AA1AB6E92E00CEAE24 /* AppDelegate.h */,
@@ -355,8 +378,8 @@
 		69E86D691AB6E9AE0022C123 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				69E86D391AB6E95B0022C123 /* gameCore.h */,
-				69E86D3A1AB6E95B0022C123 /* gameCore.mm */,
+				69E86D391AB6E95B0022C123 /* base_gameCore.h */,
+				69E86D3A1AB6E95B0022C123 /* base_gameCore.mm */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -536,11 +559,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				69E86D5F1AB6E95B0022C123 /* PhysEngine.cpp in Sources */,
-				69E86D581AB6E95B0022C123 /* gameCore.mm in Sources */,
+				69E86D581AB6E95B0022C123 /* base_gameCore.mm in Sources */,
 				69E86D601AB6E95B0022C123 /* stlmodel.mm in Sources */,
 				69E86D561AB6E95B0022C123 /* cam.cpp in Sources */,
 				69E86D5E1AB6E95B0022C123 /* phys_model.cpp in Sources */,
+				6998221B1AB92B9B006F3619 /* motor.cpp in Sources */,
+				699822181AB92AE6006F3619 /* base_copter.cpp in Sources */,
 				69E86DF51AB6F1490022C123 /* main.m in Sources */,
+				6998221E1AB9350E006F3619 /* cocoa_gamecore.mm in Sources */,
 				69E86DF61AB6F2230022C123 /* MyOpenGl.mm in Sources */,
 				69E86D521AB6E95B0022C123 /* AppDelegate.mm in Sources */,
 				69E86D651AB6E95B0022C123 /* vector3f.cpp in Sources */,
@@ -652,6 +678,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"/Users/xuhao/Source/physx-3.3.2_osx_sdk_core/Include",
+					/Users/xuhao/aircraft/olivia/mavlink/olivia_mav/c_header,
 				);
 				INFOPLIST_FILE = dSim/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -673,6 +700,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"/Users/xuhao/Source/physx-3.3.2_osx_sdk_core/Include",
+					/Users/xuhao/aircraft/olivia/mavlink/olivia_mav/c_header,
 				);
 				INFOPLIST_FILE = dSim/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";

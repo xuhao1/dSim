@@ -21,7 +21,8 @@
 {
     // Insert code here to initialize your application
     timer = [NSTimer scheduledTimerWithTimeInterval:0.03 target:self selector:@selector(update) userInfo:nil repeats:YES];
-    _core=new gameCore(_opengl);
+    _core=new cocoa_gameCore(_opengl);
+    
     [_win initall];
      first=[NSEvent mouseLocation];
 }

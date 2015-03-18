@@ -7,47 +7,66 @@
 //
 
 #include "vector3f.h"
+/// \brief plus
+
 vector3f operator +(vector3f a,vector3f b)
 {
 	vector3f res(a.x+b.x,a.y+b.y,a.z+b.z);
 	return res;
 }
+
+/// \brief minus
 vector3f operator -(vector3f a,vector3f b)
 {
 	vector3f res(a.x-b.x,a.y-b.y,a.z-b.z);
 	return res;
 }
-double operator *(vector3f a,vector3f b)//dot
+/// \brief dot
+double operator *(vector3f a,vector3f b)
 {
 	double res=a.x*b.x+a.y*b.y+a.z*b.z;
 	return res;
 }
 
-vector3f operator *(vector3f a,double b)//times
+/// \brief times
+vector3f operator *(vector3f a,double b)
 {
 	vector3f res(a.x*b,a.y*b,a.z*b);
 	return res;
 }
-vector3f operator *(double b,vector3f a)//times
+/// \brief times
+vector3f operator *(double b,vector3f a)
 {
 	vector3f res(a.x*b,a.y*b,a.z*b);
 	return res;
 }
-vector3f operator/(vector3f a,double b)//div
+
+/// \breif divide
+vector3f operator /(vector3f a,double b)
 {
 	vector3f res(a.x/b,a.y/b,a.z/b);
 	return res;
 }
-vector3f operator %(vector3f a,vector3f b)//cross
+
+/// \brief cross
+vector3f operator %(vector3f a,vector3f b)
 {
 	vector3f res(a.y*b.z-a.z*b.y,a.z*b.x-a.x*b.z,a.x*b.y-a.y*b.x);
 	return res;
 }
+
 vector3f& vector3f::operator=(const vector3f&a)
 {
 	x=a.x;
 	y=a.y;
 	z=a.z;
+	return *this;
+}
+vector3f& vector3f::operator=(const double t)
+{
+	x=t;
+    y=t;
+    z=t;
 	return *this;
 }
 

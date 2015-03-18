@@ -13,7 +13,7 @@
 @interface MyOpenGl : NSOpenGLView
 - (void)drawRect:(NSRect) dirtyRect;
 - (void)drawObjects;
-- (void)eyeMove:(NSPoint) u;
+//- (void)eyeMove:(NSPoint) u;
 - (void)eyeOri:(unichar) c;
 -(void)addObj:(stlmodel*)model;
 @end

@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "MyOpenGl.h"
 #import "myWin.h"
-#include "gameCore.h"
+#include "cocoa_gameCore.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 @property (unsafe_unretained) IBOutlet myWin *win;
@@ -18,7 +18,7 @@
 @property (weak) IBOutlet NSTextField *text0;
 @property (weak) IBOutlet MyOpenGl *opengl;
 @property (weak) NSTimer *timer;
-@property gameCore *core;
+@property cocoa_gameCore *core;
 - (IBAction)left:(id)sender;
 - (IBAction)right:(id)sender;
 - (IBAction)slide:(id)sender;

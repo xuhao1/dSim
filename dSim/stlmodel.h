@@ -17,44 +17,29 @@
 #include "vector3f.h"
 #include "phys_model.h"
 #include "PhysEngine.h"
+#include <string>
 
-class triangle
-{
-public:
-    vector3f po1,po2,po3;
-    triangle(vector3f _po1,vector3f _po2,vector3f _po3):
-        po1(_po1),po2(_po2),po3(_po3)
-    {
-    }
-    triangle()
-    {}
-    void resize(double r)
-    {
-        po1=po1*r;
-        po2=po2*r;
-        po3=po3*r;
-    }
-    void gldraw()
-    {
-        glVertex3f(po1.x,po1.y,po1.z);
-        glVertex3f(po2.x,po2.y,po2.z);
-        glVertex3f(po3.x,po3.y,po3.z);
-    }
-};
+class triangle;
+
 std::istream& operator>>(std::istream& is,triangle&objects);
 std::istream& operator>>(std::istream& is,vector3f&objects);
 
 class stlmodel:public xmodel
 {
 public:
+    bool maked;
+    GLint ptr;
     std::vector<triangle> list;
     stlmodel();
-    stlmodel(char*filename,physx::PxPhysics *pp,physx::PxScene *ms);
-    stlmodel(char*filename,PhysEngine *pe);
+    stlmodel(std::string filename,physx::PxPhysics *pp,physx::PxScene *ms);
+    stlmodel(std::string filename,PhysEngine *pe);
     GLuint model();
     void resize(double r);
     void draw();
-    void init_stl(char*filename);
+    void init_stl(std::string filename);
+   
+    virtual void run();
+    
   
 };
 

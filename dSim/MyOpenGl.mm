@@ -63,7 +63,7 @@
 -(void)addObj:(stlmodel*)model
 {
     objs.push_back(model);
-    NSLog(@"Add Successful:%i\n",objs.size());
+    NSLog(@"Add Successful:%lu\n",objs.size());
 }
 
 - (void) setcam
@@ -87,6 +87,7 @@
 {
     printf("here\n");
     switch (c) {
+            
         case 'w':
             cam0->movefirstVision(0,0.02);
             break;

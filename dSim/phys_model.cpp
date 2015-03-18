@@ -8,6 +8,37 @@
 
 #include "phys_model.h"
 
+xmodel::xmodel(physx::PxRigidDynamic* _actor):
+    pos(0,0,0),actor(_actor)
+{
+    physx::PxVec3 p=actor->getGlobalPose().p;
+    pos.x=p.x;
+    pos.y=p.y;
+    pos.z=p.z;
+    
+}
+
+xmodel::xmodel(PxPhysics * mPhysics,PxScene* mScene):
+    pos(0,0,0)
+{
+    PxMaterial* aMaterial;
+    
+    aMaterial = mPhysics->createMaterial(0.5f, 0.5f, 0.3f);    //static friction, dynamic friction, restitution
+    if(!aMaterial)
+        printf("createMaterial failed!");
+    
+    
+    PxTransform pt(PxVec3(0,0,8),PxQuat(1, 0, 0, 3.1415926/2));
+    actor =  PxCreateDynamic(*mPhysics, pt, PxBoxGeometry(10,2,10),*aMaterial, 1);
+    
+    //actor->setLinearVelocity(PxVec3((random()-0.5)*10,(random()-0.5)*10,0));
+    mScene->addActor(*actor);
+    
+    physx::PxVec3 p=actor->getGlobalPose().p;
+    pos.x=p.x;
+    pos.y=p.y;
+    pos.z=p.z;
+}
 void xmodel::setPos(float x, float y)
 {
     pos.x=x;
@@ -37,4 +68,15 @@ void xmodel::updatepos()
         ay=q.y/scale;
         az=q.z/scale;
     }
+}
+
+void xmodel::setInteria(double Ixx, double Iyy, double Izz)
+{
+    actor->setMassSpaceInertiaTensor(PxVec3(Ixx,Iyy,Izz));
+}
+
+void xmodel::setMass(double mass)
+{
+    
+    actor->setMass((PxReal)mass);
 }

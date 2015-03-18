@@ -16,48 +16,46 @@
 
 using namespace physx;
 
+/// \brief base physics engine
+///
+/// use PhysX
 class PhysEngine
 {
+    /// \brief make random value
+    /// \return a random value from 0 to 1
     float random()
     {
         float i=rand()%1000; 
         return i/1000.0f;
     }
+    
 public:
     PxDefaultErrorCallback gDefaultErrorCallback;
     PxDefaultAllocator gDefaultAllocatorCallback;
-    physx::PxPhysics *mPhysics;
+    physx::PxPhysics *mPhysics; ///>Physics environment for PhysX
+    
     PxSimulationFilterShader gDefaultFilterShader=PxDefaultSimulationFilterShader;
-    PxScene* mScene;
+    PxScene* mScene; ///>Physics Scene for Physics
     void *mScratchBlock;
     physx::PxFoundation * mFoundation;
+    /// \brief init PhysX Engine
+    /// \return  return 0 for success
     int init();
-    PhysEngine()
-    {
-        init();
-        //setupActor();
-        //sim(1);
-        PxMaterial* aMaterial;
-        aMaterial = mPhysics->createMaterial(0.5f, 0.5f, 0.5f);    //static friction, dynamic friction, restitution
-        PxRigidStatic*plane;
-        plane =  PxCreatePlane(*mPhysics, PxPlane(PxVec3(0,0,1), 0), *aMaterial);
-        mScene->addActor(*plane);
-    }
+    
+    /// \brief default PhysX environmet , come with an Plane
+    /// on z = 0
+    PhysEngine();
+  
     PxSceneDesc *sceneDesc;
     
-    xmodel* addDemo()
-    {
-        xmodel * x0 = new xmodel(this->mPhysics,this->mScene);
-        return x0;
-    }
-    int sim(double time)
-    {
-        for (int j=0; j<time*10000; j++)
-        {
-            mScene->simulate(1e-4);
-            mScene->fetchResults(true);
-        }
-        return 0;
-    }
+    /// add a demo of xmodel to Engine
+    xmodel* addDemo();
+    
+    /// \brief run simulation for given time with per second 10000 steps
+    /// \param time given time
+    /// \return  return 0 for success
+    int sim(double time);
+    /// \brief run the pre step of simulation
+    virtual void pre_sim(){};
 };
 #endif /* defined(__test__PhysEngine__) */

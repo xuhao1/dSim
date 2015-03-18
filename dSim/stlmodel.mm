@@ -14,13 +14,37 @@
 
 using namespace std;
 
+class triangle
+{
+public:
+    vector3f po1,po2,po3;
+    triangle(vector3f _po1,vector3f _po2,vector3f _po3):
+        po1(_po1),po2(_po2),po3(_po3)
+    {
+    }
+    triangle()
+    {}
+    void resize(double r)
+    {
+        po1=po1*r;
+        po2=po2*r;
+        po3=po3*r;
+    }
+    void gldraw()
+    {
+        glVertex3f(po1.x,po1.y,po1.z);
+        glVertex3f(po2.x,po2.y,po2.z);
+        glVertex3f(po3.x,po3.y,po3.z);
+    }
+};
+
 long getCurrentTime()  
 {  
     struct timeval tv;  
     gettimeofday(&tv,NULL);  
     return tv.tv_sec * 1000000 + tv.tv_usec;  
 }
-void stlmodel::init_stl(char* filename)
+void stlmodel::init_stl(std::string filename)
 {
     std::ifstream file=std::ifstream(filename);
     string str;
@@ -39,13 +63,13 @@ void stlmodel::init_stl(char* filename)
 }
 
 
-stlmodel::stlmodel(char*filename,physx::PxPhysics *pp,physx::PxScene* ms):
+stlmodel::stlmodel(std::string filename,physx::PxPhysics *pp,physx::PxScene* ms):
  list(0),xmodel(pp,ms)
 {
     init_stl(filename);
 }
 
-stlmodel::stlmodel(char*filename,PhysEngine *pe):
+stlmodel::stlmodel(std::string filename,PhysEngine *pe):
     list(0),xmodel(pe->mPhysics,pe->mScene)
 {
     init_stl(filename);
@@ -62,7 +86,7 @@ GLuint stlmodel::model()
     if(maked==1)
         return ptr;
     maked=1;
-    long st=getCurrentTime();
+    //long st=getCurrentTime();
     ptr=glGenLists(1);
     glNewList(ptr,GL_COMPILE);
     glBegin(GL_TRIANGLES);
@@ -104,4 +128,9 @@ std::istream& operator>>(std::istream& is,triangle&objects)
     string str;
     is>>str;
     return is;
+}
+
+void stlmodel::run()
+{
+    printf("stl run\n");
 }
