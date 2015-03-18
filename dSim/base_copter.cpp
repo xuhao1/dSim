@@ -18,8 +18,6 @@ void base_copter::init_default_quad()
     setMass(mass);
     setInteria(Ixx, Iyy, Izz);
     
-    actor->setLinearVelocity(PxVec3(0,0,0));
-    
     motors[0] = motor::createMaxValues(6, 0.01);
     motors[0].set_pose(0.225, 0);
     
