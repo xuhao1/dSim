@@ -27,8 +27,11 @@ int PhysEngine::init()
                                PxTolerancesScale(), recordMemoryAllocations, mProfileZoneManager );
     if(!mPhysics)
         printf("PxCreatePhysics failed!");
+    
     sceneDesc=new PxSceneDesc(mPhysics->getTolerancesScale());
-    sceneDesc->gravity = PxVec3(0.0f, 0, -9.78f);
+    
+    //sceneDesc->gravity = PxVec3(0.0f, 0, -9.78f);
+    
     //customizeSceneDesc(sceneDesc);
     if(!sceneDesc->cpuDispatcher)
     {
@@ -46,6 +49,7 @@ int PhysEngine::init()
         sceneDesc->filterShader    = gDefaultFilterShader;
     }
     mScene = mPhysics->createScene(*sceneDesc);
+    mScene->setGravity(PxVec3(0,0,-9.8));
     if (!mScene)
     {
         printf("createScene failed!");
@@ -78,6 +82,7 @@ int PhysEngine::sim(double time)
 {
     for (int j=0; j<time*10000; j++)
     {
+        pre_sim();
         mScene->simulate(1e-4);
         mScene->fetchResults(true);
     }

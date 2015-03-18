@@ -68,6 +68,9 @@ void xmodel::updatepos()
         ay=q.y/scale;
         az=q.z/scale;
     }
+    
+    printf("vz:%lf\n",actor->getLinearVelocity().z);
+    
 }
 
 void xmodel::setInteria(double Ixx, double Iyy, double Izz)
@@ -79,4 +82,11 @@ void xmodel::setMass(double mass)
 {
     
     actor->setMass((PxReal)mass);
+}
+
+
+xmodel::xmodel():
+    actor(nullptr)
+{
+    
 }

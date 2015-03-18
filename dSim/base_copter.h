@@ -15,21 +15,28 @@
 #include "phys_model.h"
 #include "PhysEngine.h"
 
+
 ///\brief the base class of copters
 
 class base_copter:public xmodel
 {
-    std::vector<motor> motors;///> motors of the copter
+protected:
+    ///> motors of the copter
+    std::vector<motor> motors;
     
-    xmodel * body;///> body of the copter
+    ///> mass of the copter
+    double mass;
+    ///> Ixx of the copter
+    double Ixx ;
+    ///> Iyy of the copter
+    double Iyy ;
+    ///> Izz of the copter
+    double Izz ;
     
-    double mass,///>mass of the copter
-    Ixx ,///> Ixx of the copter
-    Iyy ,///> Iyy of the copter
-    Izz ;///> Izz of the copter
-    
-    vector3f force,///> force now
-    torque;///> torque now
+    ///> force now
+    vector3f force,
+    ///> torque now
+    torque;
 public:
     
     ///\brief build a copter with default values
@@ -44,7 +51,7 @@ public:
     void init_default_quad();
     
     ///\brief calcute and set into physics model
-    virtual void calc();
+    void calc();
     
     ///\brief test throttle
     void set_throttle(double v);

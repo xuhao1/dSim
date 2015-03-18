@@ -22,6 +22,7 @@
 class triangle;
 
 std::istream& operator>>(std::istream& is,triangle&objects);
+
 std::istream& operator>>(std::istream& is,vector3f&objects);
 
 class stlmodel:public xmodel
@@ -29,18 +30,20 @@ class stlmodel:public xmodel
 public:
     bool maked;
     GLint ptr;
-    std::vector<triangle> list;
+    std::vector<triangle*> list;
+    
     stlmodel();
     stlmodel(std::string filename,physx::PxPhysics *pp,physx::PxScene *ms);
     stlmodel(std::string filename,PhysEngine *pe);
+    stlmodel(std::string filename);
+    
     GLuint model();
+    
     void resize(double r);
     void draw();
     void init_stl(std::string filename);
    
     virtual void run();
-    
-  
 };
 
 #endif /* defined(__test__processstd__) */

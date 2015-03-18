@@ -15,20 +15,22 @@ void base_copter::init_default_quad()
     Iyy = 0.01;
     Izz = 0.02;
     
-    body->setMass(mass);
-    body->setInteria(Ixx, Iyy, Izz);
+    setMass(mass);
+    setInteria(Ixx, Iyy, Izz);
     
-    motors[0] = motor::createMaxValues(0.6, 0.01);
+    actor->setLinearVelocity(PxVec3(0,0,0));
+    
+    motors[0] = motor::createMaxValues(6, 0.01);
     motors[0].set_pose(0.225, 0);
     
-    motors[1] = motor::createMaxValues(0.6, 0.01);
-    motors[0].set_pose(-0.225, 0);
+    motors[1] = motor::createMaxValues(6, 0.01);
+    motors[1].set_pose(-0.225, 0);
     
-    motors[2] = motor::createMaxValues(0.6, -0.01);
-    motors[0].set_pose(0, 0.225);
+    motors[2] = motor::createMaxValues(6, -0.01);
+    motors[2].set_pose(0, 0.225);
     
-    motors[3] = motor::createMaxValues(0.6, -0.01);
-    motors[0].set_pose(0, -0.225);
+    motors[3] = motor::createMaxValues(6, -0.01);
+    motors[3].set_pose(0, -0.225);
     
     set_throttle(0);
 }
@@ -43,6 +45,12 @@ void base_copter::set_throttle(double v)
 
 void base_copter::calc()
 {
+    
+    physx::PxRigidDynamic* actor;///< actor in PhysX
+    
+    actor = ((base_copter *)this )->actor;
+    
+    static int  i =0 ;
     force = 0;
     torque = 0;
     for (auto m:motors)
@@ -51,15 +59,14 @@ void base_copter::calc()
         torque += m.torque();
     }
     
-    body->actor->clearForce();
-    body->actor->clearTorque();
+    actor ->clearForce();
+    actor->addForce(PxVec3(force.x,force.y,force.z));
+    actor->addTorque(PxVec3(torque.x,torque.y,torque.z));
     
-    body->actor->addForce(PxVec3(force.x,force.y,force.z));
-    body->actor->addTorque(PxVec3(torque.x,torque.y,torque.z));
+    
 }
 
 void base_copter::run()
 {
-    printf("cop run\n");
     calc();
 }

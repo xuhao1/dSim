@@ -54,8 +54,9 @@ public:
     /// \brief run simulation for given time with per second 10000 steps
     /// \param time given time
     /// \return  return 0 for success
-    int sim(double time);
+    virtual int sim(double time);
     /// \brief run the pre step of simulation
-    virtual void pre_sim(){};
+    virtual void pre_sim() = 0;
+    
 };
 #endif /* defined(__test__PhysEngine__) */

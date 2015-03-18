@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "MyOpenGl.h"
 #include "stlmodel.h"
-
+double throttle = 0;
 @implementation AppDelegate
 {
     NSPoint first;
@@ -25,6 +25,7 @@
     
     [_win initall];
      first=[NSEvent mouseLocation];
+    
 }
 
 - (void)keyDown:(NSEvent *)theEvent {
@@ -43,8 +44,8 @@
 }
 - (IBAction)slide:(id)sender
 {
+    throttle = [sender doubleValue]/100;
     /*
-    NSLog(@"sl%f",[sender doubleValue]);   
     _opengl.xro=[sender doubleValue]/100*3.14;
     [_opengl setNeedsDisplay:true];
     */

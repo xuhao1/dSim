@@ -46,15 +46,15 @@ long getCurrentTime()
 }
 void stlmodel::init_stl(std::string filename)
 {
-    std::ifstream file=std::ifstream(filename);
+    std::ifstream file = std::ifstream(filename);
     string str;
     while (!file.eof())
     {
         file>>str;
         if(str=="loop")
         {
-            triangle temp;
-            file>>temp;
+            triangle * temp = new triangle();
+            file>>*temp;
             list.push_back(temp); 
         }
     }
@@ -68,19 +68,26 @@ stlmodel::stlmodel(std::string filename,physx::PxPhysics *pp,physx::PxScene* ms)
 {
     init_stl(filename);
 }
+stlmodel::stlmodel(std::string filename):
+    xmodel()
+{
+    init_stl(filename);
+}
 
 stlmodel::stlmodel(std::string filename,PhysEngine *pe):
     list(0),xmodel(pe->mPhysics,pe->mScene)
 {
     init_stl(filename);
 }
+
 void stlmodel::resize(double r)
 {
-    for(triangle &e:list)
+    for(triangle* e:list)
     {
-        e.resize(r);
+        e->resize(r);
     }
 }
+
 GLuint stlmodel::model()
 {
     if(maked==1)
@@ -88,13 +95,14 @@ GLuint stlmodel::model()
     maked=1;
     //long st=getCurrentTime();
     ptr=glGenLists(1);
+    
     glNewList(ptr,GL_COMPILE);
     glBegin(GL_TRIANGLES);
     {
-        for(triangle e:list)
+        for(triangle *e:list)
         {
-            glColor3f(e.po1.x/1+0.2,e.po1.z/3+0.2,0);
-            e.gldraw();
+            glColor3f(e->po1.x/1+0.2,e->po1.z/3+0.2,0);
+            e->gldraw();
         }
     }
     glEnd();
@@ -102,6 +110,7 @@ GLuint stlmodel::model()
     //long ed=getCurrentTime();
     return ptr;
 }
+
 void stlmodel::draw()
 {
     updatepos();
@@ -111,6 +120,7 @@ void stlmodel::draw()
     glRotatef(-angle,ax,ay,az);
     glTranslatef(-pos.x,-pos.y,-pos.z);             // 左移 1.5 单位，并移入屏幕 6.0
 }
+
 std::istream& operator>>(std::istream& is,vector3f&objects)
 {
     string str;
@@ -120,6 +130,7 @@ std::istream& operator>>(std::istream& is,vector3f&objects)
     is>>objects.z;
     return is;
 }
+
 std::istream& operator>>(std::istream& is,triangle&objects)
 {
     is>>objects.po1;

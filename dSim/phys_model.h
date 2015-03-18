@@ -54,6 +54,11 @@ public:
     ///\brief use PxPhysics and PxScene to init
     xmodel(PxPhysics * mPhysics,PxScene* mScene);
     
+    
+    ///\brief xmodel empty
+    xmodel();
+    
+    
     ///\brief set mass
     ///\param mass 重量，单位千克
     void setMass(double mass);

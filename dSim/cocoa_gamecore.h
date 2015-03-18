@@ -17,7 +17,7 @@
 #include <vector>
 
 /// \brief game core running of cocoa
-class cocoa_gameCore :public base_gameCore
+class cocoa_gameCore :public PhysEngine
 {
     MyOpenGl* gra;
     
@@ -25,23 +25,35 @@ class cocoa_gameCore :public base_gameCore
 public:
     ///\brief init game core with an opengl session
     cocoa_gameCore(MyOpenGl *_opengl):
-        gra(_opengl),base_gameCore()
+        gra(_opengl),PhysEngine()
     {
+        
+    PxMaterial* aMaterial;
+    aMaterial = mPhysics->createMaterial(0.5f, 0.5f, 0.5f);    //static friction, dynamic friction, restitution
     }
     
     ///>add demo to game
     void addDemo();
     
+    void pre_sim();
+    
     void Loop();
 };
 
+extern double throttle;
 class stl_copter:public base_copter,public stlmodel
 {
 public:
     stl_copter(std::string path,PhysEngine *pe):
-        stlmodel(path,pe),base_copter(pe)
+        stlmodel(path),base_copter(pe)
     {
+        ((stlmodel * ) this)->actor =  ((base_copter * ) this)->actor;
         init_default_quad();
+    }
+    void run()
+    {
+        set_throttle(throttle);
+        calc();
     }
 };
 

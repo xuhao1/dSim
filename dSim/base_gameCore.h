@@ -15,21 +15,6 @@
 #include "stlmodel.h"
 #include "phys_model.h"
 
-/// \brief The core of all the simulation, with physics engine, and commucation part
-
-class base_gameCore: public PhysEngine
-{
-public:
-
-    base_gameCore():
-        PhysEngine()
-    {}
-
-    
-    ///> a unit of aloop
-    virtual void Loop()=0;
-};
-
 
 
 #endif /* defined(__test__gameCore__) */
