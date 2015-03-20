@@ -59,7 +59,7 @@ void stlmodel::init_stl(std::string filename)
         }
     }
     
-    resize(0.01);   
+    resize(0.0025);
 }
 
 
@@ -91,7 +91,7 @@ GLuint stlmodel::model()
     {
         for(triangle *e:list)
         {
-            glColor3f(e->po1.x/1+0.2,e->po1.z/3+0.2,0);
+            glColor3f(e->po1.x/1+0.2,e->po1.y/3+0.2,0);
             e->gldraw();
         }
     }
@@ -128,8 +128,9 @@ std::istream& operator>>(std::istream& is,vector3f&objects)
     string str;
     is>>str;
     is>>objects.x;
-    is>>objects.y;
     is>>objects.z;
+    is>>objects.y;
+    objects.z = objects.z + 100;
     return is;
 }
 

@@ -20,6 +20,10 @@ motor::motor(double _alpha,double _beta,double _max_o):
 
 void motor::set(double value)
 {
+    if (value > 1)
+        value = 1;
+    if (value < 0)
+        value = 0;
     omega = max_omega * value;
 }
 

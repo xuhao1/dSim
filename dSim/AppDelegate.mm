@@ -9,7 +9,6 @@
 #import "AppDelegate.h"
 #import "MyOpenGl.h"
 #include "stlmodel.h"
-double throttle = 0;
 @implementation AppDelegate
 {
     NSPoint first;
@@ -44,7 +43,7 @@ double throttle = 0;
 }
 - (IBAction)slide:(id)sender
 {
-    throttle = [sender doubleValue]/100;
+    base_gamecore::throttle = [sender doubleValue]/100;
     /*
     _opengl.xro=[sender doubleValue]/100*3.14;
     [_opengl setNeedsDisplay:true];

@@ -7,6 +7,7 @@
 //
 
 #import "myWin.h"
+#include "base_gameCore.h"
 @implementation myWin
 {
     NSPoint first;
@@ -32,6 +33,7 @@
  */
 -(void)keyDown:(NSEvent *)theEvent
 {
+    printf("key down\n");
     unichar c = [[theEvent charactersIgnoringModifiers] characterAtIndex:0];
     switch (c) {
         case 'w':
@@ -46,9 +48,36 @@
         case NSEndFunctionKey:
             [_opengl eyeOri:c];
             break;
-        case '1':
+            
+        case 'l':
+        case '\'':
+        case 'p':
+        case ';':
+            keyboard_control(c);
+            break;
         default:
             break;
     }
 }
 @end
+
+void keyboard_control(unichar c)
+{
+     switch (c) {
+        case 'l':
+            base_gamecore::set_yaw_rate -=0.01;
+            break;
+        case '\'':
+            base_gamecore::set_yaw_rate +=0.01;
+            break;
+        case 'p':
+             base_gamecore::set_pitch_rate +=0.01;
+             break;
+        case ';':
+             base_gamecore::set_pitch_rate -=0.01;
+             break;
+            
+        default:
+            break;
+    }
+}

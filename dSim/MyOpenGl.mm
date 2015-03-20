@@ -14,6 +14,8 @@
 #include <vector>
 #include "vector3f.h"
 #include "cam.h"
+#include "PhysEngine.h"
+#include "base_gameCore.h"
 
 @implementation MyOpenGl
 {
@@ -85,7 +87,6 @@
 }
 -(void)eyeOri:(unichar)c
 {
-    printf("here\n");
     switch (c) {
             
         case 'w':
@@ -123,6 +124,11 @@
         default:
             break;
     }
+}
+
+- (void) control:(unichar)c
+{
+   
 }
 
 @end

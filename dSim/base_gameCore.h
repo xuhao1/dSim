@@ -10,10 +10,21 @@
 #define __test__gameCore__
 
 #include <iostream>
-#include "PhysEngine.h"
-#import "MyOpenGl.h"
-#include "stlmodel.h"
-#include "phys_model.h"
+#include "cocoa_gamecore.h"
+
+namespace base_gamecore {
+    
+    /// Main Copter for control system
+    extern stl_copter * cop;
+    /// Throttle for the copter
+    extern double throttle ;
+    /// roll for the copter
+    extern double set_yaw_rate ;
+    /// pitch for the copter
+    extern double set_pitch_rate ;
+    /// yaw for the copter
+    extern double set_roll_rate;
+};
 
 
 

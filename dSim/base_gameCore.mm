@@ -10,3 +10,14 @@
 #include <string>
 
 
+namespace base_gamecore {
+    /// Main Copter for control system
+    stl_copter * cop = nullptr;
+    double throttle = 0 ;
+    
+    double set_roll_rate = 0;
+    
+    double set_pitch_rate = 0;
+    
+    double set_yaw_rate = 0;
+}

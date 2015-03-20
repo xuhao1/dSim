@@ -14,3 +14,5 @@
 @property (weak) IBOutlet MyOpenGl *opengl;
 
 @end
+
+void keyboard_control(unichar c);

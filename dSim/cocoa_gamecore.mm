@@ -8,7 +8,12 @@
 
 #include "cocoa_gamecore.h"
 #include "base_copter.h"
+#include "base_gameCore.h"
 
+void stl_copter::run()
+{
+        calc();
+}
 
 void cocoa_gameCore::addDemo()
 {

@@ -27,6 +27,7 @@ class xmodel
 protected:
     // \brief use actor that already have to initalize
     xmodel(physx::PxRigidDynamic* _actor);
+    vector3f up_vec;
     
 public:
     /// Position
@@ -34,11 +35,18 @@ public:
     
     physx::PxRigidDynamic* actor;///< actor in PhysX
     
-    float angle,///< angle of quat
+    float angle,///< angle of quat,
     ax, ///< x of quat
     ay, ///< y of quat
     az; ///< z of quat
     
+    float yaw = 0,///rotate of z
+    pitch = 0,///rotate of y
+    roll = 0;///rotate of x
+    
+    float roll_rate;///roll rate
+    float yaw_rate;///roll rate
+    float pitch_rate;///roll rate
     
     /// \brief 设置位置
     /// \param x 坐标
@@ -53,7 +61,7 @@ public:
     void setPos(float x,float y,float z);
     
     ///\brief use PxPhysics and PxScene to init
-    xmodel(PxPhysics * mPhysics,PxScene* mScene);
+    xmodel(PxPhysics * mPhysics,PxScene* mScene,double mass);
     
     
     ///\brief xmodel empty
@@ -72,6 +80,10 @@ public:
     
     ///\brief pull position from PhysX
     void updatepos();
+    
+    
+    ///\brief Get euler angles
+    void get_angles(double w,double x,double y,double z);
     
     
     ///\brief 加载自身的力

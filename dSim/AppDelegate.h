@@ -10,6 +10,7 @@
 #import "MyOpenGl.h"
 #import "myWin.h"
 #include "cocoa_gameCore.h"
+#include "base_gameCore.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 @property (unsafe_unretained) IBOutlet myWin *win;

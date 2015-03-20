@@ -151,12 +151,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "dSim/base_copter.cpp"
-            timestampString = "448378464.594265"
+            filePath = "dSim/base_copter.mm"
+            timestampString = "448451274.231942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "base_copter::run()"
             landmarkType = "5">
          </BreakpointContent>
@@ -168,11 +168,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "dSim/cocoa_gamecore.mm"
-            timestampString = "448368839.433528"
+            timestampString = "448448750.669906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "cocoa_gameCore::addDemo()"
             landmarkType = "5">
          </BreakpointContent>
@@ -200,11 +200,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "dSim/cocoa_gamecore.mm"
-            timestampString = "448376887.590085"
+            timestampString = "448448750.669906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "cocoa_gameCore::addDemo()"
             landmarkType = "5">
          </BreakpointContent>
@@ -215,7 +215,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "dSim/PhysEngine.cpp"
+            filePath = "dSim/PhysEngine.mm"
             timestampString = "448377267.124229"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -232,11 +232,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "dSim/cocoa_gamecore.mm"
-            timestampString = "448369731.477073"
+            timestampString = "448448750.669906"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "cocoa_gameCore::pre_sim()"
             landmarkType = "5">
          </BreakpointContent>
@@ -247,28 +247,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "dSim/cocoa_gamecore.h"
-            timestampString = "448376391.992072"
+            filePath = "dSim/base_copter.mm"
+            timestampString = "448451274.231942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "run()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "dSim/base_copter.cpp"
-            timestampString = "448378464.594265"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "base_copter::calc()"
             landmarkType = "5">
          </BreakpointContent>
@@ -279,7 +263,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "dSim/PhysEngine.cpp"
+            filePath = "dSim/PhysEngine.mm"
             timestampString = "448377267.124229"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -295,12 +279,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "dSim/base_copter.cpp"
-            timestampString = "448378464.594265"
+            filePath = "dSim/base_copter.mm"
+            timestampString = "448451274.231942"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "base_copter::calc()"
             landmarkType = "5">
          </BreakpointContent>

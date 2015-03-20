@@ -41,7 +41,7 @@ public:
     
     ///\brief build a copter with default values
     base_copter(PhysEngine* pe):
-        motors(4),xmodel(pe->mPhysics,pe->mScene)
+        motors(4),xmodel(pe->mPhysics,pe->mScene,1.2)
     {
         actor->setRigidBodyFlag(PxRigidBodyFlag::eENABLE_CCD, true);
         init_default_quad();
@@ -55,11 +55,23 @@ public:
     void calc();
     
     ///\brief test throttle
-    void set_throttle(double v);
+    void set_servo();
     
     ///\brief run
     //@overload
     void run();
+    
+    //yaw con rate
+    double set_yaw_con = 0;
+    
+    //roll con rate
+    double set_roll_con = 0;
+    
+    //pitch con rate
+    double set_pitch_con = 0;
+    
+    ///\brief Euler for control system
+    
 };
 
 #endif /* defined(__dSim__base_copter__) */
