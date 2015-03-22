@@ -13,6 +13,7 @@
 		6998221E1AB9350E006F3619 /* cocoa_gamecore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6998221C1AB9350E006F3619 /* cocoa_gamecore.mm */; };
 		69CCF6601AB9D0AD002D806C /* myWin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D431AB6E95B0022C123 /* myWin.mm */; };
 		69CCF6631ABA7713002D806C /* control_system.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69CCF6611ABA7713002D806C /* control_system.mm */; };
+		69CE360F1ABE4FA500C0A235 /* models in Resources */ = {isa = PBXBuildFile; fileRef = 69CE360E1ABE4FA500C0A235 /* models */; };
 		69E86D521AB6E95B0022C123 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D321AB6E95B0022C123 /* AppDelegate.mm */; };
 		69E86D561AB6E95B0022C123 /* cam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D361AB6E95B0022C123 /* cam.cpp */; };
 		69E86D581AB6E95B0022C123 /* base_gameCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D3A1AB6E95B0022C123 /* base_gameCore.mm */; };
@@ -111,6 +112,7 @@
 		6998221D1AB9350E006F3619 /* cocoa_gamecore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocoa_gamecore.h; sourceTree = "<group>"; };
 		69CCF6611ABA7713002D806C /* control_system.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = control_system.mm; path = dSim/control_system.mm; sourceTree = "<group>"; };
 		69CCF6621ABA7713002D806C /* control_system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = control_system.h; path = dSim/control_system.h; sourceTree = "<group>"; };
+		69CE360E1ABE4FA500C0A235 /* models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = models; sourceTree = "<group>"; };
 		69E86D321AB6E95B0022C123 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		69E86D361AB6E95B0022C123 /* cam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cam.cpp; sourceTree = "<group>"; };
 		69E86D371AB6E95B0022C123 /* cam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cam.h; sourceTree = "<group>"; };
@@ -271,6 +273,7 @@
 		6993179C1AB6E92E00CEAE24 = {
 			isa = PBXGroup;
 			children = (
+				69CE360E1ABE4FA500C0A235 /* models */,
 				69E86D6A1AB6E9C80022C123 /* MathLib */,
 				69E86D661AB6E9600022C123 /* OpenGL */,
 				69E86D681AB6E9970022C123 /* PhysEngine */,
@@ -559,6 +562,7 @@
 			files = (
 				69E86D611AB6E95B0022C123 /* test-Info.plist in Resources */,
 				69E86D591AB6E95B0022C123 /* Images.xcassets in Resources */,
+				69CE360F1ABE4FA500C0A235 /* models in Resources */,
 				69E86DF41AB6EFEF0022C123 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

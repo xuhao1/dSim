@@ -17,9 +17,13 @@ void stl_copter::run()
 
 void cocoa_gameCore::addDemo()
 {
-    std::string path="/Users/xuhao/model.stl";
     
-    stl_copter* demo=new stl_copter(path,this);
+    NSString * pat = [[NSBundle mainBundle] pathForResource:@"model" ofType:@"stl" inDirectory:@"models" ];
+    const char * pa = [pat UTF8String];
+    
+    printf("pa %s\n",pa);
+    
+    stl_copter * demo = new stl_copter(pa,this);
     
     phys_list.push_back((xmodel *)demo);
     [gra addObj:demo->stl];
