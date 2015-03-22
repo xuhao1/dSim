@@ -109,8 +109,8 @@
 		6998221A1AB92B9B006F3619 /* motor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = motor.h; path = dSim/motor.h; sourceTree = "<group>"; };
 		6998221C1AB9350E006F3619 /* cocoa_gamecore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cocoa_gamecore.mm; sourceTree = "<group>"; };
 		6998221D1AB9350E006F3619 /* cocoa_gamecore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocoa_gamecore.h; sourceTree = "<group>"; };
-		69CCF6611ABA7713002D806C /* control_system.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = control_system.mm; sourceTree = "<group>"; };
-		69CCF6621ABA7713002D806C /* control_system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = control_system.h; sourceTree = "<group>"; };
+		69CCF6611ABA7713002D806C /* control_system.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = control_system.mm; path = dSim/control_system.mm; sourceTree = "<group>"; };
+		69CCF6621ABA7713002D806C /* control_system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = control_system.h; path = dSim/control_system.h; sourceTree = "<group>"; };
 		69E86D321AB6E95B0022C123 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		69E86D361AB6E95B0022C123 /* cam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cam.cpp; sourceTree = "<group>"; };
 		69E86D371AB6E95B0022C123 /* cam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cam.h; sourceTree = "<group>"; };
@@ -302,8 +302,6 @@
 		699317A71AB6E92E00CEAE24 /* dSim */ = {
 			isa = PBXGroup;
 			children = (
-				69CCF6611ABA7713002D806C /* control_system.mm */,
-				69CCF6621ABA7713002D806C /* control_system.h */,
 				69E86D671AB6E97D0022C123 /* Cocoa */,
 				69E86D3B1AB6E95B0022C123 /* Images.xcassets */,
 				69E86D4A1AB6E95B0022C123 /* test-Info.plist */,
@@ -350,6 +348,8 @@
 		69CCF6641ABA774F002D806C /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				69CCF6611ABA7713002D806C /* control_system.mm */,
+				69CCF6621ABA7713002D806C /* control_system.h */,
 			);
 			name = Control;
 			sourceTree = "<group>";

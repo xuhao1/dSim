@@ -11,6 +11,11 @@
 
 #include <stdio.h>
 #include "base_copter.h"
-void control_yaw(base_copter * cop);
-void control_pitch(base_copter *qiaochu);
+//TODO Build Control System in class
+
+void control_yaw_rate(base_copter * cop);
+void control_pitch_rate(base_copter *qiaochu);
+void control_roll_rate(base_copter *qiaochu);
+void control_location_z(base_copter * qiaochu);
+
 #endif /* defined(__dSim__control_system__) */

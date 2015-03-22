@@ -20,4 +20,6 @@ namespace base_gamecore {
     double set_pitch_rate = 0;
     
     double set_yaw_rate = 0;
+    
+    double set_height = 0.2;
 }

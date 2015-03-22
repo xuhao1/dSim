@@ -74,6 +74,12 @@ void xmodel::updatepos()
     pos.y=p.y;
     pos.z=p.z;
     
+    PxVec3 _vel = actor->getLinearVelocity();
+    
+    vel.x = _vel.x;
+    vel.y = _vel.y;
+    vel.z = _vel.z;
+    
     get_angles(q.w,q.x,q.y,q.z);
     
     angle=2*acos(q.w)/M_PI*180.0f;

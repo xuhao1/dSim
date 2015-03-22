@@ -43,7 +43,7 @@
 }
 - (IBAction)slide:(id)sender
 {
-    base_gamecore::throttle = [sender doubleValue]/100;
+    base_gamecore::set_height = [sender doubleValue]/10;
     /*
     _opengl.xro=[sender doubleValue]/100*3.14;
     [_opengl setNeedsDisplay:true];

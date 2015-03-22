@@ -24,6 +24,8 @@ namespace base_gamecore {
     extern double set_pitch_rate ;
     /// yaw for the copter
     extern double set_roll_rate;
+    /// Set height for the copter
+    extern double set_height;
 };
 
 

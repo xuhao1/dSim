@@ -25,19 +25,21 @@ void base_copter::init_default_quad()
     //setMass(mass);
     //setInteria(Ixx, Iyy, Izz);
     
+   
+    double err_throttle = 0;
+    double err_torque = 0;
     
-    printf("get mass:%lf\n",actor->getMass());
-    
-    motors[0] = motor::createMaxValues(6+0.00*randomf(), 0.1+0.02*(randomf()-0.5));
+    motors[0] = motor::createMaxValues(6+err_throttle*randomf(), 0.1+err_torque*(randomf()-0.5));
     motors[0].set_pose(0.225, 0);
     
-    motors[1] = motor::createMaxValues(6+0.00*randomf(), 0.1+0.02*(randomf()-0.5));
+    motors[1] = motor::createMaxValues(6+err_throttle*randomf(), 0.1+err_torque*(randomf()-0.5));
     motors[1].set_pose(-0.225, 0);
     
-    motors[2] = motor::createMaxValues(6+0.00*randomf(), -0.1+0.02*(randomf()-0.5) );
+    motors[2] = motor::createMaxValues(6+err_throttle*randomf(), -0.1+err_torque*(randomf()-0.5) );
     motors[2].set_pose(0, 0.225);
     
-    motors[3] = motor::createMaxValues(6+0.00*randomf(), -0.1+0.02*(randomf()-0.5) );
+    motors[3] = motor::createMaxValues(6+err_throttle*randomf(), -0.1+err_torque*(randomf()-0.5) );
+    
     motors[3].set_pose(0, -0.225);
     
 }
@@ -46,16 +48,24 @@ void base_copter::init_default_quad()
 
 void base_copter::set_servo()
 {
-    motors[0].set(base_gamecore::throttle + set_yaw_con - set_pitch_con);
-    motors[1].set(base_gamecore::throttle + set_yaw_con + set_pitch_con);
-    motors[2].set(base_gamecore::throttle - set_yaw_con + set_roll_con);
-    motors[3].set(base_gamecore::throttle - set_yaw_con - set_roll_con);
+    double throttle = sqrt(base_gamecore::throttle);
+    
+    motors[0].set(throttle + set_yaw_con - set_pitch_con);
+    motors[1].set(throttle + set_yaw_con + set_pitch_con);
+    motors[2].set(throttle - set_yaw_con + set_roll_con);
+    motors[3].set(throttle - set_yaw_con - set_roll_con);
 }
 
 void base_copter::calc()
 {
-    control_yaw(this);
-    control_pitch(this);
+    control_yaw_rate(this);
+    control_pitch_rate(this);
+    control_roll_rate(this);
+    set_roll_con = 0;
+    set_pitch_con = 0;
+    
+    control_location_z(this);
+    
     set_servo();
     static int i = 0;
     i ++;
