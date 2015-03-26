@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		699317BF1AB6E92E00CEAE24 /* dSimTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 699317BE1AB6E92E00CEAE24 /* dSimTests.m */; };
+		699317BF1AB6E92E00CEAE24 /* dSimTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 699317BE1AB6E92E00CEAE24 /* dSimTests.mm */; };
 		699822181AB92AE6006F3619 /* base_copter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 699822161AB92AE6006F3619 /* base_copter.mm */; };
 		6998221B1AB92B9B006F3619 /* motor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 699822191AB92B9B006F3619 /* motor.cpp */; };
 		6998221E1AB9350E006F3619 /* cocoa_gamecore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6998221C1AB9350E006F3619 /* cocoa_gamecore.mm */; };
@@ -84,6 +84,10 @@
 		69E86DF41AB6EFEF0022C123 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69E86DF31AB6EFEF0022C123 /* MainMenu.xib */; };
 		69E86DF51AB6F1490022C123 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 699317AD1AB6E92E00CEAE24 /* main.m */; };
 		69E86DF61AB6F2230022C123 /* MyOpenGl.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D3F1AB6E95B0022C123 /* MyOpenGl.mm */; };
+		69F4FA571AC443E3001CB8CD /* KF.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F4FA551AC443E3001CB8CD /* KF.mm */; };
+		69F4FB441AC4534E001CB8CD /* KF.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F4FA551AC443E3001CB8CD /* KF.mm */; };
+		69F4FB501AC45461001CB8CD /* KF.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F4FA551AC443E3001CB8CD /* KF.mm */; };
+		69F4FB531AC454E8001CB8CD /* test_main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F4FB521AC454E8001CB8CD /* test_main.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +100,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		69F4FB471AC45446001CB8CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		699317A51AB6E92E00CEAE24 /* dSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		699317A91AB6E92E00CEAE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -103,11 +119,11 @@
 		699317AD1AB6E92E00CEAE24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		699317B81AB6E92E00CEAE24 /* dSimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dSimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		699317BD1AB6E92E00CEAE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		699317BE1AB6E92E00CEAE24 /* dSimTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dSimTests.m; sourceTree = "<group>"; };
-		699822161AB92AE6006F3619 /* base_copter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = base_copter.mm; path = dSim/base_copter.mm; sourceTree = "<group>"; };
-		699822171AB92AE6006F3619 /* base_copter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = base_copter.h; path = dSim/base_copter.h; sourceTree = "<group>"; };
-		699822191AB92B9B006F3619 /* motor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = motor.cpp; path = dSim/motor.cpp; sourceTree = "<group>"; };
-		6998221A1AB92B9B006F3619 /* motor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = motor.h; path = dSim/motor.h; sourceTree = "<group>"; };
+		699317BE1AB6E92E00CEAE24 /* dSimTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = dSimTests.mm; sourceTree = "<group>"; };
+		699822161AB92AE6006F3619 /* base_copter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = base_copter.mm; sourceTree = "<group>"; };
+		699822171AB92AE6006F3619 /* base_copter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base_copter.h; sourceTree = "<group>"; };
+		699822191AB92B9B006F3619 /* motor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = motor.cpp; sourceTree = "<group>"; };
+		6998221A1AB92B9B006F3619 /* motor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = motor.h; sourceTree = "<group>"; };
 		6998221C1AB9350E006F3619 /* cocoa_gamecore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cocoa_gamecore.mm; sourceTree = "<group>"; };
 		6998221D1AB9350E006F3619 /* cocoa_gamecore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocoa_gamecore.h; sourceTree = "<group>"; };
 		69CCF6611ABA7713002D806C /* control_system.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = control_system.mm; path = dSim/control_system.mm; sourceTree = "<group>"; };
@@ -116,8 +132,8 @@
 		69E86D321AB6E95B0022C123 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		69E86D361AB6E95B0022C123 /* cam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cam.cpp; sourceTree = "<group>"; };
 		69E86D371AB6E95B0022C123 /* cam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cam.h; sourceTree = "<group>"; };
-		69E86D391AB6E95B0022C123 /* base_gameCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = base_gameCore.h; path = dSim/base_gameCore.h; sourceTree = "<group>"; };
-		69E86D3A1AB6E95B0022C123 /* base_gameCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = base_gameCore.mm; path = dSim/base_gameCore.mm; sourceTree = "<group>"; };
+		69E86D391AB6E95B0022C123 /* base_gameCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base_gameCore.h; sourceTree = "<group>"; };
+		69E86D3A1AB6E95B0022C123 /* base_gameCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = base_gameCore.mm; sourceTree = "<group>"; };
 		69E86D3B1AB6E95B0022C123 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		69E86D3E1AB6E95B0022C123 /* MyOpenGl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOpenGl.h; sourceTree = "<group>"; };
 		69E86D3F1AB6E95B0022C123 /* MyOpenGl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyOpenGl.mm; sourceTree = "<group>"; };
@@ -192,6 +208,10 @@
 		69E86DDC1AB6EA4B0022C123 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		69E86DDE1AB6EA5A0022C123 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		69E86DF31AB6EFEF0022C123 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		69F4FA551AC443E3001CB8CD /* KF.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = KF.mm; sourceTree = "<group>"; };
+		69F4FA561AC443E3001CB8CD /* KF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KF.h; sourceTree = "<group>"; };
+		69F4FB491AC45446001CB8CD /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F4FB521AC454E8001CB8CD /* test_main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = test_main.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -267,28 +287,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69F4FB461AC45446001CB8CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		6993179C1AB6E92E00CEAE24 = {
 			isa = PBXGroup;
 			children = (
+				69F4FA541AC44165001CB8CD /* KF */,
 				69CE360E1ABE4FA500C0A235 /* models */,
 				69E86D6A1AB6E9C80022C123 /* MathLib */,
 				69E86D661AB6E9600022C123 /* OpenGL */,
 				69E86D681AB6E9970022C123 /* PhysEngine */,
 				69E86D691AB6E9AE0022C123 /* Core */,
-				69E86D391AB6E95B0022C123 /* base_gameCore.h */,
-				69E86D3A1AB6E95B0022C123 /* base_gameCore.mm */,
 				699822151AB92ABE006F3619 /* Copters */,
-				699822161AB92AE6006F3619 /* base_copter.mm */,
-				699822171AB92AE6006F3619 /* base_copter.h */,
-				699822191AB92B9B006F3619 /* motor.cpp */,
-				6998221A1AB92B9B006F3619 /* motor.h */,
 				69CCF6641ABA774F002D806C /* Control */,
 				69E86DDB1AB6EA340022C123 /* Lib */,
 				699317A71AB6E92E00CEAE24 /* dSim */,
 				699317BB1AB6E92E00CEAE24 /* dSimTests */,
+				69F4FB4A1AC45446001CB8CD /* test */,
 				699317A61AB6E92E00CEAE24 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -298,6 +321,7 @@
 			children = (
 				699317A51AB6E92E00CEAE24 /* dSim.app */,
 				699317B81AB6E92E00CEAE24 /* dSimTests.xctest */,
+				69F4FB491AC45446001CB8CD /* test */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -326,7 +350,7 @@
 		699317BB1AB6E92E00CEAE24 /* dSimTests */ = {
 			isa = PBXGroup;
 			children = (
-				699317BE1AB6E92E00CEAE24 /* dSimTests.m */,
+				699317BE1AB6E92E00CEAE24 /* dSimTests.mm */,
 				699317BC1AB6E92E00CEAE24 /* Supporting Files */,
 			);
 			path = dSimTests;
@@ -343,6 +367,10 @@
 		699822151AB92ABE006F3619 /* Copters */ = {
 			isa = PBXGroup;
 			children = (
+				699822161AB92AE6006F3619 /* base_copter.mm */,
+				699822171AB92AE6006F3619 /* base_copter.h */,
+				699822191AB92B9B006F3619 /* motor.cpp */,
+				6998221A1AB92B9B006F3619 /* motor.h */,
 			);
 			name = Copters;
 			path = dSim;
@@ -400,6 +428,8 @@
 		69E86D691AB6E9AE0022C123 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				69E86D391AB6E95B0022C123 /* base_gameCore.h */,
+				69E86D3A1AB6E95B0022C123 /* base_gameCore.mm */,
 			);
 			name = Core;
 			path = dSim;
@@ -480,6 +510,23 @@
 			name = Lib;
 			sourceTree = "<group>";
 		};
+		69F4FA541AC44165001CB8CD /* KF */ = {
+			isa = PBXGroup;
+			children = (
+				69F4FA551AC443E3001CB8CD /* KF.mm */,
+				69F4FA561AC443E3001CB8CD /* KF.h */,
+			);
+			name = KF;
+			sourceTree = "<group>";
+		};
+		69F4FB4A1AC45446001CB8CD /* test */ = {
+			isa = PBXGroup;
+			children = (
+				69F4FB521AC454E8001CB8CD /* test_main.mm */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -518,6 +565,23 @@
 			productReference = 699317B81AB6E92E00CEAE24 /* dSimTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		69F4FB481AC45446001CB8CD /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F4FB4D1AC45446001CB8CD /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				69F4FB451AC45446001CB8CD /* Sources */,
+				69F4FB461AC45446001CB8CD /* Frameworks */,
+				69F4FB471AC45446001CB8CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = 69F4FB491AC45446001CB8CD /* test */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -533,6 +597,9 @@
 					699317B71AB6E92E00CEAE24 = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = 699317A41AB6E92E00CEAE24;
+					};
+					69F4FB481AC45446001CB8CD = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
@@ -551,6 +618,7 @@
 			targets = (
 				699317A41AB6E92E00CEAE24 /* dSim */,
 				699317B71AB6E92E00CEAE24 /* dSimTests */,
+				69F4FB481AC45446001CB8CD /* test */,
 			);
 		};
 /* End PBXProject section */
@@ -581,6 +649,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F4FA571AC443E3001CB8CD /* KF.mm in Sources */,
 				69E86D5F1AB6E95B0022C123 /* PhysEngine.mm in Sources */,
 				69E86D581AB6E95B0022C123 /* base_gameCore.mm in Sources */,
 				69E86D601AB6E95B0022C123 /* stlmodel.mm in Sources */,
@@ -602,7 +671,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				699317BF1AB6E92E00CEAE24 /* dSimTests.m in Sources */,
+				69F4FB441AC4534E001CB8CD /* KF.mm in Sources */,
+				699317BF1AB6E92E00CEAE24 /* dSimTests.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F4FB451AC45446001CB8CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F4FB531AC454E8001CB8CD /* test_main.mm in Sources */,
+				69F4FB501AC45461001CB8CD /* KF.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,12 +783,15 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"/Users/xuhao/Source/physx-3.3.2_osx_sdk_core/Include",
 					/Users/xuhao/aircraft/olivia/mavlink/olivia_mav/c_header,
+					/usr/local/include,
+					/usr/local/Cellar/eigen/3.2.3/include/eigen3,
 				);
 				INFOPLIST_FILE = dSim/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/xuhao/Source/physx-3.3.2_osx_sdk_core/Lib/osx64",
+					/usr/local/Cellar/boost/1.57.0/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -726,12 +808,15 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"/Users/xuhao/Source/physx-3.3.2_osx_sdk_core/Include",
 					/Users/xuhao/aircraft/olivia/mavlink/olivia_mav/c_header,
+					/usr/local/include,
+					/usr/local/Cellar/eigen/3.2.3/include/eigen3,
 				);
 				INFOPLIST_FILE = dSim/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/xuhao/Source/physx-3.3.2_osx_sdk_core/Lib/osx64",
+					/usr/local/Cellar/boost/1.57.0/lib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -750,6 +835,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/eigen/3.2.3/include/eigen3/,
+				);
 				INFOPLIST_FILE = dSimTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -766,10 +856,43 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/eigen/3.2.3/include/eigen3/,
+				);
 				INFOPLIST_FILE = dSimTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dSim.app/Contents/MacOS/dSim";
+			};
+			name = Release;
+		};
+		69F4FB4E1AC45446001CB8CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/eigen/3.2.3/include/eigen3/,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69F4FB4F1AC45446001CB8CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/Cellar/eigen/3.2.3/include/eigen3/,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -802,6 +925,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		69F4FB4D1AC45446001CB8CD /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F4FB4E1AC45446001CB8CD /* Debug */,
+				69F4FB4F1AC45446001CB8CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

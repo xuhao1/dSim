@@ -76,9 +76,13 @@ void xmodel::updatepos()
     
     PxVec3 _vel = actor->getLinearVelocity();
     
+    vector3f vel;
     vel.x = _vel.x;
     vel.y = _vel.y;
     vel.z = _vel.z;
+    
+    acc = (vel - this->vel) * 10000;
+    this->vel = vel;
     
     get_angles(q.w,q.x,q.y,q.z);
     
@@ -105,8 +109,8 @@ void xmodel::get_angles(double w, double x, double y, double z)
     pitch = asin(2*(w*y-z*x))/M_PI * 180;
     yaw = atan2(2*(w*z+y*x), 1-2*(z*z+y*y))/M_PI * 180;
     
-    printf("act pit:%5f\n",actor->getAngularVelocity().y);
-    printf("control:%5f\n",base_gamecore::set_pitch_rate);
+    //printf("act pit:%5f\n",actor->getAngularVelocity().y);
+//    printf("control:%5f\n",base_gamecore::set_pitch_rate);
     
     //printf("roll:%4lf,theta:%4lf,yaw:%4lf\n",roll,pitch,yaw);
 }

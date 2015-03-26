@@ -36,6 +36,9 @@ public:
     /// Velocity
     vector3f vel;
     
+    /// Velocity
+    vector3f acc;
+    
     physx::PxRigidDynamic* actor;///< actor in PhysX
     
     float angle,///< angle of quat,

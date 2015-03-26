@@ -25,6 +25,8 @@
     [_win initall];
      first=[NSEvent mouseLocation];
     
+    _core->addDemo();
+    
 }
 
 - (void)keyDown:(NSEvent *)theEvent {

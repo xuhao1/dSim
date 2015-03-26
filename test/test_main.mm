@@ -7,3 +7,14 @@
 //
 
 #include <stdio.h>
+
+#include "KF.h"
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    printf("hello,world\n");
+    eigen_test();
+}

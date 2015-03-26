@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include "cocoa_gamecore.h"
+#include "KF.h"
 
 namespace base_gamecore {
     
@@ -26,6 +27,11 @@ namespace base_gamecore {
     extern double set_roll_rate;
     /// Set height for the copter
     extern double set_height;
+    /// Reset control
+    void reset_control();
+    /// kalman filter
+    extern kalman_filter_x kfx;
+
 };
 
 

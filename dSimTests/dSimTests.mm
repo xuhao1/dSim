@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
+#include "KF.h"
 
 @interface dSimTests : XCTestCase
 
@@ -17,6 +18,8 @@
 
 - (void)setUp {
     [super setUp];
+    
+    eigen_test();
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 

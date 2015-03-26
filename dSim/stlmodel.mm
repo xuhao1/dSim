@@ -59,7 +59,7 @@ void stlmodel::init_stl(std::string filename)
         }
     }
     
-    resize(0.0025);
+    resize(0.025);
 }
 
 

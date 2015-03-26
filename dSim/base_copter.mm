@@ -58,15 +58,33 @@ void base_copter::set_servo()
 
 void base_copter::calc()
 {
-    control_yaw_rate(this);
-    control_pitch_rate(this);
-    control_roll_rate(this);
-    set_roll_con = 0;
-    set_pitch_con = 0;
+    updatepos();
     
-    control_location_z(this);
+    static int count = 0;
     
-    set_servo();
+    count ++;
+    
+    if(count % 500 == 0)
+    {
+        base_gamecore::kfx.update_with_z(this->pos.z);
+    }
+    
+    
+    //833 per second
+    
+    
+    if (count % 12 == 0)
+    {
+        control_yaw_rate(this);
+        control_pitch_rate(this);
+        control_roll_rate(this);
+        set_roll_con = 0;
+        set_pitch_con = 0;
+        control_location_z(this);
+        set_servo();
+    }
+    
+    
     static int i = 0;
     i ++;
     
@@ -78,11 +96,16 @@ void base_copter::calc()
         force += m.force();
         torque += m.torque();
     }
-    force = force/mass;
     force = (force * up_vec)* up_vec;
+    force = force/mass;
     
     actor->addForce(PxVec3(force.x,force.y,force.z),PxForceMode::eACCELERATION);
     actor->addTorque(PxVec3(torque.x/Ixx,torque.y/Iyy,torque.z/Izz),PxForceMode::eACCELERATION);
+    
+    if (count % 12 == 0)
+    {
+        base_gamecore::kfx.update_with_a(acc.z);
+    }
     
 }
 

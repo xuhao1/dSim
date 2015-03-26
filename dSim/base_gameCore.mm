@@ -22,4 +22,13 @@ namespace base_gamecore {
     double set_yaw_rate = 0;
     
     double set_height = 0.2;
+    
+    void reset_control()
+    {
+        set_roll_rate = 0;
+        set_pitch_rate = 0;
+        set_yaw_rate = 0;
+    }
+    
+    kalman_filter_x kfx(0.12,0.12,0.12);
 }

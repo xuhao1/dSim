@@ -12,13 +12,13 @@
 
 void stl_copter::run()
 {
-        calc();
+    calc();
 }
 
 void cocoa_gameCore::addDemo()
 {
     
-    NSString * pat = [[NSBundle mainBundle] pathForResource:@"model" ofType:@"stl" inDirectory:@"models" ];
+    NSString * pat = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"stl" inDirectory:@"models" ];
     const char * pa = [pat UTF8String];
     
     printf("pa %s\n",pa);

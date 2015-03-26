@@ -7,6 +7,8 @@
 //
 
 #include "PhysEngine.h"
+#include "base_gameCore.h"
+
 int PhysEngine::init()
 {
     mFoundation = PxCreateFoundation(PX_PHYSICS_VERSION, gDefaultAllocatorCallback, gDefaultErrorCallback);
@@ -78,11 +80,13 @@ xmodel* PhysEngine::addDemo()
 
 int PhysEngine::sim(double time)
 {
+    
     for (int j=0; j<time*10000; j++)
     {
         pre_sim();
         mScene->simulate(1e-4);
         mScene->fetchResults(true);
     }
+    //base_gamecore::reset_control();
     return 0;
 }
