@@ -90,3 +90,11 @@ int PhysEngine::sim(double time)
     //base_gamecore::reset_control();
     return 0;
 }
+
+void PhysEngine::pre_sim()
+{
+    
+    for(auto a : phys_list){
+        a->run();
+    }
+}

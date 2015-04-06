@@ -41,7 +41,6 @@ void control_roll_rate(base_copter *qiaochu)
 }
 void control_location_z(base_copter *qiaochu)
 {
-    
     if (base_gamecore::set_height < 1)
         return;
     static double last_set_height = 0;

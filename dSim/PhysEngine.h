@@ -13,6 +13,7 @@
 #define NDEBUG
 #include "PxPhysicsAPI.h"
 #include "phys_model.h"
+#include <vector>
 
 using namespace physx;
 
@@ -29,6 +30,8 @@ class PhysEngine
         return i/1000.0f;
     }
     
+protected:
+    std::vector<xmodel*> phys_list;
 public:
     PxDefaultErrorCallback gDefaultErrorCallback;
     PxDefaultAllocator gDefaultAllocatorCallback;
@@ -56,7 +59,7 @@ public:
     /// \return  return 0 for success
     virtual int sim(double time);
     /// \brief run the pre step of simulation
-    virtual void pre_sim() = 0;
+    virtual void pre_sim();
     
 };
 #endif /* defined(__test__PhysEngine__) */

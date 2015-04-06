@@ -10,7 +10,7 @@
 #define __test__gameCore__
 
 #include <iostream>
-#include "cocoa_gamecore.h"
+//#include "cocoa_gamecore.h"
 #include "KF.h"
 
 namespace base_gamecore {
