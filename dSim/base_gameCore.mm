@@ -11,8 +11,6 @@
 
 
 namespace base_gamecore {
-    /// Main Copter for control system
-    stl_copter * cop = nullptr;
     double throttle = 0 ;
     
     double set_roll_rate = 0;
@@ -30,5 +28,5 @@ namespace base_gamecore {
         set_yaw_rate = 0;
     }
     
-    kalman_filter_x kfx(0.12,0.12,0.12);
+    kalman_filter_x kfx(0.12,0.03,0.001);
 }

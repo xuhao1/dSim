@@ -52,7 +52,9 @@ void control_location_z(base_copter *qiaochu)
     }
    
     double height_now = base_gamecore::kfx.value_x();
-    double height_dot_now = base_gamecore::kfx.value_x_dot();
+//    double height_now = qiaochu->pos.z;
+    double height_rate = base_gamecore::kfx.value_x_dot();
+//    double height_rate = qiaochu->vel.z;
     
     double err = base_gamecore::set_height - height_now;
     
@@ -62,7 +64,8 @@ void control_location_z(base_copter *qiaochu)
     if(intt_height_err < -10)
         intt_height_err = -10;
     
-    double height_rate = height_dot_now ;
+    
+//    std::cout<< "vel_z:"<<height_rate<<"\n";
     
     double p_height = 0.294512;
     double i_height = 0.294512;
@@ -78,8 +81,6 @@ void control_location_z(base_copter *qiaochu)
     
     static int count = 0;
     count ++;
-    /*
     if (count%100 == 0)
-    printf("Set height %3f, height %3f, intt_height %3f\n",base_gamecore::set_height,qiaochu->pos.z,intt_height_err);
-    */
+    printf("Set height %3f, height %3f, intt_height %3f\n",base_gamecore::set_height,height_now,intt_height_err);
 }

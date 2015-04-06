@@ -81,7 +81,13 @@ void xmodel::updatepos()
     vel.y = _vel.y;
     vel.z = _vel.z;
     
-    acc = (vel - this->vel) * 10000;
+    vector3f acc = (vel - this->vel) * 10000;
+    
+    if (acc.abs() < 5 * this->acc.abs() || this->acc.abs() <1e-2 )
+    {
+        this -> acc = acc;
+    }
+    
     this->vel = vel;
     
     get_angles(q.w,q.x,q.y,q.z);

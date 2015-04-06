@@ -78,8 +78,6 @@ void base_copter::calc()
         control_yaw_rate(this);
         control_pitch_rate(this);
         control_roll_rate(this);
-        set_roll_con = 0;
-        set_pitch_con = 0;
         control_location_z(this);
         set_servo();
     }
@@ -102,7 +100,8 @@ void base_copter::calc()
     actor->addForce(PxVec3(force.x,force.y,force.z),PxForceMode::eACCELERATION);
     actor->addTorque(PxVec3(torque.x/Ixx,torque.y/Iyy,torque.z/Izz),PxForceMode::eACCELERATION);
     
-    if (count % 12 == 0)
+    
+    if (count % 10 == 0)
     {
         base_gamecore::kfx.update_with_a(acc.z);
     }

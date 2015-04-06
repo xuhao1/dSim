@@ -14,6 +14,7 @@
 		69CCF6601AB9D0AD002D806C /* myWin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D431AB6E95B0022C123 /* myWin.mm */; };
 		69CCF6631ABA7713002D806C /* control_system.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69CCF6611ABA7713002D806C /* control_system.mm */; };
 		69CE360F1ABE4FA500C0A235 /* models in Resources */ = {isa = PBXBuildFile; fileRef = 69CE360E1ABE4FA500C0A235 /* models */; };
+		69D13F761AC5A5C7005E5AF4 /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69D13F741AC5A5C7005E5AF4 /* random.cpp */; };
 		69E86D521AB6E95B0022C123 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D321AB6E95B0022C123 /* AppDelegate.mm */; };
 		69E86D561AB6E95B0022C123 /* cam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D361AB6E95B0022C123 /* cam.cpp */; };
 		69E86D581AB6E95B0022C123 /* base_gameCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D3A1AB6E95B0022C123 /* base_gameCore.mm */; };
@@ -129,6 +130,8 @@
 		69CCF6611ABA7713002D806C /* control_system.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = control_system.mm; path = dSim/control_system.mm; sourceTree = "<group>"; };
 		69CCF6621ABA7713002D806C /* control_system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = control_system.h; path = dSim/control_system.h; sourceTree = "<group>"; };
 		69CE360E1ABE4FA500C0A235 /* models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = models; sourceTree = "<group>"; };
+		69D13F741AC5A5C7005E5AF4 /* random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = random.cpp; sourceTree = "<group>"; };
+		69D13F751AC5A5C7005E5AF4 /* random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
 		69E86D321AB6E95B0022C123 /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		69E86D361AB6E95B0022C123 /* cam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cam.cpp; sourceTree = "<group>"; };
 		69E86D371AB6E95B0022C123 /* cam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cam.h; sourceTree = "<group>"; };
@@ -440,6 +443,8 @@
 			children = (
 				69E86D501AB6E95B0022C123 /* vector3f.cpp */,
 				69E86D511AB6E95B0022C123 /* vector3f.h */,
+				69D13F741AC5A5C7005E5AF4 /* random.cpp */,
+				69D13F751AC5A5C7005E5AF4 /* random.h */,
 			);
 			name = MathLib;
 			path = dSim;
@@ -661,6 +666,7 @@
 				69CCF6631ABA7713002D806C /* control_system.mm in Sources */,
 				6998221E1AB9350E006F3619 /* cocoa_gamecore.mm in Sources */,
 				69E86DF61AB6F2230022C123 /* MyOpenGl.mm in Sources */,
+				69D13F761AC5A5C7005E5AF4 /* random.cpp in Sources */,
 				69CCF6601AB9D0AD002D806C /* myWin.mm in Sources */,
 				69E86D521AB6E95B0022C123 /* AppDelegate.mm in Sources */,
 				69E86D651AB6E95B0022C123 /* vector3f.cpp in Sources */,
@@ -933,6 +939,7 @@
 				69F4FB4F1AC45446001CB8CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

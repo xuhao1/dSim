@@ -8,10 +8,13 @@
 
 #include "KF.h"
 #include <iostream>
+#include "random.h"
+
 namespace base_gamecore
 {
     extern double set_height;
 }
+FILE * fp;
 kalman_filter_x::kalman_filter_x(double _sigma_a,double _sigma_b,double _dt)
     :Q(1,1),sigma_a(_sigma_a),sigma_b(_sigma_b),dt(_dt),A(2,2),B(2,1),last(2,1),covar(2,2),C(1,2)
 {
@@ -29,6 +32,8 @@ kalman_filter_x::kalman_filter_x(double _sigma_a,double _sigma_b,double _dt)
     C(0,0) = 1;
     C(0,1) = 0;
     
+    fp = fopen("/Users/xuhao/data/log.txt", "w");
+    
     
 }
 
@@ -44,28 +49,31 @@ double kalman_filter_x::update_with_a(double a)
     last = A*last + B * a;
     covar = A*covar*A.transpose() + R;
     
-    //printf("%3f\n",a,last(0,0));
-    
+//    fprintf(fp,"%3f\n", last(0,0));
     
     return last(0,0);
 }
 
-double kalman_filter_x::update_with_z(double z)
+double kalman_filter_x::update_with_z(double _z)
 {
+    
+    double z = normal_s(0, 0.02) + _z;
+    
     Eigen::MatrixXd K = covar*C.transpose()* ((C*covar*C.transpose()+Q).inverse());
     
     last = last + K*(z - (C*last)(0,0));
    
     covar = (Eigen::MatrixXd::Identity(2,2) - K * C) * covar;
   
-    printf("set z:%3f z:%3f,last:%3f :%3f\n",base_gamecore::set_height, z,last(0,0),fabs(z-last(0,0)));
+    val = last(0,0);
     
     return last(0,0);
 }
 
 double kalman_filter_x::value_x()
 {
-    return last(0,0);
+    //return last(0,0);
+     return val;
 }
 
 double kalman_filter_x::value_x_dot()

@@ -15,8 +15,6 @@
 
 namespace base_gamecore {
     
-    /// Main Copter for control system
-    extern stl_copter * cop;
     /// Throttle for the copter
     extern double throttle ;
     /// roll for the copter

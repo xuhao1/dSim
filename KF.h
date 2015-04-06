@@ -22,6 +22,8 @@ public:
     
     double sigma_a,sigma_b,dt;
     
+    double val = 0 ;
+    
     ///\brief build up a sigle kalman filter for one coor
     kalman_filter_x(double sigma_a,double sigma_b,double dt);
     
@@ -32,6 +34,7 @@ public:
     
     double value_x();
     double value_x_dot();
+    
 };
 void eigen_test();
 
