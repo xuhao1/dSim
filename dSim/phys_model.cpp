@@ -92,6 +92,11 @@ void xmodel::updatepos()
     
     get_angles(q.w,q.x,q.y,q.z);
     
+    _quat.w = q.w;
+    _quat.x = q.x;
+    _quat.y = q.y;
+    _quat.z = q.z;
+    
     angle=2*acos(q.w)/M_PI*180.0f;
     
     float scale=sqrt(q.x*q.x+q.y*q.y+q.z*q.z);
@@ -107,7 +112,7 @@ void xmodel::updatepos()
 void xmodel::get_angles(double w, double x, double y, double z)
 {
     roll = atan2(2*(w*x+y*z), 1-2*(x*x+y*y))/M_PI * 180;
-    
+
     yaw_rate   = actor->getAngularVelocity().z;
     roll_rate  = actor ->getAngularVelocity().x;
     pitch_rate = actor ->getAngularVelocity().y;

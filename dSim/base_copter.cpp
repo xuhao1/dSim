@@ -56,6 +56,16 @@ void base_copter::set_servo()
     motors[3].set(throttle - set_yaw_con - set_roll_con);
 }
 
+void base_copter::control()
+{
+    control_yaw_rate(this);
+    control_pitch_rate(this);
+    control_roll_rate(this);
+    control_location_z(this);
+    
+    set_servo();
+}
+
 void base_copter::calc()
 {
     updatepos();
@@ -75,11 +85,7 @@ void base_copter::calc()
     
     if (count % 12 == 0)
     {
-        control_yaw_rate(this);
-        control_pitch_rate(this);
-        control_roll_rate(this);
-        control_location_z(this);
-        set_servo();
+        control();
     }
     
     
@@ -97,9 +103,9 @@ void base_copter::calc()
     force = (force * up_vec)* up_vec;
     force = force/mass;
     
+    
     actor->addForce(PxVec3(force.x,force.y,force.z),PxForceMode::eACCELERATION);
     actor->addTorque(PxVec3(torque.x/Ixx,torque.y/Iyy,torque.z/Izz),PxForceMode::eACCELERATION);
-    
     
     if (count % 10 == 0)
     {

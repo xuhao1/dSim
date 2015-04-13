@@ -61,5 +61,10 @@ public:
     /// \brief run the pre step of simulation
     virtual void pre_sim();
     
+    void add(xmodel* obj)
+    {
+        phys_list.push_back(obj);
+    }
+    
 };
 #endif /* defined(__test__PhysEngine__) */

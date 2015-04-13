@@ -45,6 +45,7 @@ public:
     {
         actor->setRigidBodyFlag(PxRigidBodyFlag::eENABLE_CCD, true);
         init_default_quad();
+        pe->add(this);
     }
     
     
@@ -59,7 +60,7 @@ public:
     
     ///\brief run
     //@overload
-    void run();
+    virtual void run();
     
     //yaw con rate
     double set_yaw_con = 0;
@@ -70,7 +71,8 @@ public:
     //pitch con rate
     double set_pitch_con = 0;
     
-    ///\brief Euler for control system
+    
+    virtual void control();
     
 };
 

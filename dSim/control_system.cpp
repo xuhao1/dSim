@@ -81,5 +81,5 @@ void control_location_z(base_copter *qiaochu)
     static int count = 0;
     count ++;
     if (count%100 == 0)
-    printf("Set height %3f, height %3f, intt_height %3f\n",base_gamecore::set_height,height_now,intt_height_err);
+        printf("Set height %3f, height %3f, intt_height %3f\n",base_gamecore::set_height,height_now,intt_height_err);
 }
