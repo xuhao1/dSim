@@ -8,6 +8,7 @@
 
 #include "phys_model.h"
 #include "base_gameCore.h"
+#include "PhysEngine.h"
 
 xmodel::xmodel(physx::PxRigidDynamic* _actor):
     pos(0,0,0),actor(_actor)
@@ -24,14 +25,14 @@ xmodel::xmodel(PxPhysics * mPhysics,PxScene* mScene,double mass):
 {
     PxMaterial* aMaterial;
     
-    aMaterial = mPhysics->createMaterial(0.5f, 0.5f, 0.1);    //static friction, dynamic friction, restitution
+    aMaterial = mPhysics->createMaterial(0.01f, 0.01f, 0.1);    //static friction, dynamic friction, restitution
     if(!aMaterial)
         printf("createMaterial failed!");
     
     
     PxTransform pt(PxVec3(0,0,0.3),PxQuat(0.1,0,0,1));
     
-    actor =  PxCreateDynamic(*mPhysics, pt, PxBoxGeometry(0.25,0.25,0.128),*aMaterial, mass*16);
+    actor =  PxCreateDynamic(*mPhysics, pt, PxBoxGeometry(0.5,0.5,0.128),*aMaterial, mass*4);
     
     actor->setLinearVelocity(PxVec3(0,0,0));
     mScene->addActor(*actor);
@@ -81,7 +82,7 @@ void xmodel::updatepos()
     vel.y = _vel.y;
     vel.z = _vel.z;
     
-    vector3f acc = (vel - this->vel) * 10000;
+    vector3f acc = (vel - this->vel) /deltatime;
     
     if (acc.abs() < 5 * this->acc.abs() || this->acc.abs() <1e-2 )
     {
@@ -99,6 +100,10 @@ void xmodel::updatepos()
     
     angle=2*acos(q.w)/M_PI*180.0f;
     
+    yaw_rate   = actor->getAngularVelocity().z;
+    roll_rate  = actor ->getAngularVelocity().x;
+    pitch_rate = actor ->getAngularVelocity().y;
+    
     float scale=sqrt(q.x*q.x+q.y*q.y+q.z*q.z);
     if(scale>1e-3)
     {
@@ -113,9 +118,6 @@ void xmodel::get_angles(double w, double x, double y, double z)
 {
     roll = atan2(2*(w*x+y*z), 1-2*(x*x+y*y))/M_PI * 180;
 
-    yaw_rate   = actor->getAngularVelocity().z;
-    roll_rate  = actor ->getAngularVelocity().x;
-    pitch_rate = actor ->getAngularVelocity().y;
     
     pitch = asin(2*(w*y-z*x))/M_PI * 180;
     yaw = atan2(2*(w*z+y*x), 1-2*(z*z+y*y))/M_PI * 180;

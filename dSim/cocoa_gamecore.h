@@ -16,6 +16,8 @@
 #include <string>
 #include <vector>
 #include "MyOpenGl.h"
+#include "HIL_Copter.h"
+#include <thread>
 
 /// \brief game core running of cocoa
 class stl_copter:public base_copter
@@ -34,6 +36,7 @@ public:
 
 class cocoa_gameCore :public PhysEngine
 {
+public:
     MyOpenGl* gra;
     
     static stl_copter * cop0;
@@ -48,11 +51,31 @@ public:
     }
     
     ///>add demo to game
-    void addDemo();
+    virtual void addDemo();
     
     void pre_sim();
     
+    virtual void Loop();
+};
+
+class cocoa_hil_core:public cocoa_gameCore
+{
+public:
+    hil_copter * hc = nullptr;
+    std::thread * sim_th = nullptr;
+    std::thread * waitforserial = nullptr;
+    stlmodel * stl = nullptr;
+    
+    cocoa_hil_core(MyOpenGl * _opengl):
+        cocoa_gameCore(_opengl)
+    {
+        hc = new hil_copter(this,"/dev/cu.SLAB_USBtoUART",115200);
+        phys_list.push_back((xmodel *)hc);
+    }
+    
+    void addDemo();
     void Loop();
+    void reset();
 };
 
 #endif /* defined(__dSim__cocoa_gamecore__) */

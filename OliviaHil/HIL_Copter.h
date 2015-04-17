@@ -17,15 +17,20 @@
 #include <fcntl.h>   /* File control definitions */
 #include <unistd.h>  /* UNIX standard function definitions */
 
+long getCurrentTime();
 class hil_copter : public base_copter
 {
     int fd; /* File descriptor for the port */
     int open_port(const char *port);
     bool setup_port(int baud, int data_bits, int stop_bits, bool parity, bool hardware_control);
     
-    float actuator[8];
+    float actuator[8] = {0};
     
     void handle_msg(mavlink_message_t * msg);
+    
+    void handle_servo(mavlink_message_t * msg);
+    
+    void handle_att(mavlink_message_t * msg);
     
     int send_msg(mavlink_message_t * msg);
 public:
@@ -54,8 +59,6 @@ public:
     
     void control() override;
     
-    
-    void run() override;
     
     int send_att();
     

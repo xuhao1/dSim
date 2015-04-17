@@ -19,7 +19,7 @@
 @property (weak) IBOutlet NSTextField *text0;
 @property (weak) IBOutlet MyOpenGl *opengl;
 @property (weak) NSTimer *timer;
-@property cocoa_gameCore *core;
+@property cocoa_hil_core *core;
 - (IBAction)left:(id)sender;
 - (IBAction)right:(id)sender;
 - (IBAction)slide:(id)sender;

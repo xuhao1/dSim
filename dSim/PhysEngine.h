@@ -14,6 +14,8 @@
 #include "PxPhysicsAPI.h"
 #include "phys_model.h"
 #include <vector>
+#define deltatime 2e-4
+
 
 using namespace physx;
 
@@ -31,7 +33,9 @@ class PhysEngine
     }
     
 protected:
+    /// \brief run the pre step of simulation
     std::vector<xmodel*> phys_list;
+    virtual void pre_sim();
 public:
     PxDefaultErrorCallback gDefaultErrorCallback;
     PxDefaultAllocator gDefaultAllocatorCallback;
@@ -54,12 +58,10 @@ public:
     /// add a demo of xmodel to Engine
     xmodel* addDemo();
     
-    /// \brief run simulation for given time with per second 10000 steps
+    /// \brief run simulation for given time with per second 1/deltatime steps
     /// \param time given time
     /// \return  return 0 for success
     virtual int sim(double time);
-    /// \brief run the pre step of simulation
-    virtual void pre_sim();
     
     void add(xmodel* obj)
     {

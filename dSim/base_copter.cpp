@@ -18,9 +18,9 @@ double randomf()
 void base_copter::init_default_quad()
 {
     mass = 1.2;
-    Ixx = 0.01;
-    Iyy = 0.01;
-    Izz = 0.02;
+    Ixx = 0.5;
+    Iyy = 0.5;
+    Izz = 1;
     
     //setMass(mass);
     //setInteria(Ixx, Iyy, Izz);
@@ -29,18 +29,22 @@ void base_copter::init_default_quad()
     double err_throttle = 0;
     double err_torque = 0;
     
-    motors[0] = motor::createMaxValues(6+err_throttle*randomf(), 0.1+err_torque*(randomf()-0.5));
-    motors[0].set_pose(0.225, 0);
+    double default_torque =  + 0.5;
     
-    motors[1] = motor::createMaxValues(6+err_throttle*randomf(), 0.1+err_torque*(randomf()-0.5));
-    motors[1].set_pose(-0.225, 0);
+    motors[3] = motor::createMaxValues(6+err_throttle*randomf(), - default_torque +err_torque*(randomf()-0.5));
+    motors[3].set_pose(0.225, 0);
     
-    motors[2] = motor::createMaxValues(6+err_throttle*randomf(), -0.1+err_torque*(randomf()-0.5) );
-    motors[2].set_pose(0, 0.225);
+    motors[2] = motor::createMaxValues(6+err_throttle*randomf(), - default_torque +err_torque*(randomf()-0.5));
+    motors[2].set_pose(-0.225, 0);
     
-    motors[3] = motor::createMaxValues(6+err_throttle*randomf(), -0.1+err_torque*(randomf()-0.5) );
     
-    motors[3].set_pose(0, -0.225);
+    motors[1] = motor::createMaxValues(6+err_throttle*randomf(), default_torque +err_torque*(randomf()-0.5) );
+    motors[1].set_pose(0, 0.225);
+    
+    motors[0] = motor::createMaxValues(6+err_throttle*randomf(), default_torque +err_torque*(randomf()-0.5) );
+    
+    motors[0].set_pose(0, -0.225);
+    
     
 }
 
@@ -104,8 +108,13 @@ void base_copter::calc()
     force = force/mass;
     
     
+//    torque.x = 0;
+//    torque.z = 0;
+    
     actor->addForce(PxVec3(force.x,force.y,force.z),PxForceMode::eACCELERATION);
     actor->addTorque(PxVec3(torque.x/Ixx,torque.y/Iyy,torque.z/Izz),PxForceMode::eACCELERATION);
+    
+//    actor->addTorque(PxVec3(torque.x/Ixx,0,0),PxForceMode::eACCELERATION);
     
     if (count % 10 == 0)
     {

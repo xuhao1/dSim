@@ -220,6 +220,9 @@
 		69F4FA571AC443E3001CB8CD /* KF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69F4FA551AC443E3001CB8CD /* KF.cpp */; };
 		69F4FB441AC4534E001CB8CD /* KF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69F4FA551AC443E3001CB8CD /* KF.cpp */; };
 		69F4FB501AC45461001CB8CD /* KF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69F4FA551AC443E3001CB8CD /* KF.cpp */; };
+		69FB8D1E1ADEDA350011B12B /* hil_mode_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69FB8D1C1ADEDA350011B12B /* hil_mode_main.cpp */; };
+		69FB8D1F1ADEDA6C0011B12B /* HIL_Copter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6983CDA51ADAE16B0028A546 /* HIL_Copter.cpp */; };
+		69FB8D201ADEDA6E0011B12B /* hil_mode_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69FB8D1C1ADEDA350011B12B /* hil_mode_main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -415,6 +418,8 @@
 		69F4FA551AC443E3001CB8CD /* KF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KF.cpp; sourceTree = "<group>"; };
 		69F4FA561AC443E3001CB8CD /* KF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KF.h; sourceTree = "<group>"; };
 		69F4FB491AC45446001CB8CD /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FB8D1C1ADEDA350011B12B /* hil_mode_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hil_mode_main.cpp; sourceTree = "<group>"; };
+		69FB8D1D1ADEDA350011B12B /* hil_mode_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hil_mode_main.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -626,6 +631,8 @@
 				6983CD5C1ADADFCE0028A546 /* main.cpp */,
 				6983CDA51ADAE16B0028A546 /* HIL_Copter.cpp */,
 				6983CDA61ADAE16B0028A546 /* HIL_Copter.h */,
+				69FB8D1C1ADEDA350011B12B /* hil_mode_main.cpp */,
+				69FB8D1D1ADEDA350011B12B /* hil_mode_main.h */,
 			);
 			path = OliviaHil;
 			sourceTree = "<group>";
@@ -1066,6 +1073,7 @@
 				6983CD5D1ADADFCE0028A546 /* main.cpp in Sources */,
 				6983CD651ADADFE30028A546 /* KF.cpp in Sources */,
 				6983CD631ADADFDD0028A546 /* vector3f.cpp in Sources */,
+				69FB8D1E1ADEDA350011B12B /* hil_mode_main.cpp in Sources */,
 				6983CD641ADADFDF0028A546 /* random.cpp in Sources */,
 				6983CD611ADADFD80028A546 /* phys_model.cpp in Sources */,
 				6983CDA71ADAE16B0028A546 /* HIL_Copter.cpp in Sources */,
@@ -1093,8 +1101,10 @@
 				69CCF6631ABA7713002D806C /* control_system.cpp in Sources */,
 				6998221E1AB9350E006F3619 /* cocoa_gamecore.mm in Sources */,
 				69E86DF61AB6F2230022C123 /* MyOpenGl.mm in Sources */,
+				69FB8D1F1ADEDA6C0011B12B /* HIL_Copter.cpp in Sources */,
 				69D13F761AC5A5C7005E5AF4 /* random.cpp in Sources */,
 				69CCF6601AB9D0AD002D806C /* myWin.mm in Sources */,
+				69FB8D201ADEDA6E0011B12B /* hil_mode_main.cpp in Sources */,
 				69E86D521AB6E95B0022C123 /* AppDelegate.mm in Sources */,
 				69E86D651AB6E95B0022C123 /* vector3f.cpp in Sources */,
 			);
@@ -1267,7 +1277,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"/Users/xuhao/Source/physx-3.3.2_osx_sdk_core/Include",
-					/Users/xuhao/aircraft/olivia/mavlink/olivia_mav/c_header,
+					/Users/xuhao/aircraft/olivia/mavlink/olivia_mav/c_headers/,
 					/usr/local/include,
 					/usr/local/Cellar/eigen/3.2.3/include/eigen3,
 				);
@@ -1292,7 +1302,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"/Users/xuhao/Source/physx-3.3.2_osx_sdk_core/Include",
-					/Users/xuhao/aircraft/olivia/mavlink/olivia_mav/c_header,
+					/Users/xuhao/aircraft/olivia/mavlink/olivia_mav/c_headers/,
 					/usr/local/include,
 					/usr/local/Cellar/eigen/3.2.3/include/eigen3,
 				);

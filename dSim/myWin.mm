@@ -33,7 +33,6 @@
  */
 -(void)keyDown:(NSEvent *)theEvent
 {
-    printf("key down\n");
     unichar c = [[theEvent charactersIgnoringModifiers] characterAtIndex:0];
     switch (c) {
         case 'w':

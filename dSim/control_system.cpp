@@ -25,7 +25,7 @@ void control_yaw_rate(base_copter *qiaochu)
     
     double err = (base_gamecore::set_yaw_rate - qiaochu->yaw_rate);
     
-    intt_yaw_rate += err * 1e-4;
+    intt_yaw_rate += err * deltatime;
     
     qiaochu->set_yaw_con = intt_yaw_rate * 2 + err;
 }
@@ -57,7 +57,7 @@ void control_location_z(base_copter *qiaochu)
     
     double err = base_gamecore::set_height - height_now;
     
-    intt_height_err += err * 1e-4;
+    intt_height_err += err * deltatime;
     if (intt_height_err > 10)
         intt_height_err = 10;
     if(intt_height_err < -10)
