@@ -84,6 +84,7 @@ void hil_copter::handle_msg(mavlink_message_t* msg)
             handle_att(msg);
             break;
             
+            
     }
 }
 int hil_copter::send_att()
