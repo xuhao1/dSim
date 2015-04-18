@@ -81,12 +81,20 @@ xmodel* PhysEngine::addDemo()
 int PhysEngine::sim(double time)
 {
     
-    for (int j=0; j<time*10000; j++)
+    for (int j=0; j<time/deltatime; j++)
     {
         pre_sim();
-        mScene->simulate(1e-4);
+        mScene->simulate(deltatime);
         mScene->fetchResults(true);
     }
     //base_gamecore::reset_control();
     return 0;
+}
+
+void PhysEngine::pre_sim()
+{
+    
+    for(auto a : phys_list){
+        a->run();
+    }
 }

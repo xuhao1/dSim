@@ -46,6 +46,10 @@ public:
     ay, ///< y of quat
     az; ///< z of quat
     
+    struct quat{
+        float w,x,y,z;
+    } _quat;
+    
     float yaw = 0,///rotate of z
     pitch = 0,///rotate of y
     roll = 0;///rotate of x

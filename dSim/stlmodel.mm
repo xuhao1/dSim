@@ -38,12 +38,6 @@ public:
     }
 };
 
-long getCurrentTime()  
-{  
-    struct timeval tv;  
-    gettimeofday(&tv,NULL);  
-    return tv.tv_sec * 1000000 + tv.tv_usec;  
-}
 void stlmodel::init_stl(std::string filename)
 {
     std::ifstream file = std::ifstream(filename);
@@ -59,7 +53,7 @@ void stlmodel::init_stl(std::string filename)
         }
     }
     
-    resize(0.025);
+    resize(0.01);
 }
 
 

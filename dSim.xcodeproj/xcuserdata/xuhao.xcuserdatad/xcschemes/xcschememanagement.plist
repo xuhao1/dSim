@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>OliviaHil.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>dSim.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -22,6 +27,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>6983CD591ADADFCE0028A546</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>699317A41AB6E92E00CEAE24</key>
 		<dict>
 			<key>primary</key>
