@@ -53,7 +53,7 @@
 - (void)prepareOpenGL
 {
     NSLog(@"u");
-    rad=30;
+    rad=50;
     cam0=new cam( -rad,0,5,0,0,9,0,0,1);
     NSLog(@"this");
     glMatrixMode (GL_PROJECTION);

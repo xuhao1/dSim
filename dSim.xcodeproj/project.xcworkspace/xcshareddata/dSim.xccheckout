@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C53DF730-58C1-4F2C-9C6B-9044305F4F4B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>dSim</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>527D839A2B1140A452E5357B078CA79CD3770C19</key>
+		<string>https://github.com/wjwwood/serial</string>
+		<key>EE5609353CF03D2102797B5AB72D4AAF01ACCCB7</key>
+		<string>https://github.com/xuhao1/dSim.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>dSim.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>527D839A2B1140A452E5357B078CA79CD3770C19</key>
+		<string>../../../uavutl/serial</string>
+		<key>EE5609353CF03D2102797B5AB72D4AAF01ACCCB7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/xuhao1/dSim.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EE5609353CF03D2102797B5AB72D4AAF01ACCCB7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EE5609353CF03D2102797B5AB72D4AAF01ACCCB7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dSim</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>527D839A2B1140A452E5357B078CA79CD3770C19</string>
+			<key>IDESourceControlWCCName</key>
+			<string>serial</string>
+		</dict>
+	</array>
+</dict>
+</plist>

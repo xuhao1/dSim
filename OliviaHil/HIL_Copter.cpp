@@ -93,7 +93,7 @@ int hil_copter::send_att()
     static mavlink_hil_state_quaternion_t state;
     
     
-    state.alt = pos.z * 100;
+    state.alt = pos.z;
     
     state.attitude_quaternion[0] = _quat.w;
     state.attitude_quaternion[1] = _quat.x;
@@ -101,16 +101,20 @@ int hil_copter::send_att()
     state.attitude_quaternion[3] = _quat.z;
     
     
-    state.vx = vel.x * 100.0f;
-    state.vy = vel.y * 100.0f;
-    state.vz = vel.z * 100.0f;
+    state.vx = vel.x ;
+    state.vy = vel.y ;
+    state.vz = vel.z ;
     
-    state.x = pos.x * 100.0f;
-    state.y = pos.y * 100.0f;
-    state.z = pos.z * 100.0f;
+    state.x = pos.x ;
+    state.y = pos.y ;
+    state.z = pos.z ;
+    
+    state.xacc = acc.x /9.8f * 1000;
+    state.yacc = acc.y /9.8f * 1000;
+    state.zacc = acc.z /9.8f * 1000;
     
     static int k = 0;
-    if(k++ % 100 == -1)
+    if(k++ % 100 == 1)
     {
         printf("motor:%4.2f,%4.2f,%4.2f,%4.2f\n",
                actuator[0],
@@ -151,9 +155,9 @@ void hil_copter::handle_att(mavlink_message_t * msg)
     att.roll = att.roll * 180.0 /M_PI;
     att.yaw = att.yaw * 180.0 /M_PI;
     att.pitch = att.pitch * 180.0 /M_PI;
-    printf("roll p%4.2f a:%4.2f pitch p%4.2f a:%4.2f yaw p%4.2f a:%4.2f\n",att.roll,roll,
-           att.pitch,pitch,
-           att.yaw,yaw);
+//    printf("roll p%4.2f a:%4.2f pitch p%4.2f a:%4.2f yaw p%4.2f a:%4.2f\n",att.roll,roll,
+//           att.pitch,pitch,
+//           att.yaw,yaw);
 }
 
 void hil_copter::handle_servo(mavlink_message_t * msg)
@@ -176,7 +180,7 @@ void hil_copter::handle_servo(mavlink_message_t * msg)
 //    {
 //        printf("%4.4f,",actuator[i]);
 //    }
-//    
+//
 //    printf("\n");
     
     static long last = 0;
@@ -191,6 +195,7 @@ void hil_copter::handle_servo(mavlink_message_t * msg)
         
         printf("%f\n", 10000000.0f/(float)now );
     }
+    
     if(/* DISABLES CODE */ (false))
     {
         
@@ -274,8 +279,8 @@ int hil_copter::serial_wait()
             
             handle_msg(&message);
             
-            
         }
+        usleep(100);
     }
     return 0;
 }

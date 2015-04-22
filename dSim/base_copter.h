@@ -60,7 +60,7 @@ public:
     
     ///\brief run
     //@overload
-    virtual void run();
+    virtual void run(float dt) override;
     
     //yaw con rate
     double set_yaw_con = 0;

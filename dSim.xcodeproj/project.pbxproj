@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		69046A121ADBF9C200C6A4D8 /* libserial.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69046A111ADBF9C200C6A4D8 /* libserial.dylib */; };
+		6913D28F1AE2562B00A0AAEC /* Helicopter in Resources */ = {isa = PBXBuildFile; fileRef = 6913D28E1AE2562B00A0AAEC /* Helicopter */; };
+		6913D2921AE2566100A0AAEC /* helicopter_sim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6913D2901AE2566100A0AAEC /* helicopter_sim.cpp */; };
+		692043A01AE687BA004D22C4 /* cocoa_hil_core.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6920439E1AE687BA004D22C4 /* cocoa_hil_core.mm */; };
 		6946E1031AD2B8FD00E7A8DB /* vector3f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D501AB6E95B0022C123 /* vector3f.cpp */; };
 		6946E1041AD2B90900E7A8DB /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69D13F741AC5A5C7005E5AF4 /* random.cpp */; };
 		6946E1051AD2B90D00E7A8DB /* phys_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D441AB6E95B0022C123 /* phys_model.cpp */; };
@@ -258,6 +261,11 @@
 
 /* Begin PBXFileReference section */
 		69046A111ADBF9C200C6A4D8 /* libserial.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libserial.dylib; path = ../uavutl/serial/build/devel/lib/libserial.dylib; sourceTree = "<group>"; };
+		6913D28E1AE2562B00A0AAEC /* Helicopter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helicopter; sourceTree = "<group>"; };
+		6913D2901AE2566100A0AAEC /* helicopter_sim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = helicopter_sim.cpp; sourceTree = "<group>"; };
+		6913D2911AE2566100A0AAEC /* helicopter_sim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helicopter_sim.h; sourceTree = "<group>"; };
+		6920439E1AE687BA004D22C4 /* cocoa_hil_core.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cocoa_hil_core.mm; sourceTree = "<group>"; };
+		6920439F1AE687BA004D22C4 /* cocoa_hil_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocoa_hil_core.h; sourceTree = "<group>"; };
 		6946E10A1AD2B94300E7A8DB /* cmd_line_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cmd_line_main.cpp; sourceTree = SOURCE_ROOT; };
 		6946E10B1AD2B94300E7A8DB /* cmd_line_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmd_line_main.h; sourceTree = SOURCE_ROOT; };
 		6946E10D1AD2BCE500E7A8DB /* libLowLevel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLowLevel.a; path = "../../Source/physx-3.3.2_osx_sdk_core/Lib/osx64/libLowLevel.a"; sourceTree = "<group>"; };
@@ -625,6 +633,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6913D2931AE2567A00A0AAEC /* heli */ = {
+			isa = PBXGroup;
+			children = (
+				6913D28E1AE2562B00A0AAEC /* Helicopter */,
+				6913D2911AE2566100A0AAEC /* helicopter_sim.h */,
+				6913D2901AE2566100A0AAEC /* helicopter_sim.cpp */,
+			);
+			name = heli;
+			sourceTree = "<group>";
+		};
 		6983CD5B1ADADFCE0028A546 /* OliviaHil */ = {
 			isa = PBXGroup;
 			children = (
@@ -662,6 +680,7 @@
 		6993179C1AB6E92E00CEAE24 = {
 			isa = PBXGroup;
 			children = (
+				6913D2931AE2567A00A0AAEC /* heli */,
 				69046A111ADBF9C200C6A4D8 /* libserial.dylib */,
 				6983CDA41ADAE0F60028A546 /* Control System */,
 				6983CDA31ADAE0DB0028A546 /* FountaionLibs */,
@@ -745,6 +764,8 @@
 				69CE360E1ABE4FA500C0A235 /* models */,
 				6998221C1AB9350E006F3619 /* cocoa_gamecore.mm */,
 				6998221D1AB9350E006F3619 /* cocoa_gamecore.h */,
+				6920439E1AE687BA004D22C4 /* cocoa_hil_core.mm */,
+				6920439F1AE687BA004D22C4 /* cocoa_hil_core.h */,
 				69E86DF31AB6EFEF0022C123 /* MainMenu.xib */,
 				69E86D321AB6E95B0022C123 /* AppDelegate.mm */,
 				699317AA1AB6E92E00CEAE24 /* AppDelegate.h */,
@@ -1049,6 +1070,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6913D28F1AE2562B00A0AAEC /* Helicopter in Resources */,
 				69E86D611AB6E95B0022C123 /* test-Info.plist in Resources */,
 				69E86D591AB6E95B0022C123 /* Images.xcassets in Resources */,
 				69CE360F1ABE4FA500C0A235 /* models in Resources */,
@@ -1095,9 +1117,11 @@
 				69E86D601AB6E95B0022C123 /* stlmodel.mm in Sources */,
 				69E86D561AB6E95B0022C123 /* cam.cpp in Sources */,
 				69E86D5E1AB6E95B0022C123 /* phys_model.cpp in Sources */,
+				6913D2921AE2566100A0AAEC /* helicopter_sim.cpp in Sources */,
 				6998221B1AB92B9B006F3619 /* motor.cpp in Sources */,
 				699822181AB92AE6006F3619 /* base_copter.cpp in Sources */,
 				69E86DF51AB6F1490022C123 /* main.m in Sources */,
+				692043A01AE687BA004D22C4 /* cocoa_hil_core.mm in Sources */,
 				69CCF6631ABA7713002D806C /* control_system.cpp in Sources */,
 				6998221E1AB9350E006F3619 /* cocoa_gamecore.mm in Sources */,
 				69E86DF61AB6F2230022C123 /* MyOpenGl.mm in Sources */,

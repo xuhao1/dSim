@@ -123,7 +123,7 @@ void base_copter::calc()
     
 }
 
-void base_copter::run()
+void base_copter::run(float dt)
 {
     calc();
 }

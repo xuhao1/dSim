@@ -33,49 +33,29 @@ public:
     void run();
 };
 
-
 class cocoa_gameCore :public PhysEngine
 {
 public:
     MyOpenGl* gra;
     
-    static stl_copter * cop0;
+    static xmodel * cop0 ;
     
-    std::vector<xmodel *> phys_list;
 public:
     ///\brief init game core with an opengl session
     cocoa_gameCore(MyOpenGl *_opengl):
         gra(_opengl),PhysEngine()
     {
-        
     }
+    
     
     ///>add demo to game
     virtual void addDemo();
     
-    void pre_sim();
-    
     virtual void Loop();
-};
-
-class cocoa_hil_core:public cocoa_gameCore
-{
-public:
-    hil_copter * hc = nullptr;
-    std::thread * sim_th = nullptr;
-    std::thread * waitforserial = nullptr;
-    stlmodel * stl = nullptr;
     
-    cocoa_hil_core(MyOpenGl * _opengl):
-        cocoa_gameCore(_opengl)
-    {
-        hc = new hil_copter(this,"/dev/cu.SLAB_USBtoUART",115200);
-        phys_list.push_back((xmodel *)hc);
-    }
+    void reset(){};
     
-    void addDemo();
-    void Loop();
-    void reset();
+//    void pre_sim();
 };
 
 #endif /* defined(__dSim__cocoa_gamecore__) */

@@ -97,7 +97,7 @@ public:
     
     
     ///\brief 加载自身的力
-    virtual void run() =0;
+    virtual void run(float dt) =0;
    
 };
 
