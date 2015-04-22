@@ -649,21 +649,24 @@
         <window title="test" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371" customClass="myWin">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="1680" height="1050"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <rect key="contentRect" x="335" y="390" width="983" height="704"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
             <view key="contentView" canDrawConcurrently="YES" appearanceType="aqua" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="1680" height="1050"/>
+                <rect key="frame" x="0.0" y="0.0" width="983" height="704"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
+                    <openGLView fixedFrame="YES" depthSize="32bit" rendererType="accelerated" useAuxiliaryDepthBufferStencil="NO" allowOffline="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wpl-mX-zFM" customClass="MyOpenGl">
+                        <rect key="frame" x="11" y="69" width="915" height="594"/>
+                    </openGLView>
                     <slider horizontalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k1x-39-Ry1">
-                        <rect key="frame" x="1609" y="62" width="21" height="575"/>
+                        <rect key="frame" x="952" y="5" width="20" height="575"/>
                         <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="left" sliderType="linear" id="1BQ-NL-Bgg"/>
                         <connections>
                             <action selector="slide:" target="494" id="5yl-0C-hyJ"/>
                         </connections>
                     </slider>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAi-Pg-mun">
-                        <rect key="frame" x="1538" y="81" width="71" height="32"/>
+                        <rect key="frame" x="881" y="24" width="71" height="32"/>
                         <buttonCell key="cell" type="push" title="reset" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="GFP-0w-BY7">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -673,7 +676,7 @@
                         </connections>
                     </button>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Zq-sk-xCD">
-                        <rect key="frame" x="1469" y="86" width="43" height="25"/>
+                        <rect key="frame" x="812" y="29" width="43" height="25"/>
                         <buttonCell key="cell" type="squareTextured" title="begin" bezelStyle="texturedSquare" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="akC-Aq-MgH">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
@@ -682,15 +685,21 @@
                             <action selector="left:" target="494" id="pOt-2Z-5N7"/>
                         </connections>
                     </button>
-                    <openGLView fixedFrame="YES" depthSize="32bit" rendererType="accelerated" useAuxiliaryDepthBufferStencil="NO" allowOffline="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wpl-mX-zFM" customClass="MyOpenGl">
-                        <rect key="frame" x="11" y="118" width="1570" height="891"/>
-                    </openGLView>
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZuI-GC-awb">
+                        <rect key="frame" x="561" y="25" width="96" height="22"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="3c9-Hr-U40">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
             </view>
             <connections>
                 <outlet property="initialFirstResponder" destination="Wpl-mX-zFM" id="mAO-47-vVK"/>
                 <outlet property="opengl" destination="Wpl-mX-zFM" id="NEX-U0-Nhk"/>
             </connections>
+            <point key="canvasLocation" x="269.5" y="223"/>
         </window>
         <customObject id="494" customClass="AppDelegate">
             <connections>

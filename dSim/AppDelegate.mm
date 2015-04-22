@@ -20,7 +20,11 @@
 {
     // Insert code here to initialize your application
     timer = [NSTimer scheduledTimerWithTimeInterval:0.03 target:self selector:@selector(update) userInfo:nil repeats:YES];
-    _core=new cocoa_hil_core(_opengl);
+#ifdef HIL
+    _core = new cocoa_hil_core(_opengl);
+#else
+    _core=new cocoa_gameCore(_opengl);
+#endif
     
     [_win initall];
      first=[NSEvent mouseLocation];
@@ -44,7 +48,7 @@
 }
 - (IBAction)slide:(id)sender
 {
-    base_gamecore::set_height = [sender doubleValue]/10;
+    base_gamecore::set_height = [sender doubleValue]/100;
     /*
     _opengl.xro=[sender doubleValue]/100*3.14;
     [_opengl setNeedsDisplay:true];

@@ -32,7 +32,7 @@ int PhysEngine::init()
     
     sceneDesc=new PxSceneDesc(mPhysics->getTolerancesScale());
     
-    sceneDesc->gravity = PxVec3(0.0f, 0, -9.78f);
+    sceneDesc->gravity = PxVec3(0.0f, 0, -9.8f);
     
     //customizeSceneDesc(sceneDesc);
     if(!sceneDesc->cpuDispatcher)
@@ -95,6 +95,6 @@ void PhysEngine::pre_sim()
 {
     
     for(auto a : phys_list){
-        a->run();
+        a->run(deltatime);
     }
 }

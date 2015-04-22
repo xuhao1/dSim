@@ -64,19 +64,25 @@ void keyboard_control(unichar c)
 {
      switch (c) {
         case 'l':
-            base_gamecore::set_yaw_rate -=0.01;
+            base_gamecore::set_roll_rate -=0.01;
+            base_gamecore::set_roll_rate = - 0.1;
             break;
         case '\'':
-            base_gamecore::set_yaw_rate +=0.01;
+            base_gamecore::set_roll_rate +=0.1;
+            base_gamecore::set_roll_rate = + 0.1;
             break;
         case 'p':
              base_gamecore::set_pitch_rate +=0.01;
+             base_gamecore::set_pitch_rate = 0.01;
              break;
         case ';':
              base_gamecore::set_pitch_rate -=0.01;
+             base_gamecore::set_pitch_rate =  - 0.01;
              break;
             
         default:
+             base_gamecore::set_roll_rate = 0;
+             base_gamecore::set_pitch_rate = 0;
             break;
     }
 }

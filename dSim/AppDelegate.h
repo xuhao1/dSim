@@ -10,7 +10,10 @@
 #import "MyOpenGl.h"
 #import "myWin.h"
 #include "cocoa_gameCore.h"
+#include "cocoa_hil_core.h"
 #include "base_gameCore.h"
+
+//#define HIL
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 @property (unsafe_unretained) IBOutlet myWin *win;
@@ -19,7 +22,11 @@
 @property (weak) IBOutlet NSTextField *text0;
 @property (weak) IBOutlet MyOpenGl *opengl;
 @property (weak) NSTimer *timer;
+#ifdef HIL
 @property cocoa_hil_core *core;
+#else
+@property cocoa_gameCore *core;
+#endif
 - (IBAction)left:(id)sender;
 - (IBAction)right:(id)sender;
 - (IBAction)slide:(id)sender;

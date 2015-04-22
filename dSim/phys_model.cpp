@@ -30,7 +30,7 @@ xmodel::xmodel(PxPhysics * mPhysics,PxScene* mScene,double mass):
         printf("createMaterial failed!");
     
     
-    PxTransform pt(PxVec3(0,0,0.3),PxQuat(0.1,0,0,1));
+    PxTransform pt(PxVec3(0,0,0.3),PxQuat(0,0,0,1));
     
     actor =  PxCreateDynamic(*mPhysics, pt, PxBoxGeometry(0.5,0.5,0.128),*aMaterial, mass*4);
     
