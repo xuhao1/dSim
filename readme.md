@@ -12,7 +12,10 @@ Support Hardware in Loop for simulate for pixhawk,still have problem on position
 You can write equations in mathematica and export them to c headers,easy use in this program, I finish the helicopter control simulation base on this.
 
 ## GUI
-The GUI now is wrote in OpenGL, I have a branch wrote in Unreal communicate with this program by Mavlink is under developing, hoping one's who know well about game program for helping.
+The GUI now is wrote in OpenGL, I have a branch wrote in Unreal communicate with this program by Mavlink is still under developing, hoping someone who know well about game program for helping.
+
+You may use the Mavlink to connect the program with other programs. And after trying to connect with DJI sdks, I will release the version with full unreal 3D engine support. 
+
 
 ##Computer Vision
 
