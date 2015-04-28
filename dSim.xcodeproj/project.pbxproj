@@ -76,6 +76,7 @@
 		6946E17B1AD2BCE500E7A8DB /* libSimulationControllerDEBUG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6946E1431AD2BCE500E7A8DB /* libSimulationControllerDEBUG.a */; };
 		6946E17C1AD2BCE500E7A8DB /* libSimulationControllerPROFILE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6946E1441AD2BCE500E7A8DB /* libSimulationControllerPROFILE.a */; };
 		6946E17D1AD2BD1000E7A8DB /* PhysEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D461AB6E95B0022C123 /* PhysEngine.cpp */; };
+		697BBB191AED18F300B92ADF /* mavlink_unreal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 697BBB171AED18F300B92ADF /* mavlink_unreal.cpp */; };
 		6983CD5D1ADADFCE0028A546 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6983CD5C1ADADFCE0028A546 /* main.cpp */; };
 		6983CD611ADADFD80028A546 /* phys_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D441AB6E95B0022C123 /* phys_model.cpp */; };
 		6983CD621ADADFD90028A546 /* PhysEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69E86D461AB6E95B0022C123 /* PhysEngine.cpp */; };
@@ -324,6 +325,8 @@
 		6946E1421AD2BCE500E7A8DB /* libSimulationControllerCHECKED.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSimulationControllerCHECKED.a; path = "../../Source/physx-3.3.2_osx_sdk_core/Lib/osx64/libSimulationControllerCHECKED.a"; sourceTree = "<group>"; };
 		6946E1431AD2BCE500E7A8DB /* libSimulationControllerDEBUG.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSimulationControllerDEBUG.a; path = "../../Source/physx-3.3.2_osx_sdk_core/Lib/osx64/libSimulationControllerDEBUG.a"; sourceTree = "<group>"; };
 		6946E1441AD2BCE500E7A8DB /* libSimulationControllerPROFILE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSimulationControllerPROFILE.a; path = "../../Source/physx-3.3.2_osx_sdk_core/Lib/osx64/libSimulationControllerPROFILE.a"; sourceTree = "<group>"; };
+		697BBB171AED18F300B92ADF /* mavlink_unreal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = mavlink_unreal.cpp; path = mavlink_connector/mavlink_unreal.cpp; sourceTree = "<group>"; };
+		697BBB181AED18F300B92ADF /* mavlink_unreal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mavlink_unreal.h; path = mavlink_connector/mavlink_unreal.h; sourceTree = "<group>"; };
 		6983CD5A1ADADFCE0028A546 /* OliviaHil */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OliviaHil; sourceTree = BUILT_PRODUCTS_DIR; };
 		6983CD5C1ADADFCE0028A546 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6983CDA51ADAE16B0028A546 /* HIL_Copter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HIL_Copter.cpp; sourceTree = "<group>"; };
@@ -643,6 +646,15 @@
 			name = heli;
 			sourceTree = "<group>";
 		};
+		697BBB161AED18CB00B92ADF /* mavlink_connector */ = {
+			isa = PBXGroup;
+			children = (
+				697BBB171AED18F300B92ADF /* mavlink_unreal.cpp */,
+				697BBB181AED18F300B92ADF /* mavlink_unreal.h */,
+			);
+			name = mavlink_connector;
+			sourceTree = "<group>";
+		};
 		6983CD5B1ADADFCE0028A546 /* OliviaHil */ = {
 			isa = PBXGroup;
 			children = (
@@ -658,6 +670,7 @@
 		6983CDA31ADAE0DB0028A546 /* FountaionLibs */ = {
 			isa = PBXGroup;
 			children = (
+				697BBB161AED18CB00B92ADF /* mavlink_connector */,
 				69E86D661AB6E9600022C123 /* OpenGL */,
 				69E86DDB1AB6EA340022C123 /* Lib */,
 				699822151AB92ABE006F3619 /* Copters */,
@@ -1128,6 +1141,7 @@
 				69FB8D1F1ADEDA6C0011B12B /* HIL_Copter.cpp in Sources */,
 				69D13F761AC5A5C7005E5AF4 /* random.cpp in Sources */,
 				69CCF6601AB9D0AD002D806C /* myWin.mm in Sources */,
+				697BBB191AED18F300B92ADF /* mavlink_unreal.cpp in Sources */,
 				69FB8D201ADEDA6E0011B12B /* hil_mode_main.cpp in Sources */,
 				69E86D521AB6E95B0022C123 /* AppDelegate.mm in Sources */,
 				69E86D651AB6E95B0022C123 /* vector3f.cpp in Sources */,

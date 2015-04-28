@@ -10,6 +10,7 @@
 #include "base_copter.h"
 #include "base_gameCore.h"
 #include "helicopter_sim.h"
+#include "mavlink_unreal.h"
 
 void stl_copter::run()
 {
@@ -20,7 +21,7 @@ std::thread *  th;
 void cocoa_gameCore::addDemo()
 {
     
-    NSString * pat = [[NSBundle mainBundle] pathForResource:@"model" ofType:@"stl" inDirectory:@"models" ];
+    NSString * pat = [[NSBundle mainBundle] pathForResource:@"easy" ofType:@"stl" inDirectory:@"models" ];
     const char * pa = [pat UTF8String];
     
     printf("pa %s\n",pa);
@@ -28,6 +29,10 @@ void cocoa_gameCore::addDemo()
 //    stl_copter * demo = new stl_copter(pa,this);
     helicopter * hc = new helicopter(this);
     stlmodel * stl = new stlmodel(pa,hc);
+    static mavlink_unreal * mav_un =
+    new mavlink_unreal("100.65.1.5",7777,(xmodel * )hc
+                       );
+    
     
     [gra addObj:stl];
     phys_list.push_back((xmodel *)hc);
@@ -36,10 +41,11 @@ void cocoa_gameCore::addDemo()
         
         while (true) {
             
-            float dtime = 0.01;
+            float dtime = 0.06;
             long time = getCurrentTime();
             
             sim(dtime);
+            mav_un -> send();
             
             long last = getCurrentTime() - time;
             

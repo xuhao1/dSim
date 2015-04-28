@@ -166,11 +166,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "dSim/cocoa_gamecore.mm"
-            timestampString = "451315871.583602"
+            timestampString = "451747412.709544"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "cocoa_gameCore::addDemo()"
             landmarkType = "5">
          </BreakpointContent>
@@ -198,11 +198,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "dSim/cocoa_gamecore.mm"
-            timestampString = "451316732.908042"
+            timestampString = "451747412.709544"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "cocoa_gameCore::addDemo()"
             landmarkType = "5">
          </BreakpointContent>
@@ -540,6 +540,22 @@
             startingLineNumber = "113"
             endingLineNumber = "113"
             landmarkName = "hil_copter::send_att()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "dSim/cocoa_gamecore.mm"
+            timestampString = "451747481.005882"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "cocoa_gameCore::addDemo()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
